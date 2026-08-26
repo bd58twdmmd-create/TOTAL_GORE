@@ -1,0 +1,744 @@
+$AMBIENT 1  gesur POINT 1 continuous 1
+$AMBIENT 2  moonl POINT 1 continuous 1
+$AMBIENT 3  elisir POINT 1 continuous 1
+$AMBIENT 4  alcop11 POINT 1 continuous 1
+$AMBIENT 5  alcop22 POINT 1 continuous 1
+$AMBIENT 6  TIFO1 POINT 1 continuous 1
+$AMBIENT 7  TG32 POINT 1 continuous 1
+$AMBIENT 8  CONVEYOR POINT 1 continuous 1
+$AMBIENT 9  CONVEYO2 POINT 1 continuous 0
+$AMBIENT 10  porta1 POINT 1 continuous 0
+$AMBIENT 11  gamgam POINT 1 continuous 1
+$AMBIENT 12  BOTTEGON POINT 1 continuous 1
+$AMBIENT 13  vecaids1 POINT 1 continuous 1
+$AMBIENT 14  ppio POINT 1 continuous 1
+$AMBIENT 15  rewind POINT 1 continuous 1
+$AMBIENT 16  diana POINT 1 continuous 1
+$AMBIENT 19  unavit POINT 1 continuous 1
+$AMBIENT 20  SALSI POINT 1 continuous 1
+$AMBIENT 21  dandan POINT 1 continuous 1
+$AMBIENT 22  moreno POINT 1 continuous 1
+$AMBIENT 23  minue POINT 1 continuous 1
+$AMBIENT 24  cristot1 POINT 1 continuous 1
+$AMBIENT 25  cristot2 POINT 1 continuous 1
+$AMBIENT 27  crowd2 POINT 1 continuous 1
+$AMBIENT 28  HANGDOOR POINT 1 continuous 0
+$AMBIENT 29  AMBUS1 POINT 1 continuous 1
+$AMBIENT 30  UPAS POINT 1 continuous 1
+$AMBIENT 31  GIGION POINT 1 continuous 1
+$AMBIENT 32  WLADY POINT 1 continuous 1
+$AMBIENT 33  LUGLIO POINT 1 continuous 1
+$AMBIENT 34  MERLIN POINT 1 continuous 1
+$AMBIENT 35  tg52 POINT 1 continuous 1
+$AMBIENT 36  DINOAMB1 POINT 1 continuous 1
+$AMBIENT 37  MMCDLR POINT 1 continuous 1
+$AMBIENT 38  PAPALIEN POINT 1 continuous 1
+$AMBIENT 39  NMAI POINT 1 continuous 1
+$AMBIENT 40  SCHIFX POINT 1 continuous 1
+$AMBIENT 41  WARAMB1 POINT 1 continuous 1
+$AMBIENT 42  PLATI1 POINT 1 continuous 1
+$AMBIENT 43  LIVEAMB1 POINT 1 continuous 1
+$AMBIENT 44  PIPPADI POINT 1 continuous 1
+$AMBIENT 45  caved POINT 1 continuous 1
+$AMBIENT 46  MAMAMA POINT 1 continuous 1
+$AMBIENT 47  WARAMB2 POINT 1 continuous 1
+$AMBIENT 48  VASCONE POINT 1 continuous 1
+$AMBIENT 49  FREED1 POINT 1 continuous 1
+$AMBIENT 50  BUONNAT POINT 1 continuous 1
+$AMBIENT 51  CAVAMB2 POINT 1 continuous 1
+$AMBIENT 52  TG55 POINT 1 continuous 1
+$AMBIENT 53  UJAZZ1 POINT 1 continuous 1
+$AMBIENT 54  OLDPC POINT 1 continuous 1
+$AMBIENT 55  LUCTO POINT 1 continuous 1
+$AMBIENT 56  SILSIREN POINT 1 continuous 1
+
+sosg sosg
+
+statc statc
+tg55 tg55
+stimp stimp
+UJAZZ1 UJAZZ1
+OLDPC OLDPC
+LUCTO LUCTO
+SILSIREN SILSIREN
+radz radz
+apolo apolo
+
+polsf polsf
+
+BUSCRSH BUSCRSH
+AMBUS1 AMBUS1
+hang hang
+UPAS UPAS
+GIGION GIGION
+siren3 siren3
+wlady wlady
+LUGLIO LUGLIO
+merlin merlin
+tg52 tg52
+DINOAMB1 DINOAMB1
+MMCDLR MMCDLR
+PAPALIEN PAPALIEN
+NMAI NMAI
+SCHIFX SCHIFX
+WARAMB1 WARAMB1
+PLATI1 PLATI1
+LIVEAMB1 LIVEAMB1
+PIPPADI PIPPADI
+caved caved
+mamama mamama
+WARAMB2 WARAMB2
+vascone vascone
+freed1 freed1
+//$AMBIENT 26  padrepio POINT 1 continuous 1
+BUONNAT BUONNAT
+cavamb2 cavamb2
+
+alcop11 alcop11
+alcop22 alcop22
+crowd2 crowd2
+REACTOR REACTOR
+HANGDOOR HANGDOOR
+
+$random HLDOR { HLDOR1 HLDOR2 HLDOR3 }
+HLDOR1 HLDOR1
+HLDOR2 HLDOR2
+HLDOR3 HLDOR3
+
+$random apouj { apouj1 apouj2 }
+apouj1 apouj1
+apouj2 apouj2
+
+$random tifo { tifo1 tifo2 tifo3 tifo4 }
+tifo1 tifo1
+tifo2 tifo2
+tifo3 tifo3
+tifo4 tifo4
+
+$random APOTONI { APOTON1 APOTON2 APOTON3 APOTON4 APOTON5 }
+APOTON1 APOTON1
+APOTON2 APOTON2
+APOTON3 APOTON4
+APOTON5 APOTON5
+
+$random APOCIR { APOCIR1 APOCIR2 APOCIR3 APOCIR4 APOCIR5 APOCIR6 APOCIR7 }
+APOCIR1 APOCIR1
+APOCIR2 APOCIR2
+APOCIR3 APOCIR4
+APOCIR5 APOCIR5
+APOCIR6 APOCIR6
+APOCIR7 APOCIR7
+
+$random APOCO { APOCO1 APOCO2 APOCO3 APOCO4 APOCO5 APOCO6 APOCO7 }
+APOCO1 APOCO1
+APOCO2 APOCO2
+APOCO3 APOCO3
+APOCO4 APOCO4
+APOCO5 APOCO5
+APOCO6 APOCO6
+APOCO7 APOCO7
+
+$random APOEF { APOEF1 APOEF2 APOEF3 APOEF4 APOEF5 APOEF6 APOEF7 APOEF8 APOEF9 APOEF10 APOEF11 APOEF12 APOEF13 APOEF14 APOEF15 APOEF16 APOEF17 }
+APOEF1 APOEF1
+APOEF2 APOEF2
+APOEF3 APOEF3
+APOEF4 APOEF4
+APOEF5 APOEF5
+APOEF6 APOEF6
+APOEF7 APOEF7
+APOEF1 APOEF8
+APOEF2 APOEF9
+APOEF10 APOEF10
+APOEF11 APOEF11
+APOEF12 APOEF12
+APOEF13 APOEF13
+APOEF14 APOEF14
+APOEF15 APOEF15
+APOEF16 APOEF16
+APOEF17 APOEF17
+
+APOTRAP APOTRAP
+
+$random APOBUG { APOBUG1 APOBUG2 APOBUG3 APOBUG4 APOBUG5 APOBUG6 APOBUG7 APOBUG8 APOBUG9 }
+APOBUG1 APOBUG1
+APOBUG2 APOBUG2
+APOBUG3 APOBUG3
+APOBUG4 APOBUG4
+APOBUG5 APOBUG5
+APOBUG6 APOBUG6
+APOBUG7 APOBUG7
+APOBUG1 APOBUG8
+APOBUG2 APOBUG9
+
+$random APOSHU { APOSHU1 APOSHU2 APOSHU3 APOSHU4  }
+APOSHU1 APOSHU1
+APOSHU2 APOSHU2
+APOSHU3 APOSHU3
+APOSHU4 APOSHU4
+
+$random radap { radap1 radap2 radap3 radap4 radap5 }
+radap1 radap1
+radap2 radap2
+radap3 radap3
+radap4 radap4
+radap5 radap5
+
+$random aponuk { aponuk1 aponuk2 aponuk3 }
+aponuk1 aponuk1
+aponuk2 aponuk2
+aponuk3 aponuk3
+
+$random nascita { nasc1 nasc2 nasc3 nasc4 nasc5 }
+nasc1 nasc1
+nasc2 nasc2
+nasc3 nasc3
+nasc4 nasc4
+nasc5 nasc5
+
+//DUDE FINDS A SECRET!
+$random surprise { s1 s2 }
+s1 secret
+s2 secret2
+$alias misc/secret   surprise
+
+msn msn
+
+MOVETE MOVETE
+movete2 movete2
+
+CAMPANEL CAMPANEL
+
+$random emor { emor1 emor2 emor3 emor4 emor5 }
+emor1 emor1
+emor2 emor2
+emor3 emor3
+emor4 emor4
+emor5 emor5
+
+$random BONOLIS	{ BONOL1 BONOL2 BONOL3 BONOL4 BONOL5 BONOL6 BONOL7 BONOL8 BONOL9 BONOL10 BONOL11 BONOL12 BONOL13 BONOL14 BONOL15 BONOL16  }
+BONOL1 BONOL1
+BONOL2 BONOL2
+BONOL3 BONOL3
+BONOL4 BONOL4
+BONOL5 BONOL5
+BONOL6 BONOL6
+BONOL7 BONOL7
+BONOL8 BONOL8
+BONOL9 BONOL9
+BONOL10 BONOL10
+BONOL11 BONOL11
+BONOL12 BONOL12
+BONOL13 BONOL13
+BONOL14 BONOL14
+BONOL15 BONOL15
+BONOL16 BONOL16
+
+$random FULMINI	{ THUN1FX THUN2FX THUN3FX THUN4FX }
+THUN1FX THUN1FX
+THUN2FX THUN2FX
+THUN3FX THUN3FX
+THUN4FX THUN4FX
+
+TESTE TESTE
+ehgr ehgr
+monts monts
+drin drin
+pasta pasta
+gratacra gratacra
+BIGDOOR BIGDOOR
+sirnapol sirnapol
+
+$random graveyard/crow	{ graveyard/crow1 graveyard/crow2 graveyard/crow3
+graveyard/crow4 graveyard/crow5 graveyard/crow6 }
+
+graveyard/crow1 DSCROW01
+graveyard/crow2 DSCROW02
+graveyard/crow3 DSCROW03
+graveyard/crow4 DSCROW04
+graveyard/crow5 DSCROW05
+graveyard/crow6 DSCROW06
+
+$AMBIENT 59  capo POINT 1 continuous 1
+$ambient 60 graveyard/crow point 2 random 5 45 0.5
+
+techi2 techi2
+vitam vitam
+$AMBIENT 61  techis POINT 1 continuous 1
+$AMBIENT 62  vitam POINT 1 continuous 1
+
+
+wind	wind	// Gentle Cold Wind
+wind2	wind2	// Strong Cold Wind
+
+$AMBIENT 17 wind POINT 1 continuous 1
+$AMBIENT 18 wind2 POINT 1 continuous 1
+
+MLGHOR MLGHOR
+
+merda chee
+
+$random palle { exitmap2 exitmap4 }
+
+festa festa
+sega sega
+crisi crisi
+
+eeeh eeeh
+steadi steadi
+ebeh ebeh
+drama drama
+
+bombo1 bombo1
+cazze1 cazze1
+mcca1 mcca1
+mcca2 mcca2
+mgnmrd1 mgnmrd1
+mgnmrd2 mgnmrd2
+MSRTCZ1 MSRTCZ1
+
+$random invasiontaunt { MSRTCZ1 mgnmrd2 mgnmrd1 mcca2 mcca1 cazze1 bombo1 keyfail6 keyfail7 keyfail exitmap3 exitmap4 voichete coglio ntol piovem benbene capo cibor nnepos lve machep }
+voichete voichete
+coglio coglio
+ntol ntol
+piovem piovem
+benbene benbene
+capo capo
+cibor cibor
+nnepos nnepos
+lve lve
+machep machep
+
+
+
+
+$random duke/taunt { keyfail6 keyfail7 keyfail exitmap3 exitmap4 voichete coglio ntol piovem benbene capo cibor nnepos lve machep }
+$random duke/taunt1 { keyfail6 keyfail7 keyfail exitmap3 exitmap4 voichete coglio ntol piovem benbene capo cibor nnepos lve machep }
+$random duke/taunt2 { keyfail6 keyfail7 keyfail exitmap3 exitmap4 voichete coglio ntol piovem benbene capo cibor nnepos lve machep }
+$random duke/taunt3 { keyfail6 keyfail7 keyfail exitmap3 exitmap4 voichete coglio ntol piovem benbene capo cibor nnepos lve machep }
+$random duke/waiting { keyfail6 keyfail7 keyfail exitmap3 exitmap4 voichete coglio ntol piovem benbene capo cibor nnepos lve machep }
+
+$random invasionintro { billino keyfail2 }
+billino billino
+
+//DUDE GETS KEY!
+$random misc/k_pkup  { dsgetkey key1 }
+dsgetkey dsgetkey
+key1 key1
+
+//DUDE FAILS!
+$random keyowned { keyfail keyfail2 keyfail3 keyfail4 keyfail5 keyfail6 keyfail7 keyfail8 keyfail9 keyfai10 culo nelso nnepos machep }
+keyfail keyfail
+keyfail2 keyfail2
+keyfail3 keyfail3 
+keyfail4 keyfail4
+keyfail5 keyfail5
+keyfail6 keyfail6
+keyfail7 keyfail7
+keyfail8 keyfail8
+keyfail9 keyfail9
+keyfai10 keyfai10
+culo culo
+nelso nelso
+$alias misc/keytry		keyowned
+
+//DUDE'S NEXT MISSION!
+$random weapons/shotgr { exitmap exitmap2 exitmap3 exitmap4 nnepos tepia }
+exitmap exitmap
+exitmap2 exitmap2
+exitmap3 exitmap3
+exitmap4 exitmap4
+tepia tepia
+//DUDE IS TELETRANSPORTED!
+$random dudeteleport { t1 t2 t3 t4 t5 t6}
+t1 telept
+t2 telept
+t3 telept
+t4 telept
+t5 telept
+t6 telept2
+$alias misc/teleport		dudeteleport
+
+//DUDE PICKUPS DIFFERENT STUFF!
+//HEALTH!
+$random dudehealth { h1 h2 h3 h4 h5 h6 h7 h8 h12 h16 h17 h18 }
+h1 salud
+h2 salud2
+h3 salud3
+h4 salud4
+h5 salud5
+h6 salud6
+h7 salud7
+h16 salud8
+h17 salud9
+h18 salud10
+h8 itemgen
+h12 itemgen2
+$alias misc/health_pkup		dudehealth
+
+//AMMO!
+$random dudeammo { a1 a6 a7 a8 a9 a10 }
+a1 itemgen
+a6 itemgen2
+a7 getammo
+a8 getammo2
+a9 getammo3
+a10 getammo4
+$alias misc/ammo_pkup		dudeammo
+
+//ARMOR-GIMP!
+$random dudearmor { ar1 ar2 ar3 }
+ar1 itemgen
+ar2 itemgen
+ar3 getarmor
+ar4 salud2
+$alias misc/armor_pkup		dudearmor
+
+//WEAPONS!
+$random dudeweapon { getweap getweap2 getweap3 getweap4 getweap5 getweap6 getweap7 getweap8 getweap9 getweapz ferrp1 }
+getweap getweap
+getweap2 getweap2
+getweap3 getweap3
+getweap4 getweap4
+getweap5 getweap5
+getweap6 getweap6
+getweap7 getweap7
+getweap8 getweap8
+getweap9 getweap9
+getweapz getweapz
+ferrp1 ferrp1
+
+$random scacc/pickup { getweap getweap2 getweap3 getweap4 getweap6 scacp1 scacp2 scacp3 scacp4 ferrp1 }
+scacp1 scacp1
+scacp2 scacp2
+scacp3 scacp3
+scacp4 scacp4
+
+$random snip/pickup { snipp1 snipp2 ferrp1 }
+snipp1 snipp1
+snipp2 snipp2
+$volume snip/pickup 2
+
+$random bigw/pickup { bigwp1 bigwp2 bigwp3 }
+bigwp1 bigwp1
+bigwp2 bigwp2
+bigwp3 bigwp3
+
+$volume bigw/pickup 2
+
+$random schioppo/pickup { SKIOPP1 SKIOPP3 SKIOPP4 SKIOPP5 }
+SKIOPP1 SKIOPP1
+SKIOPP3 SKIOPP3
+SKIOPP4 SKIOPP4
+SKIOPP5 SKIOPP5
+
+$volume schioppo/pickup 2
+
+
+$random BLADE/pickup { getweap getweap2 getweap3 getweap4 getweap6 machp1 }
+machp1 machp1
+
+$random duke/weaponup { getweap getweap2 getweap3 getweap4 getweap5 getweap6 getweap7 getweap8 getweap9 getweapz }
+
+$alias misc/w_pkup   dudeweapon
+
+//POWERUPS!
+$random dudecrack { power1 power2 power3 power4 power5 power6 power7 power8 power9 power10 power11 }
+power1 getpow
+power2 getpow2
+power3 getpow3
+power4 getpow4
+power5 getpow5
+power6 getpow6
+power7 getpow7
+power8 getpow8
+power9 getpow9
+power10 getpow10
+power11 getpow11
+$alias misc/p_pkup			dudecrack
+
+//DUDEGUNS PUFF!
+$random dude/puff { dude/puff1 dude/puff2 dude/puff3 dude/puff4 }
+dude/puff1 puff1
+dude/puff2 puff2
+dude/puff3 puff3
+dude/puff4 puff4
+
+//DUDEGUNS BLOOD!
+$random dude/blood { dude/blood1 dude/blood2 dude/blood3 dude/blood4 }
+dude/blood1 blood1
+dude/blood2 blood2
+dude/blood3 blood3
+dude/blood4 blood4
+
+//PAIN FOR DUDE!
+$random dudepain { pain1 pain2 pain3 pain4 pain5 pain6 pain7 pain8 pain9 pain10 pain11 pain12 pain13 pain14 pain15 pain16 pain17 pain18 pain19 }
+pain1 pain1
+pain2 pain2
+pain3 pain3
+pain4 pain4
+pain5 pain5
+pain6 pain6
+pain7 pain7
+pain8 pain8
+pain9 pain9
+pain10 pain10
+pain11 pain11
+pain12 pain12
+pain13 pain13
+pain14 pain14
+pain15 pain15
+pain16 pain16
+pain17 pain17
+pain18 pain18
+pain19 pain19
+$playeralias	player	male	*pain100	dudepain
+$playeralias	player	male	*pain75		dudepain
+$playeralias	player	male	*pain50		dudepain
+$playeralias	player	male	*pain25		dudepain
+
+$random martello2 { pain1 pain2 pain5 pain10 pain17 pain18 pain19 }
+
+passa passa
+PARAD PARAD
+serio serio
+palle2 palle2
+mfrega mfrega
+techis techis
+tececo tececo
+diocaro2 diocaro2
+
+//DUDE DIES! HAHAHAHA!
+$random dudedies { d1 d2 d3 d4 d5 d6 d7 d8 d9 d10 d11 d12 d13 }
+d1 hedies1
+d2 hedies2
+d3 hedies3
+d4 hedies4
+d5 hedies5
+d6 hedies6
+d7 hedies7
+d8 hedies8
+d9 hedies9
+d10 hedies10
+d11 hedies11
+d12 hedies12
+d13 hedies13
+$playeralias	player	male	*death	   dudedies
+$playeralias	player	male	*xdeath	   dudedies
+
+//DSSLOPS FOR ALL!!!
+$random dudepieces { mgnmrd1 mcca2 mcca1 bombo1 ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 lve tepia ds19 ds20 }
+ds1 pieces1
+ds2 pieces2
+ds3 pieces3
+ds4 pieces4
+ds5 pieces5
+ds6 pieces6
+ds7 pieces7
+ds8 pieces8
+ds9 pieces9
+ds10 pieces10
+ds11 pieces11
+ds12 pieces12
+ds13 pieces13
+ds14 pieces14
+ds15 pieces15
+ds16 pieces16
+ds17 pieces17
+ds18 pieces18
+ds19 pieces19
+ds20 pieces20
+$playeralias	player	male	*gibbed	   dudepieces
+$playeralias	player	male	*taunt     dudepieces
+$alias misc/gibbed	dudepieces
+
+$random donnina/gibbed { dgib1 dgib2 dgib3 dgib4 dgib5 dgib6 dgib7 dgib8 }
+dgib1 dgib1
+dgib2 dgib2
+dgib3 dgib3
+dgib4 dgib4
+dgib5 dgib5
+dgib6 dgib6
+dgib7 dgib7
+dgib8 dgib8
+
+$random putana/gibbed { dgib6 dgib7 dgib8 smorfie }
+smorfie smorfie
+
+//DUDE JUMPSOFF!
+$random jumpoff { jmpland1 jmpland1 jmpland1 }
+
+jmpland1 jmpland1
+jmpland1 jmpland1
+jmpland1 jmpland1
+$playeralias player male *land jumpoff
+$playeralias player male *grunt jumpoff
+
+//NOWAY!
+$random noway { noway1 noway2 noway3 noway4 noway5 noway6 noway7 noway8 noway9 machep }
+noway1 noway
+noway2 noway2
+noway3 noway3
+noway4 noway4
+noway5 noway5
+noway6 noway6
+noway7 noway7
+noway8 noway8
+noway9 noway9
+$playeralias	player	male	*usefail	noway
+
+scaric scaric
+
+
+//------------------WEAPONS---------------------------
+
+//DUDE OWNS WITH BATON!
+$random dudebaton { baton1 baton2 }
+baton1 baton
+baton2 baton2
+
+$playeralias	player	male	*fist	dudebaton
+
+fuori fuori
+schioppi schioppi
+
+$random chiappasotto { multa cavet1 cavet2 madua stafer bambi benzie machina ds19 }
+multa multa
+cavet1 cavet1
+cavet2 cavet2
+madua madua
+stafer stafer
+benzie benzie
+machina machina
+
+$random chiappasottof { multa cavet1 cavet2 madua machina ds19 giteaff }
+giteaff giteaff
+
+$random rally { rally1 rally2 rally3 rally4 rally5 rally6 rally7 rally8 rally9 }
+rally1 rally1
+rally2 rally2
+rally3 rally3
+rally4 rally4
+rally5 rally5
+rally6 rally6
+rally7 rally7
+rally8 rally8
+rally9 rally9
+
+vinto vinto
+perso perso
+
+dsdorcls dsdorcls
+dsdoropn dsdoropn
+DSPSTART DSPSTART
+DSPSTOP DSPSTOP
+
+$random BRIACS { briac1 briac2 briac3 briac4 briac5 getpow LADROGA }
+briac1 briac1
+briac2 briac2
+briac3 briac3
+briac4 briac4
+briac5 briac5
+briac6 briac6
+
+$random snort { snort11 snort12 snort13 snort14 snort5 snort6 snort7 snort8 snort9 snort10 }
+snort1 snort1
+snort2 snort2
+snort3 snort3
+snort4 snort4
+snort5 snort5
+snort6 snort6
+snort7 snort7
+snort8 snort8
+snort9 snort9
+snort10 snort10
+snort11 snort11
+snort12 snort12
+snort13 snort13
+snort14 snort14
+
+$random snortc { snortc1 snortc2 snortc3 snortc4 snortc5 snortc6 snortc6 snortc8 snortc9 snortc10 snortc11 snortc12 snortc13 }
+snortc1 snortc1
+snortc2 snortc2
+snortc3 snortc3
+snortc4 snortc4
+snortc5 snortc5
+snortc6 snortc6
+snortc7 snortc7
+snortc8 snortc8
+snortc9 snortc9
+snortc10 snortc10
+snortc11 snortc11
+snortc12 snortc12
+snortc13 snortc13
+
+$random insetti { insx1 insx2 insx3 insx4 insx5 insx6 insx7 insx8 insx9 }
+insx1 insx1
+insx2 insx2
+insx3 insx3
+insx4 insx4
+insx5 insx5
+insx6 insx6
+insx7 insx7
+insx8 insx8
+insx9 insx9
+
+$random puzza2 { puzz1 puzz2 puzz3 puzz4 puzz6 puzz7 puzz8 insx9 }
+puzz1 puzz1
+puzz2 puzz2
+puzz3 puzz3
+puzz4 puzz4
+puzz5 puzz5
+puzz6 puzz6
+puzz7 puzz7
+puzz8 puzz8
+
+$random PAJURA { pajura1 pajura2 pajura3 pajura4 pajura5 pajura6 pajura7 }
+pajura1 pajura1
+pajura2 pajura2
+pajura3 pajura3
+pajura4 pajura4
+pajura5 pajura5
+pajura6 pajura6
+pajura7 pajura7
+
+ladroga ladroga
+
+crow crow
+heart heart
+
+
+//============================================================================
+//
+// ANNOUNCER SOUNDS
+//
+//===========================================================================
+
+// Added for Skulltag
+
+announcer/ut/alarm					utalarm
+announcer/ut/capture					utcaptur
+announcer/ut/doublekill					utdkill
+announcer/ut/multikill					utmkill
+announcer/ut/fiveminutewarning				utfmnwrn
+announcer/ut/one					utone
+announcer/ut/oneminutewarning				utonmwrn
+announcer/ut/three					utthree
+announcer/ut/two					uttwo
+announcer/ut/lostthelead				utlostld
+announcer/ut/takenthelead				uttaknld
+announcer/ut/youwin					utwin
+announcer/ut/nicecatch					utcatch
+announcer/ut/dominating					utdomina
+announcer/ut/unstoppable				utunstop
+announcer/ut/return					utreturn
+announcer/ut/letsrock					utltrock
+
+empty dsempty
+
+arena/ok                    MTLSLOK
+arena/rocketlauncher        RKTLNC
+arena/shotgun               SHTGUN
+
+//padrepio padrepio
+
+$random bong/usage { diocrist droga1 ride3 droga2 droga3 droga4 droga5 droga6 }

@@ -1,0 +1,203 @@
+﻿//#include "Actors/player.txt"
+
+// ARMI
+
+#include "Actors/constants.txt"
+#include "Actors/Armi/melee.txt"
+#include "Actors/Armi/beretta.txt"
+//#include "Actors/Armi/beretta_dual.txt"
+#include "Actors/Armi/Gauss2.txt"
+#include "Actors/Armi/Gauss2_dual.txt"
+//#include "Actors/Armi/fuciledelfuturo.txt"
+#include "Actors/Armi/winchester.txt"
+#include "Actors/Armi/anticotestamento.txt"
+#include "Actors/Armi/lanciacoltelli.txt"
+#include "ACTORS/ARMI/lanciacoltelli_dual.txt"
+#include "Actors/Armi/sparastuzzicadenti.txt"
+#include "Actors/Armi/deagle.txt"
+#include "Actors/Armi/deagle_dual.txt"
+#include "Actors/Armi/doppiocazzo.txt"
+#include "Actors/Armi/spas12.txt"
+#include "Actors/Armi/toz34.txt"
+#include "Actors/Armi/toz34_dual.txt"
+//#include "Actors/Armi/KALASHNIKOV.txt"
+#include "Actors/Armi/m16.txt"
+#include "Actors/Armi/m16_dual.txt"
+#include "Actors/Armi/schioppatore.txt"
+#include "Actors/armi/benelli90.txt"
+#include "Actors/armi/uzi_mini.txt"
+#include "Actors/armi/uzi_mini_dual.txt"
+#include "Actors/armi/bastignatore.txt"
+#include "Actors/armi/pregiutto.txt"
+#include "Actors/armi/cortellaccio.txt"
+#include "Actors/armi/tonfapreti.txt"
+#include "Actors/armi/supercazzottiveri.txt"
+#include "Actors/armi/scacciacani.txt"
+#include "Actors/armi/scacciacani_dual.txt"
+#include "Actors/armi/RPD.txt"
+#include "Actors/armi/RPD_dual.txt"
+#include "Actors/armi/sniperdelfuturo.txt"
+#include "ACTORS/ARMI/sniperdelfuturo_dual.txt"
+#include "ACTORS/ARMI/LANCIARAZZI.txt"
+#include "ACTORS/ARMI/DOPPIETTA.txt"
+#include "ACTORS/ARMI/DOPPIETTA_dual.txt"
+#include "ACTORS/ARMI/RPGCOMMANDO.txt"
+#include "ACTORS/ARMI/rpgcommando_dual.txt"
+#include "ACTORS/ARMI/mp5carabinieri.txt"
+#include "ACTORS/ARMI/mp5carabinieri_dual.txt"
+//#include "ACTORS/ARMI/pera.txt"
+#include "ACTORS/ARMI/NoCrosshair.txt"
+#include "ACTORS/ARMI/squarciafiche.txt"
+#include "ACTORS/ARMI/BINLADEN.txt"
+#include "ACTORS/ARMI/ASCIA.txt"
+#include "Actors/Omini/fossetti.txt"
+//#include "actors/armi/katana.txt"
+#include "actors/armi/winchesternormale.txt"
+#include "actors/armi/supplizio.txt"
+#include "actors/armi/bisturi.txt"
+#include "actors/armi/cportable.txt"
+#include "actors/armi/cportable_dual.txt"
+#include "Actors/armi/mitraglione.txt"
+#include "Actors/armi/mitraglione_dual.txt"
+
+#include "Actors/Effetti/muzzles.txt"
+#include "Actors/Effetti/puffs.txt"
+#include "Actors/Effetti/casings.txt"
+#include "Actors/Effetti/smoke.txt"
+#include "Actors/Effetti/tracers.txt"
+#include "Actors/Effetti/sangue.txt"
+#include "Actors/Effetti/projectiles.txt"
+#include "Actors/Effetti/flares.txt"
+
+#include "Actors/ARMI/NUKE/BIGNUKE.txt"
+#include "Actors/ARMI/NUKE/MEGANUKE.txt"
+#include "Actors/ARMI/NUKE/MININUKE.txt"
+#include "Actors/ARMI/RADIO.txt"
+#include "Actors/ARMI/LASERDEHALFLIFE.txt"
+//#include "Actors/ARMI/NUKE/NUKEBARRELS.txt"
+
+actor shotgunspawner : RandomSpawner //3215//3211 //Replaces SpiderMastermind
+{
+ 
+ //SPAWNID 345
+  DropItem winchester1300
+}
+
+actor cartaidentitaspawner : RandomSpawner //3215//3211 //Replaces SpiderMastermind
+{
+ 
+ //SPAWNID 345
+  DropItem carta_identita
+}
+
+actor radiospawner : RandomSpawner //3215//3211 //Replaces SpiderMastermind
+{
+ 
+ //SPAWNID 345
+  DropItem radio
+}
+
+actor winchesternormalespawner : RandomSpawner //3215//3211 //Replaces SpiderMastermind
+{
+ 
+ //SPAWNID 345
+  DropItem winchesternormale
+}
+
+actor sangueperterraspawner : RandomSpawner //replaces shotgun //3215//3211 //Replaces SpiderMastermind
+{
+ 
+ //SPAWNID 345
+  DropItem pozzadesangue
+  DropItem pozzadesangue2
+}
+
+actor NEWPISTOLspawner : randomspawner
+{
+//DropItem scacciacani 
+DropItem a1911
+DropItem gauss2
+DropItem uzi_mini
+DropItem deserteagle
+}
+
+actor NEWSHOTGUNspawner : randomspawner
+{
+DropItem winchester1300
+DropItem spas12
+DropItem benellisuper90
+DropItem toz34
+DropItem doppietta
+}
+
+actor mitraglionespawner : randomspawner
+{
+//DropItem mp5carabinieri
+dropitem mitraglione
+}
+
+actor NEWMITRAspawner : randomspawner
+{
+//DropItem mp5carabinieri
+dropitem sparastuzzicadenti
+dropitem rpd
+dropitem lanciacoltelli
+//dropitem sniperdelfuturo
+}
+
+actor NEWARMONAspawner : randomspawner
+{
+DropItem schioppatore_maxi 
+dropitem bastignatore
+dropitem doppiocazzo
+dropitem mitraglione
+}
+
+Actor lanciarazzispawner : RandomSpawner //Replaces SpiderMastermind
+{
+  DropItem lanciarazzi
+  dropitem rpgcommando
+  dropitem cportable
+}
+
+Actor katanaspawner : RandomSpawner //Replaces SpiderMastermind
+{
+  DropItem katana
+}
+
+actor everyweaponspawner : randomspawner
+{
+DropItem pescenfaccia
+dropitem pregiutto
+//dropitem scacciacani
+DropItem a1911
+dropitem deserteagle
+dropitem uzi_mini
+dropitem gauss2
+dropitem rpd
+dropitem lanciarazzi
+dropitem rpgcommando
+dropitem spas12
+dropitem mp5carabinieri
+dropitem winchester1300
+dropitem benellisuper90
+dropitem toz34
+dropitem doppietta
+dropitem sparastuzzicadenti
+dropitem lanciacoltelli
+dropitem sniperdelfuturo
+dropitem schioppatore_maxi
+dropitem bastignatore
+}
+
+
+Actor HideHud : Inventory
+{
+	States
+	{
+		Spawn:
+			TNT1 A 0
+			Stop
+	}
+}
+

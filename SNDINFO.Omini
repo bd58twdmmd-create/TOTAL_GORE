@@ -1,0 +1,2952 @@
+// Dragonbat
+cmdbat/see               CMBATAC
+cmdbat/active            CMBATAC
+cmdbat/pain              CMBATPN
+cmdbat/death             CMBATDT
+cm/magicfire2			 CMM2FR
+
+$random HOPAGA { HOPAGA1 HOPAGA2  }
+HOPAGA1 HOPAGA1
+HOPAGA2 HOPAGA2
+
+$random PORKAD { PORKA1 PORKA2 PORKA3 PORKA4  }
+PORKA1 PORKA1
+PORKA2 PORKA2
+PORKA3 PORKA3
+PORKA4 PORKA4
+
+$rolloff PORKAD 200 1000
+$volume PORKAD 2
+
+$rolloff HOPAGA 200 1000
+$volume HOPAGA 2
+
+//////////////// BIG JOHN
+
+$random BIGJOHN { BIGJON1 BIGJON2 BIGJON3 BIGJON4 BIGJON5 BIGJON6 BIGJON7 BIGJON8  }
+BIGJON1 BIGJON1
+BIGJON2 BIGJON2
+BIGJON3 BIGJON3
+BIGJON4 BIGJON4
+BIGJON5 BIGJON5
+BIGJON6 BIGJON6
+BIGJON7 BIGJON7
+BIGJON8 BIGJON8
+
+$rolloff BIGJOHN 200 2000
+$volume BIGJOHN 2
+
+$random BIGJOHN/PAIN { BIGJONP1 BIGJONP2 BIGJON3 BIGJON4 BIGJON5 BIGJON6 BIGJON7 BIGJON8  }
+BIGJONP1 BIGJONP1
+BIGJONP2 BIGJONP2
+
+$rolloff BIGJOHN/pain 200 2000
+$volume BIGJOHN/pain 2
+
+cacca1 cacca1
+cacca2 cacca2
+cacca3 cacca3
+cacca4 cacca4
+cacca5 cacca5
+cacca6 cacca6
+cacca7 cacca7
+cacca8 cacca8
+
+DANSAX DANSAX
+
+$rolloff DANSAX 500 750
+$volume DANSAX 2
+
+DANSAX2 DANSAX2
+
+$rolloff DANSAX2 500 750
+$volume DANSAX2 2
+
+DANSAX3 DANSAX3
+
+$rolloff DANSAX3 500 750
+$volume DANSAX3 2
+
+DANSAX4 DANSAX4
+
+$rolloff DANSAX4 500 750
+$volume DANSAX4 2
+
+DANDAN DANDAN
+
+$rolloff DANDAN 500 750
+$volume DANDAN 2
+
+DANDAN5 DANDAN5
+
+$rolloff DANDAN5 500 750
+$volume DANDAN5 2
+
+sms1 sms1
+
+$random LUCAREGNO/IDLE { LUCAID1 LUCAID2 LUCAID3 LUCAID4 LUCAID5 }
+LUCAID1 LUCAID1
+LUCAID2 LUCAID2
+LUCAID3 LUCAID3
+LUCAID4 LUCAID4
+LUCAID5 LUCAID5
+
+$random LUCAREGNO/ATTACK { lucatk1 lucatk2 lucatk3 lucatk4 lucatk5 }
+lucatk1 lucatk1
+lucatk2 lucatk2
+lucatk3 lucatk3
+lucatk4 lucatk4
+lucatk5 lucatk5
+
+$random LUCAREGNO/DEATH { lucdt1 lucdt2 lucdt3 }
+lucdt1 lucdt1
+lucdt2 lucdt2
+lucdt3 lucdt3
+
+$random LUCAREGNO/PAIN { lucp1 lucp2 lucp3 lucp4 lucp5 }
+lucp1 lucp1
+lucp2 lucp2
+lucp3 lucp3
+lucp4 lucp4
+lucp5 lucp5
+
+$random MARCHINO { MARCH1 MARCH2 MARCH3 MARCH4 MARCH5 MARCH6 MARCH7 MARCH8  }
+MARCH1 MARCH1
+MARCH2 MARCH2
+MARCH3 MARCH3
+MARCH4 MARCH4
+MARCH5 MARCH5
+MARCH6 MARCH6
+MARCH7 MARCH7
+MARCH8 MARCH8
+
+//MAGICFOREST
+$random MFOREST { MFOR1 MFOR2 MFOR3 MFOR4 MFOR5 MFOR6 MFOR7 MFOR8 MFOR9 MFOR10 MFOR11 MFOR12 }
+MFOR1 MFOR1
+MFOR2 MFOR2
+MFOR3 MFOR3
+MFOR4 MFOR4
+MFOR5 MFOR5
+MFOR6 MFOR6
+MFOR7 MFOR7
+MFOR8 MFOR8
+MFOR9 MFOR9
+MFOR10 MFOR10
+MFOR11 MFOR11
+MFOR12 MFOR12
+
+$random MFOREST/attack { MFORk1 MFORk2 MFORk3 MFORk4 MFORk5 }
+MFORk1 MFORk1
+MFORk2 MFORk2
+MFORk3 MFORk3
+MFORk4 MFORk4
+MFORk5 MFORk5
+
+$volume MFOREST/attack 2
+
+//MAGICVOICE
+
+$random bxloop { bxloop1 bxloop2 bxloop3 bxloop4 }
+bxloop1 bxloop1
+bxloop2 bxloop2
+bxloop3 bxloop3
+bxloop4 bxloop4
+
+$rolloff bxloop 200 2000
+$volume bxloop 2
+
+$random bxidle { bxidle1 bxidle2 bxidle3 bxidle4 bxidle5 bxidle6  }
+bxidle1 bxidle1
+bxidle2 bxidle2
+bxidle3 bxidle3
+bxidle4 bxidle4
+bxidle5 bxidle5
+bxidle6 bxidle6
+
+$rolloff bxidle 200 2000
+$volume bxidle 2
+
+$random bxsee { bxsee1 bxsee2 bxsee3 bxsee4 bxsee5  }
+bxsee1 bxsee1
+bxsee2 bxsee2
+bxsee3 bxsee3
+bxsee4 bxsee4
+bxsee5 bxsee5
+
+$rolloff bxsee 200 2000
+$volume bxsee 2
+
+$random bxch { bxch1 bxch2  }
+bxch1 bxch1
+bxch2 bxch2
+
+$rolloff bxch 200 2000
+$volume bxch 2
+
+$random bxdth { bxdth1 bxdth2 bxdth3  }
+bxdth1 bxdth1
+bxdth2 bxdth2
+bxdth3 bxdth3
+
+$rolloff bxdth 200 2000
+$volume bxdth 2
+
+$random AKAK { AKAK1 AKAK2  }
+AKAK1 AKAK1
+AKAK2 AKAK2
+
+$random BORGH1 { BORG1 BORG2 BORG3 BORG4 BORG5  }
+BORG1 BORG1
+BORG2 BORG2
+BORG3 BORG3
+BORG4 BORG4
+BORG5 BORG5
+
+$rolloff BORGH1 200 2000
+$volume BORGH1 2
+
+/*$random RCHCS { RCHCS1 RCHCS2 RCHCS3 RCHCS4 RCHCS5 RCHCS6 }
+RCHCS1 RCHCS1
+RCHCS2 RCHCS2
+RCHCS3 RCHCS3
+RCHCS4 RCHCS4
+RCHCS5 RCHCS5
+RCHCS6 RCHCS6
+*/
+
+$random RCHCI { RCHCI1 RCHCI2 RCHCI3 RCHCI4 RCHCI5 RCHCI6 RCHCI7 RCHCI8 RCHCS1 RCHCS2 RCHCS3 RCHCS4 RCHCS5 RCHCS6 }
+RCHCI1 RCHCI1
+RCHCI2 RCHCI2
+RCHCI3 RCHCI3
+RCHCI4 RCHCI4
+RCHCI5 RCHCI5
+RCHCI6 RCHCI6
+RCHCI7 RCHCI7
+RCHCI8 RCHCI8
+RCHCS1 RCHCS1
+RCHCS2 RCHCS2
+RCHCS3 RCHCS3
+RCHCS4 RCHCS4
+RCHCS5 RCHCS5
+RCHCS6 RCHCS6
+
+$rolloff RCHCS 200 2000
+$volume RCHCS 2
+$rolloff RCHCI 200 2000
+$volume RCHCI 2
+
+$random SCREAX { screax1 screax2 screax3 screax4 screax5 screax6 screax7 screax8 screax9 screax10 screax11 screax12 screax13 screax14 screax15 }
+screax1 screax1
+screax2 screax2
+screax3 screax3
+screax4 screax4
+screax5 screax5
+screax6 screax6
+screax7 screax7
+screax8 screax8
+screax9 screax9
+screax10 screax10
+screax11 screax11
+screax12 screax12
+screax13 screax13
+screax14 screax14
+screax15 screax15
+
+
+SIEG3 SIEG3
+
+$random nazi/see { nazisight1 nazisight2 nazisight3 nazisight4 nazisight5 nazisight6 nazisight7 nazisight8 naziact1 naziact2 naziact3 }
+$random nazi/death { nazideath1 nazideath2 nazideath3 nazideath4 nazideath5 nazideath6 nazideath7 nazideath8 nazideath9 nazideath10 nazideath11 }
+$random nazi/pain { nazipain1 nazipain2 nazipain3 nazipain4 nazipain5 nazipain6 nazipain7 nazipain8 }
+nazisight1 nazisit1
+nazisight2 nazisit1
+nazisight3 nazisit2
+nazisight4 nazisit3
+nazisight5 nazisit4
+nazisight5 nazisit5
+nazisight6 nazisit6
+nazisight7 nazisit7
+nazisight8 nazisit8
+nazideath1 nazidth1
+nazideath2 nazidth2
+nazideath3 nazidth3
+nazideath4 nazidth4
+nazideath5 nazidth5
+nazideath6 nazidth6
+nazideath7 nazidth7
+nazideath8 nazidth8
+nazideath9 nazidth9
+nazideath10 nazidtha
+nazideath11 nazidthb
+nazipain1 nazipn1
+nazipain2 nazipn2
+nazipain3 nazipn3
+nazipain4 nazipn4
+nazipain5 nazipn5
+nazipain6 nazipn6
+nazipain7 nazipn7
+nazipain8 nazipn8
+naziact1 naziact1 
+naziact2 naziact2
+naziact3 naziact3
+
+
+$rolloff nazi/see 200 2500
+
+$random terron { terr1 terr2 terr3 terr4 terr5 terr6 terr7 terr8 terr9 terr10 terr11 terr12 terr13 terr14 terr15 terr16 terr17 terr18 terr19 }
+terr1 terr1
+terr2 terr2
+terr3 terr3
+terr4 terr4
+terr5 terr5
+terr6 terr6
+terr7 terr7
+terr8 terr8
+terr9 terr9
+terr10 terr10
+terr11 terr11
+terr12 terr12
+terr13 terr13
+terr14 terr14
+terr15 terr15
+terr16 terr16
+terr17 terr17
+terr18 terr18
+terr19 terr19
+
+$rolloff terron 200 2500
+$volume terron 6
+
+$random MDNVESPA/SEE { MDNV1 MDNV2 MDNV3 MDNV4  }
+MDNV1 MDNV1
+MDNV2 MDNV2
+MDNV3 MDNV3
+MDNV4 MDNV4
+
+$random MDNVESPA/ATTACK { mdnvk1 mdnvk2 mdnvk3 mdnvk4  mdnvk6 mdnvk7 mdnvk8 mdnvk9 mdnvk10 mdnvk11  }
+mdnvk1 mdnvk1
+mdnvk2 mdnvk2
+mdnvk3 mdnvk3
+mdnvk4 mdnvk4
+mdnvk6 mdnvk6
+mdnvk7 mdnvk7
+mdnvk8 mdnvk8
+mdnvk9 mdnvk9
+mdnvk10 mdnvk10
+mdnvk11 mdnvk11
+
+$random MDNVESPA/pain { mdnvp1 mdnvp2  }
+mdnvp1 mdnvp1
+mdnvp2 mdnvp2
+
+MDNVESPA/death  MDNVD1
+
+$random CHENES { CHENES1 CHENES2 CHENES3 }
+CHENES1 CHENES1
+CHENES2 CHENES2
+CHENES3 CHENES3
+
+$random CHENED { CHENED1 CHENED2 }
+CHENED1 CHENED1
+CHENED2 CHENED2
+
+$random voitila { voit1 voit2 voit3 voit4 voit5 }
+voit1 voit1
+voit2 voit2
+voit3 voit3
+voit4 voit4
+voit5 voit5
+
+$random voitila/death { voitd1 voitd2 }
+voitd1 voitd1
+voitd2 voitd2
+
+$random voitila/pain { voitp1 voitp2 voitp3 voitp4 }
+voitp1 voitp1
+voitp2 voitp2
+voitp3 voitp3
+voitp4 voitp4
+
+STOMPON STOMPON
+
+$random TREXA { TREXA1 TREXA2 TREXA3 TREXA4  TREXA6 TREXA7 TREXA8 TREXA9  }
+TREXA1 TREXA1
+TREXA2 TREXA2
+TREXA3 TREXA3
+TREXA4 TREXA4
+TREXA6 TREXA6
+TREXA7 TREXA7
+TREXA8 TREXA8
+TREXA9 TREXA9
+
+$rolloff TREXA 1600 3700
+$volume TREXA 6
+
+$random BECCHIA { becch1 becch2 becch3 becch4  becch6 becch7 becch8 becch9 becch10 becch11 becch12 becch13 becch14 becch15 becch16 becch17  }
+becch1 becch1
+becch2 becch2
+becch3 becch3
+becch4 becch4
+becch6 becch6
+becch7 becch7
+becch8 becch8
+becch9 becch9
+becch10 becch10
+becch11 becch11
+becch12 becch12
+becch13 becch13
+becch14 becch14
+becch15 becch15
+becch16 becch16
+becch17 becch17
+
+//$rolloff BECCHIA 1600 3700
+$volume BECCHIA 6
+
+$random QUEEF { SPLAC1 SPLAC2 SPLAC3 }
+SPLAC1 SPLAC1
+SPLAC2 SPLAC2
+SPLAC3 SPLAC3
+
+$random selfie { selfie1 selfie2 }
+selfie1 selfie1
+selfie2 selfie2
+
+$random yeee { yeee2 yeee3 yeee4 }
+yeee1 yeee1
+yeee2 yeee2
+yeee3 yeee3
+yeee4 yeee4
+
+$random donnafica { fica1 fica2 fica3 fica4 fica5 fica6 fica7 fica8 fica9 fica10 fica11 fica12 fica13 fica14 fica15 fica16 fica17 fica18 }
+fica1 fica1
+fica2 fica2
+fica3 fica3
+fica4 fica4
+fica5 fica5
+fica6 fica6
+fica7 fica7
+fica8 fica8
+fica9 fica9
+fica10 fica10
+fica11 fica11
+fica12 fica12
+fica13 fica13
+fica14 fica14
+fica15 fica15
+fica16 fica16
+fica17 fica17
+fica18 fica18
+
+$rolloff donnafica 2000 4000//1600 3700
+$volume donnafica 3
+
+$rolloff QUEEF 1600 3700
+$volume QUEEF 3
+
+$rolloff MDNVESPA/ATTACK 2600 4700
+//$volume MDNVESPA/ATTACK 3
+
+
+
+////////////////////////////////////////// CATTA
+
+$random catta/see { TDCZS1 TDCZS2 TDCZS3 TDCZS4 TDCZS5 }
+TDCZS1 TDCZS1
+TDCZS2 TDCZS2
+TDCZS3 TDCZS3
+TDCZS4 TDCZS4
+TDCZS5 TDCZS5
+
+TDCZD1 TDCZD1
+
+$random catta/attack { TDCZA1 TDCZA2 TDCZA3 TDCZA4 }
+TDCZA1 TDCZA1
+TDCZA2 TDCZA2
+TDCZA3 TDCZA3
+TDCZA4 TDCZA4
+
+////////////////////////////////////////// GENTILINI
+
+$random genti/see { GENTS1 gentS2 gentS3 gentS4 gentS5 gentS6 gentS7 gentS8 gentS9 }
+gentS1 gentS1
+gentS2 gentS2
+gentS3 gentS3
+gentS4 gentS4
+gentS5 gentS5
+gentS6 gentS6
+gentS7 gentS7
+gentS8 gentS8
+gentS9 gentS9
+
+$random genti/idle { gentI1 genti2 genti3 genti4 genti5 }
+genti1 genti1
+genti2 genti2
+genti3 genti3
+genti4 genti4
+genti5 genti5
+
+$random genti/attack { genta1 genta2 genta3 genta4 genta5  }
+genta1 genta1
+genta2 genta2
+genta3 genta3
+genta4 genta4
+genta5 genta5
+
+$random genti/death { gentd1 gentd2 gentd3 gentd4 gentd5  }
+gentd1 gentd1
+gentd2 gentd2
+gentd3 gentd3
+gentd4 gentd4
+gentd5 gentd5
+
+gentp1 gentp1
+
+$rolloff genti/attack 1600 3700
+$volume genti/attack 1.5
+
+$rolloff genti/see 1600 3700
+$volume genti/see 2
+
+$rolloff genti/death 1600 3700
+$volume genti/death 2
+
+$rolloff genti/idle 1600 3700
+$volume genti/idle 2
+
+////////////////////////////////////////// ALESSANDRA MUSSOLINI
+
+$random costy/see { COSTS1 COSTS2 COSTS3 COSTS4 COSTS5 COSTS6 COSTS7 }
+COSTS1 COSTS1
+COSTS2 COSTS2
+COSTS3 COSTS3
+COSTS4 COSTS4
+COSTS5 COSTS5
+COSTS6 COSTS6
+COSTS7 COSTS7
+
+$random costy/idle { COSTI1 costi2 costi3 costi4 costi5 costi6 costi7 costi8 costi9 }
+costi1 costi1
+costi2 costi2
+costi3 costi3
+costi4 costi4
+costi5 costi5
+costi6 costi6
+costi7 costi7
+costi8 costi8
+
+$random costy/attack { COSTa1 costa2 costa3 costa4  }
+costa1 costa1
+costa2 costa2
+costa3 costa3
+costa4 costa4
+
+$random costy/death { costd1 costd2 costd3  }
+costd1 costd1
+costd2 costd2
+costd3 costd3
+
+
+
+////////////////////////////////////////// VINSEMINATOR
+
+$random zocco/see { ZDSI1 ZDSI2 ZDSI3 ZDSI4 ZDSI5 ZDSI6 ZDSI7 ZDSI8 }
+ZDSI1 ZDSI1
+ZDSI2 ZDSI2
+ZDSI3 ZDSI3
+ZDSI4 ZDSI4
+ZDSI5 ZDSI5
+ZDSI6 ZDSI6
+ZDSI7 ZDSI7
+
+$random zocco/death { ZPAI1 ZPAI2 ZPAI3 ZPAI4 ZPAI5 ZPAI6 ZPAI7 ZPAI8 ZPAI9 ZPAI10 ZPAI11 ZPAI12 ZPAI13 ZPAI14 ZPAI15 ZPAI16 }
+ZPAI1 ZPAI1
+ZPAI2 ZPAI2
+ZPAI3 ZPAI3
+ZPAI4 ZPAI4
+ZPAI5 ZPAI5
+ZPAI6 ZPAI6
+ZPAI7 ZPAI7
+ZPAI8 ZPAI8
+ZPAI9 ZPAI9
+ZPAI10 ZPAI10
+ZPAI11 ZPAI11
+ZPAI12 ZPAI12
+ZPAI13 ZPAI13
+ZPAI14 ZPAI14
+ZPAI15 ZPAI15
+ZPAI16 ZPAI16
+
+
+////////////////////////////////////////// PEVE
+
+$random peves { pevs1 pevs2 pevs3 pevs4 pevs5 pevs6 pevs7 }
+pevs1 pevs1
+pevs2 pevs2
+pevs3 pevs3
+pevs4 pevs4
+pevs5 pevs5
+pevs6 pevs6
+pevs7 pevs7
+
+$random freddy { pevd1 pevd2 pevd3 pevd4 }
+pevd1 pevd1
+pevd2 pevd2
+pevd3 pevd3
+pevd4 pevd4
+
+org1 org1
+org2 org2
+mavaff mavaff
+gigd gigd
+GRAZJ GRAZJ
+
+$playeralias player	male *land land
+$random land { land1 land2 land3 land4 land5 }
+land1	JUMPOFF
+land2	JUMPOFF2
+land3	JUMPOFF2
+
+$random barbone/Sight { hai1 hai2 hai3 hai4 hai5 hai6 hai7 hai8 hai9 hai10 hai11 hai12 }
+hai1 hai1
+hai2 hai2
+hai3 hai3
+hai4 hai4
+hai5 hai5
+hai6 hai6
+hai7 hai7
+hai8 hai8
+hai9 hai9
+
+/////////////////////////////////////////////////////// BARBONI
+
+$random barbone/Sight { hai1 hai2 hai3 hai4 hai5 hai6 hai7 hai8 hai9 hai10 hai11 hai12 }
+hai1 hai1
+hai2 hai2
+hai3 hai3
+hai4 hai4
+hai5 hai5
+hai6 hai6
+hai7 hai7
+hai8 hai8
+hai9 hai9
+hai10 hai10
+hai11 hai11
+hai12 hai12
+$random barbone/active { spi1 spi2 spi3 spi4 spi5 spi6 spi7 spi8 spi9 spi10 spi11 }
+spi1 spi1
+spi2 spi2
+spi3 spi3
+spi4 spi4
+spi5 spi5
+spi6 spi6
+spi7 spi7
+spi8 spi8
+spi9 spi9
+spi10 spi10
+spi11 spi11
+$random barbone/pain { barb1 barb2 barb3 barb4 barb5 }
+barb1 barb1
+barb2 barb2
+barb3 barb3
+barb4 barb4
+barb5 barb5
+$random barbone/death { muor1 muor2 muor3 spi6 }
+muor1 muor1
+muor2 muor2
+muor3 muor3
+
+//////////////////////////////////// absea
+
+$random absea/see { absee1 absee2 absee3 absee4 absee5 absee6 absee7  }
+absee1 absee1
+absee2 absee2
+absee3 absee3
+absee4 absee4
+absee5 absee5
+absee6 absee6
+absee7 absee7
+
+$random absea/idle { absidle1 absidle2 absidle3 absidle4 absidle5 absidle6 }
+absidle1 absidle1
+absidle2 absidle2
+absidle3 absidle3
+absidle4 absidle4
+absidle5 absidle5
+absidle6 absidle6
+
+$random absea/attack { absatk1 absatk2 absatk3 absatk4 absatk5 absatk6 absatk7 absatk8 absatk9  }
+absatk1 absatk1
+absatk2 absatk2
+absatk3 absatk3
+absatk4 absatk4
+absatk5 absatk5
+absatk6 absatk6
+absatk7 absatk7
+absatk8 absatk8
+absatk9 absatk9
+
+$random absea/death { absdth1 absdth2 absdth3 absdth4 absdth5 absdth6 }
+absdth1 absdth1
+absdth2 absdth2
+absdth3 absdth3
+absdth4 absdth4
+absdth5 absdth5
+absdth6 absdth6
+
+$random absea { absee1 absee2 absee3 absee4 absee5 absee6 absee7 absidle1 absidle2 absidle3 absidle4 absidle5 absidle6 absatk1 absatk2 absatk3 absatk4 absatk5 absatk6 absatk7 absatk8 absatk9 absdth1 absdth2 absdth3 absdth4 absdth5 absdth6 }
+
+$rolloff absea/death 1000 2000
+$volume absea/death 2
+$rolloff absea/attack 1000 2000
+$volume absea/attack 2
+$rolloff absea/idle 1000 2000
+$volume absea/idle 2
+$rolloff absea/see 1000 2000
+$volume absea/see 2
+$rolloff absea 1000 2000
+$volume absea 2
+
+//////////////////////////////////// de sica
+
+$random desica/see { desis1 desis2 desis3 desis4 desis5 desis6 desis7 desis8 }
+desis1 desis1
+desis2 desis2
+desis3 desis3
+desis4 desis4
+desis5 desis5
+desis6 desis6
+desis7 desis7
+desis8 desis8
+
+$random desica/idle { desii1 desii2 desii3 desii4 desii5 desii6 desii7 desii8 desii9 }
+desii1 desii1
+desii2 desii2
+desii3 desii3
+desii4 desii4
+desii5 desii5
+desii6 desii6
+desii7 desii7
+desii8 desii8
+desii9 desii9
+
+desica/attack desiat1
+
+$random desica/death { desid1 desid2 desid3 desid4 }
+desid1 desid1
+desid2 desid2
+desid3 desid3
+desid4 desid4
+
+$random elisw { sswing1 sswing2 sswing3 sswing4 }
+sswing1 sswing1
+sswing2 sswing2
+sswing3 sswing3
+sswing4 sswing4
+
+//////////////////////////////////// ali gay
+
+$random pierre/see { PLASS1 PLASS2 PLASS3 PLASS4 PLASS5 PLASS6 PLASS7 PLASS8 PLASS9 PLASS10 PLASS11 PLASS12 PLASS13 PLASS14 PLASS15 PLASS16 PLASS17 PLASS18 PLASS19 }
+PLASS1 PLASS1
+PLASS2 PLASS2
+PLASS3 PLASS3
+PLASS4 PLASS4
+PLASS5 PLASS5
+PLASS6 PLASS6
+PLASS7 PLASS7
+PLASS8 PLASS8
+PLASS9 PLASS9
+PLASS10 PLASS10
+PLASS11 PLASS11
+PLASS12 PLASS12
+PLASS13 PLASS13
+PLASS14 PLASS14
+PLASS15 PLASS15
+PLASS16 PLASS16
+PLASS17 PLASS17
+PLASS18 PLASS18
+PLASS19 PLASS19
+
+$rolloff pierre/see 600 1000
+
+$random pierre/idle { PLASI1 PLASI2 PLASI3 PLASI4 PLASI5 PLASI6 PLASI7 PLASI8 PLASI9 PLASI10 PLASI11 PLASI12 PLASI13 PLASI14 PLASI15 PLASI16 PLASI17 PLASI18 PLASI19 PLASI20 PLASI21 PLASI22 PLASI23 PLASI24 PLASI25 }
+PLASI1 PLASI1
+PLASI2 PLASI2
+PLASI3 PLASI3
+PLASI4 PLASI4
+PLASI5 PLASI5
+PLASI6 PLASI6
+PLASI7 PLASI7
+PLASI8 PLASI8
+PLASI9 PLASI9
+PLASI10 PLASI10
+PLASI11 PLASI11
+PLASI12 PLASI12
+PLASI13 PLASI13
+PLASI14 PLASI14
+PLASI15 PLASI15
+PLASI16 PLASI16
+PLASI17 PLASI17
+PLASI18 PLASI18
+PLASI19 PLASI19
+PLASI20 PLASI20
+PLASI21 PLASI21
+PLASI22 PLASI22
+PLASI23 PLASI23
+PLASI24 PLASI24
+PLASI25 PLASI25
+
+$rolloff pierre/idle 600 1000
+
+$random pierre/death { PLASD1 PLASD2 PLASD3 PLASD4 PLASD5 PLASD6 PLASD7 PLASD8 PLASD9 PLASD10 }
+PLASD1 PLASD1
+PLASD2 PLASD2
+PLASD3 PLASD3
+PLASD4 PLASD4
+PLASD5 PLASD5
+PLASD6 PLASD6
+PLASD7 PLASD7
+PLASD8 PLASD8
+PLASD9 PLASD9
+PLASD10 PLASD10
+
+$random pierre/attack { PLASAT1 PLASAT2 PLASAT3 PLASAT4 PLASAT5 }
+PLASAT1 PLASAT1
+PLASAT2 PLASAT2
+PLASAT3 PLASAT3
+PLASAT4 PLASAT4
+PLASAT5 PLASAT5
+
+$random pierre/pain { PLASP1 PLASP2 PLASP3 PLASP4 PLASP5 PLASP6 }
+PLASP1 PLASP1
+PLASP2 PLASP2
+PLASP3 PLASP3
+PLASP4 PLASP4
+PLASP5 PLASP5
+PLASP6 PLASP6
+
+//////////////////////////////////// madonna ape
+
+$random vannam/attack { MDAATK1 MDAATK2 }
+MDAATK1 MDAATK1
+MDAATK2 MDAATK2
+
+$random vannam/see { MDASEE1 MDASEE2 }
+MDASEE1 MDASEE1
+MDASEE2 MDASEE2
+
+mdaidl1 mdaidl1
+
+
+
+////////////////////////////////////////// TRICERATOPA 2
+
+$random TRICE2/see { TRI2S1 TRI2A1 TRI2P1 TRIA2 TRID1  }
+TRI2S1 TRI2S1
+TRI2A1 TRI2A1
+TRI2P1 TRI2P1
+
+///////////////////////////////////////// TRICE METAL
+
+weapons/diasht dsdiasht
+weapons/firex3 dsfirex3
+
+TRICESTOMP	DSREXST1
+$rolloff TRICESTOMP 1000 2000
+$volume TRICESTOMP 2
+
+$random TRICEM/attack { TRIMx1 TRIMx1 TRIMx3 TRIMx4 TREXA  }
+TRIMx1 TRIMx1
+TRIMx2 TRIMx2
+TRIMx3 TRIMx3
+TRIMx4 TRIMx4
+
+$random TRICEM/idle { TRIMI1 TRIMI1 TRIMI3 TRIMI4 TRIMI5 TRIMI6 TRIMI7 TRIMI8 TRIMI9 TRIMI10 TRIMI11 TRIMI12 TRIMI13 TRIMI14 TRIMI15 TRIMI16 TRIMI17  }
+TRIMI1 TRIMI1
+TRIMI2 TRIMI2
+TRIMI3 TRIMI3
+TRIMI4 TRIMI4
+TRIMI5 TRIMI5
+TRIMI6 TRIMI6
+TRIMI7 TRIMI7
+TRIMI8 TRIMI8
+TRIMI9 TRIMI9
+TRIMI10 TRIMI10
+TRIMI11 TRIMI11
+TRIMI12 TRIMI12
+TRIMI13 TRIMI13
+TRIMI14 TRIMI14
+TRIMI15 TRIMI15
+TRIMI16 TRIMI16
+TRIMI17 TRIMI17
+
+$rolloff TRICEM/idle 1000 2000
+$volume TRICEM/idle 2
+
+///////////////////////////////////// TUROK RAPTOR
+
+$random TRAPTOR/see { VELOCS1 VELOCS2 VELOCS3 VELOCS4 VELOCS5 VELOCS6  }
+VELOCS1 VELOCS1
+VELOCS2 VELOCS2
+VELOCS3 VELOCS3
+VELOCS4 VELOCS4
+VELOCS5 VELOCS5
+VELOCS6 VELOCS6
+
+$random TRAPTOR/idle { veloci1 veloci2 veloci3 veloci4 veloci5 veloci6 veloci7 }
+veloci1 veloci1
+veloci2 veloci2
+veloci3 veloci3
+veloci4 veloci4
+veloci5 veloci5
+veloci6 veloci6
+veloci7 veloci7
+
+$random TRAPTOR/attack { veloca1 veloca2 veloca3 veloca4 veloca5 veloca6 veloca7 veloca8  }
+veloca1 veloca1
+veloca2 veloca2
+veloca3 veloca3
+veloca4 veloca4
+veloca5 veloca5
+veloca6 veloca6
+veloca7 veloca7
+veloca8 veloca8
+
+$random TRAPTOR/death { velocd1 velocd2 velocd3 velocd4 velocd5 velocd6  }
+velocd1 velocd1
+velocd2 velocd2
+velocd3 velocd3
+velocd4 velocd4
+velocd5 velocd5
+velocd6 velocd6
+
+$random TRAPTOR/pain { velocp1 velocp2  }
+velocp1 velocp1
+velocp2 velocp2
+
+
+
+
+///////////////////////////////////// TRICERATOPA1
+
+$random TRICE1/attack { trica1 trica2 ibex/sound }
+trica1 trica1
+trica2 trica2
+
+$rolloff TRICE1/attack 1000 2000
+$volume TRICE1/attack 0.7
+
+$random TRICE1/death { tricd1 tricd2 tricd3  }
+tricd1 tricd1
+tricd2 tricd2
+tricd3 tricd3
+
+$rolloff TRICE1/death 1000 2000
+
+$random TRICE1/idle { trici1 trici2 }
+trici1 trici1
+trici2 trici2
+
+//$rolloff TRICE1/idle 1000 2000
+
+$random trice1/pain { tricp1 tricd1 }
+tricp1 tricp1
+
+//$rolloff TRICE1/pain 1000 2000
+
+$random TRICE1/see { trics1 trics2 trics3  }
+trics1 trics1
+trics2 trics2
+trics3 trics3
+
+//$rolloff TRICE1/see 1000 2000
+
+// TIZIANO FERRO
+
+$random tiziano { tizi1 tiz2 tiz3 tiz4 tiz5 tiz6 tiz7 tiz8 tiz9 tiz10 }
+tizi1 tizi1
+tiz2 tiz2
+tiz3 tiz3
+tiz4 tiz4
+tiz5 tiz5
+tiz6 tiz6
+tiz7 tiz7
+tiz8 tiz8
+tiz9 tiz9
+tiz10 tiz10
+
+tiziano/pain tizp
+
+// FAGIANO
+
+$random fagiano/sight	{ qua crooh }
+qua qua
+crooh crooh
+
+
+/////// FRATE NEW
+
+prete4/sight madonna
+madonna madonna
+
+prete4/attack toh
+toh toh
+
+prete4/eh ehhh
+
+$random prete4/active { satana diavoli frocio2 }
+satana satana
+diavoli diavoli
+frocio2 frocio2
+
+mitraf mitraf
+$rolloff mitraf 1600 3700
+
+/// MONTAGNA
+
+$random montagna/see { mlgsee1 mlgsee2 mlgsee3 }
+mlgsee1 mlgsee1
+mlgsee2 mlgsee2
+mlgsee3 mlgsee3
+
+$random montagna/pain { mlgpai1 mlgpai2  }
+mlgpai1 mlgpai1
+mlgpai2 mlgpai2
+
+$random montagna/idle { mlgidl1 mlgidl2  }
+mlgidl1 mlgidl1
+mlgidl2 mlgidl2
+
+$random montagna { mlgsee1 mlgsee2 mlgsee3 mlgidl1 mlgidl2 mlgpai1 }
+
+$random fagiano/sight	{ qua crooh }
+qua qua
+crooh crooh
+fagiano/pain cruei
+fagiano/death uuuh
+
+//// HELLAS
+
+$random hellas/see { nzsee1 nzsee2 nzsee3 }
+nzsee1 nzsee1
+nzsee2 nzsee2
+nzsee3 nzsee3
+
+$rolloff hellas/see 1600 3700
+$volume hellas/see 1.5
+
+$random hellas/idle { nzidl1 nzidl2 nzidl3 nzsee3 }
+nzidl1 nzidl1
+nzidl2 nzidl2
+nzidl3 nzidl3
+
+$rolloff hellas/idle 1600 3700
+$volume hellas/idle 1.5
+
+SALAME SALAME
+$rolloff SALAME 1600 3700
+$volume SALAME 1.5
+
+/////////// ZYLOCHIUS
+
+zstep zstep
+
+$random win/error { winp1 winp2 winp4 winp5 winp6 winp7 winp8 winp9 winp10 winp11 winp12 winp13 winp14 winp15 winp16 winp17 }
+winp1 winp1
+winp2 winp2
+winp4 winp4
+winp5 winp5
+winp6 winp6
+winp7 winp7
+winp8 winp8
+winp9 winp9
+winp10 winp10
+winp11 winp11
+winp12 winp12
+winp13 winp13
+winp14 winp14
+winp15 winp15
+winp16 winp16
+winp17 winp17
+WINP18 WINP18
+WINP19 WINP19
+WINP20 WINP20
+WINP21 WINP21
+WINP22 WINP22
+WINP23 WINP23
+
+$random zyl/attack { zylatk2 zylatk3 zylatk4 }
+zylatk2 zylatk2
+zylatk3 zylatk3
+zylatk4 zylatk4
+
+zyldth1 zyldth1
+zyldth2 zyldht2
+
+zylaser1 zylaser1
+zylsee1 zylsee1
+
+$random zyl/chat { zylsee2 zylsee3 zylsee4 zyidle1 zyidle2 zyidle3 zyidle4 }
+zylsee2 zylsee2
+zylsee3 zylsee3
+zylsee4 zylsee4
+zyidle1 zyidle1
+zyidle2 zyidle2
+zyidle3 zyidle3
+zyidle4 zyidle4 
+
+
+/////////////////// SCRAPPY VENETO
+
+$random scrappy/attack { scrva1 scrva2 scrva3 scrva4 scrva5 scrva6 scrva7 scrva8 scrva9  }
+scrva1 scrva1
+scrva2 scrva2
+scrva3 scrva3
+scrva4 scrva4
+scrva5 scrva5
+scrva6 scrva6
+scrva7 scrva7
+scrva8 scrva8
+scrva9 scrva9
+
+$random scrappy/idle { scrvi1 scrvi2 scrvi3 scrvi4 scrvi5 scrvi6 scrvi7 scrvi8 scrvi9 scrvi10 scrvi11 scrvi12 scrvi13 scrvi14 scrvi15 scrvi16 scrvi17 scrvi18 scrvi19 scrvi20 scrvi21 scrvi22 scrvi23 }
+scrvi1 scrvi1
+scrvi2 scrvi2
+scrvi3 scrvi3
+scrvi4 scrvi4
+scrvi5 scrvi5
+scrvi6 scrvi6
+scrvi7 scrvi7
+scrvi8 scrvi8
+scrvi9 scrvi9
+scrvi10 scrvi10
+scrvi11 scrvi12
+scrvi11 scrvi13
+scrvi11 scrvi14
+scrvi11 scrvi15
+scrvi11 scrvi16
+scrvi11 scrvi17
+scrvi11 scrvi18
+scrvi11 scrvi19
+scrvi20 scrvi20
+scrvi21 scrvi21
+scrvi22 scrvi22
+scrvi23 scrvi23
+
+$random scrappy/see { scrvs1 scrvs2 scrvs3 scrvs4 scrvs5 scrvs6 scrvs7 scrvs8 scrvs9 scrvs10 scrvs11 scrvs12 scrvs13 scrvs14 scrvs15 scrvs16 scrvs17 scrvs18 }
+scrvs1 scrvs1
+scrvs2 scrvs2
+scrvs3 scrvs3
+scrvs4 scrvs4
+scrvs5 scrvs5
+scrvs6 scrvs6
+scrvs7 scrvs7
+scrvs8 scrvs8
+scrvs9 scrvs9
+scrvs10 scrvs10
+scrvs11 scrvs11
+scrvs12 scrvs12
+scrvs13 scrvs13
+scrvs14 scrvs14
+scrvs15 scrvs15
+scrvs16 scrvs16
+scrvs17 scrvs17
+scrvs18 scrvs18
+
+
+
+
+
+
+
+/////////////////// VECCHIO CHAD
+
+$random vecchio/chad { chad1 chad2 chad3 chad4 }
+chad1 chad1
+chad2 chad2
+chad3 chad3
+chad4 chad4
+
+$random vecchio/basto { basto1 basto2 basto3 basto4 basto5 basto6 basto7 }
+basto1 basto1
+basto2 basto2
+basto3 basto3
+basto4 basto4
+basto5 basto5
+basto6 basto6
+basto7 basto7
+
+
+
+/////////////////// CARDINALE
+
+$RANDOM cardi/attack { crdatk1 crdatk2 }
+crdatk1 crdatk1
+crdatk2 crdatk2
+
+$RANDOM cardi/idle { crdidle1 crdidle2 crdidle3 crdidle4 crdidle5 SOFROCIO }
+crdidle1 crdidle1
+crdidle2 crdidle2
+crdidle3 crdidle3
+crdidle4 crdidle4
+crdidle5 crdidle5
+
+$RANDOM cardi/pain { crdpain1 crdpain2 crdpain3 }
+crdpain1 crdpain1
+crdpain2 crdpain2
+crdpain3 crdpain3
+
+$RANDOM cardi/see { crdsee1 crdsee2 crdsee3 crdsee4 crdsee5 SOFROCIO }
+crdsee1 crdsee1
+crdsee2 crdsee2
+crdsee3 crdsee3
+crdsee4 crdsee4
+crdsee5 crdsee5
+
+$RANDOM cardi/death { crdth1 crdth2 SOFROCIO }
+crdth1 crdth1
+crdth2 crdth2
+
+$RANDOM FRCNE { FRCNE1 FRCNE2 FRCNE3 }
+FRCNE1 FRCNE1
+FRCNE2 FRCNE2
+FRCNE3 FRCNE3
+
+SOFROCIO SOFROCIO
+
+/////////////////// FERGUS
+
+$RANDOM fpain/death { ferpd1 ferpd2 ferpd3 ferpd4 ferpd5 ferpd6 ferpd7 ferpd8  }
+ferpd1 ferpd1
+ferpd2 ferpd2
+ferpd3 ferpd3
+ferpd4 ferpd4
+ferpd5 ferpd5
+ferpd6 ferpd6
+ferpd7 ferpd7
+ferpd8 ferpd8
+
+$RANDOM fscare { fersp1 fersp2 fersp3 fersp4 fersp5 }
+fersp1 fersp1
+fersp2 fersp2
+fersp3 fersp3
+fersp4 fersp4
+fersp5 fersp5
+
+$RANDOM fersidle { fersi1 fersi2 fersi3 fersi4 fersi5 fersi6 fersi7 fersi8 fersi9 fersi10 fersi11 fersi12 fersi13 fersi14 fersi15 fersi16 fersi17 fersi18 fersi19 fersi20 fersi21 fersi22 fersi23 fersi24 fersi25 fersi26 }
+fersi1 fersi1
+fersi2 fersi2
+fersi3 fersi3
+fersi4 fersi4
+fersi5 fersi5
+fersi6 fersi6
+fersi7 fersi7
+fersi8 fersi8
+fersi9 fersi9
+fersi10 fersi10
+fersi11 fersi11
+fersi12 fersi12
+fersi13 fersi13
+fersi14 fersi14
+fersi15 fersi15
+fersi16 fersi16
+fersi17 fersi17
+fersi18 fersi18
+fersi19 fersi19
+fersi20 fersi20
+fersi21 fersi21
+fersi22 fersi22
+fersi23 fersi23
+fersi24 fersi24
+fersi25 fersi25
+fersi26 fersi26
+
+$RANDOM feru { feru1 feru2 feru3 feru4 feru5 feru6 feru7 }
+feru1 feru1
+feru2 feru2
+feru3 feru3
+feru4 feru4
+feru5 feru5
+feru6 feru6
+feru7 feru7
+
+
+1parte 1parte
+2parte 2parte
+3parte 3parte
+4parte 4parte
+5parte 5parte
+6parte 6parte
+7parte 7parte
+8parte 8parte
+9parte 9parte
+10parte 10parte
+11parte 11parte
+12parte 12parte
+13parte 13parte
+14parte 14parte
+15parte 15parte
+16parte 16parte
+17parte 17parte
+18parte 18parte
+19parte 19parte
+
+caralar caralar
+
+///////////////// GAYPRIDE
+
+/////////////////// chiara drone
+
+$RANDOM fdrone { fdrone1 fdrone2 fdrone3 fdrone4 }
+fdrone1 fdrone1
+fdrone2 fdrone2
+fdrone3 fdrone3
+fdrone4 fdrone4
+
+
+
+vecchio/barbecue vbarb1
+gesu5 gesu5
+
+// RAPTOR
+chicken/pain                    dschkpai
+
+$RANDOM power/zilla { zilla1 zilla2 zilla3 }
+zilla1 zilla1
+zilla2 zilla2
+zilla3 zilla3
+
+   $random rapto { prei zgpain }
+prei prei
+zgpain zgpain
+
+   $random rapto/death { prei zgpain dschkpai }
+dschkpai dschkpai
+
+
+froci froci
+chiave chiave
+chene chene
+
+   $random LORE { LORE2 LORE5 }
+LORE1 LORE1
+LORE2 LORE2
+LORE3 LORE3
+LORE4 LORE4 
+LORE5 LORE5
+
+// UOVO
+ $random CAZZETTO { snd1360 snd1361 snd1362 snd1363 }
+snd1360 snd1360
+snd1361 snd1361
+snd1362 snd1362
+snd1363 snd1363
+
+/////////// DRONI
+
+$random ufo/sight { ufosit mosta sgana ufo3 }
+ufosit ufosit
+mosta mosta
+sgana sgana
+ufo3 ufo3
+
+$random ufooo { ufosit ufo3 }
+
+$random ufo/pain { ufopain ufo3 }
+ufopain ufopain
+
+$random ufo/attack { mosta sgana }
+
+////////////////////////////////////////////
+
+ DSCYBSIT DSCYBSIT
+ DSCYBDTH DSCYBDTH
+ 
+ tatiana/barza1 tatbr1
+  tatiana/barza2 tatbr2
+
+	tatiana/ride1 tatr1
+	tatiana/ride2 tatr2
+
+   $rolloff tatiana/barza1 2000 4700
+$volume tatiana/barza1  2
+
+   $rolloff tatiana/barza2 2000 4700
+$volume tatiana/barza2  2
+
+   $rolloff tatiana/ride1 2000 4700
+$volume tatiana/ride1  2
+
+   $rolloff tatiana/ride2 2000 4700
+$volume tatiana/ride2  2
+
+ 
+tatiana tati1
+ 
+   $random WHOLET { whole1 whole2 }
+whole1 whole1
+whole2 whole2
+
+$rolloff WHOLET 2000 4700
+$volume WHOLET 2
+
+
+
+/////////////// GESU CYCLETTE
+
+  $random gesucycl/attack { gcyat1 gcyat2  }
+gcyat1 gcyat1
+gcyat2 gcyat2
+
+  $random gesucycl/see { gcycse1 gcycse2 gcycse3  }
+gcycse1 gcycse1
+gcycse2 gcycse2
+gcycse3 gcycse3
+
+   $random gesucycl/death { gcydea1 ggcydea2 }
+gcydea1 gcydea1
+gcydea2 gcydea2
+
+gcyidl gcyidl
+ 
+ 
+  $random tom/attack { tomkatk1 tomkatk2 tomkatk3 tomkatk4 tomkatk5 tomkatk6 }
+tomkatk1 tomkatk1
+tomkatk2 tomkatk2 
+tomkatk3 tomkatk3
+tomkatk4 tomkatk4
+tomkatk5 tomkatk5
+tomkatk6 tomkatk6
+
+  $random tom/death { tomkdth1 tomkdth2 tomkdth3 tomkdth4 tomkdth5 tomkp1 tomkp2 tomkp3 tomkp4 tomkp5 }
+tomkdth1 tomkdth1
+tomkdth2 tomkdth2 
+tomkdth3 tomkdth3
+tomkdth4 tomkdth4
+tomkdth5 tomkdth5
+tomkp1 tomkp1
+tomkp2 tomkp2
+tomkp3 tomkp3
+tomkp4 tomkp4
+tomkp5 tomkp5
+
+$random tom/cruise { tomkidl1 tomkidl2 tomkidl3 tomkidl4 tomkidl5 toms1 toms2 toms3 toms4 toms5 }
+ tomkidl1 tomkidl1
+ tomkidl2 tomkidl2
+ tomkidl3 tomkidl3
+ tomkidl4 tomkidl4
+ tomkidl5 tomkidl5
+ toms1 toms1
+ toms2 toms2
+ toms3 toms3
+ toms4 toms4
+ toms5 toms5
+ 
+ 
+ 
+ $random canep { canep1 canep2 canep3 }
+canep1 canep1
+canep2 canep2 
+canep3 canep3
+
+$random vaacuc { cuccia1 cuccia2 }
+cuccia1 cuccia1
+cuccia2 cuccia2
+
+tanka3 tanka3
+
+chiappaf chiappaf
+
+$random elvis/idle { scappi sorba fav las amo om1 om2 chcaz prob moete armasto belculo DSDNWSIT scopat }
+scappi scappi
+sorba sorba
+fav fav
+las las
+amo amo
+om1 om1
+om2 om2
+chcaz chcaz
+prob prob
+moete moete
+armasto armasto
+
+$random elvis/sight { DSDNWSIT scopat belculo }
+DSDNWSIT DSDNWSIT
+scopat scopat
+belculo belculo
+
+$random elvis/pain { DSDNWPAI el1 el2 }
+DSDNWPAI DSDNWPAI
+el1 el1
+el2 el2
+
+$random elvis/death { DSDNWDTH fer }
+DSDNWDTH DSDNWDTH
+fer fer
+
+chiappaf chiappaf
+
+$random elvis/scare { chcaz vig1 vig2 vig3 maia fer }
+vig1 vig1
+vig2 vig2
+vig3 vig3
+maia maia
+
+$random noalpi { noalp1 noalp2 }
+noalp1 noalp1
+noalp2 noalp2
+
+$random lilangel/attack	{ bella ye estate estate2 yaye yeye yeah1 yeah2 yeah3 }
+
+$random lilangel	{ bella ye estate sexy gire stelle mode estate2 qualcuno }
+bella bella
+ye ye
+estate estate
+estate2 estate2
+qualcuno qualcuno
+sexy sexy
+gire gire
+stelle stelle
+
+$random lilangel/pain { yaye yeye }
+yaye yaye
+yeye yeye
+
+$random lilangel/death{ yeah1 yeah2 yeah3 }
+yeah1 yeah1
+yeah2 yeah2
+yeah3 yeah3
+
+$random arcaccio { ppiov1 ppiov2 ppiov3 ppiov4 mtaun02  }
+ppiov1 ppiov1
+ppiov2 ppiov2
+ppiov3 ppiov3
+ppiov4 ppiov4
+mtaun02 mtaun02
+
+$random arcaccio2 { ppiov1 ppiov2 ppiov3 ppiov4 mtaun02 mtaun04 mtaun05 mtaun06 }
+mtaun04 mtaun04
+mtaun05 mtaun05
+mtaun06 mtaun06
+
+$random alienm { alcoop1 alcoop2 alcoop3 alcoop4 alcoop5 alcoop6 alcoop7 alcoop8 alcoop9 alcoo10 }
+alcoop1 alcoop1
+alcoop2 alcoop2
+alcoop3 alcoop3
+alcoop4 alcoop4
+alcoop5 alcoop5
+alcoop6 alcoop6
+alcoop7 alcoop7
+alcoop8 alcoop8
+alcoop9 alcoop9
+alcoo10 alcoo10
+
+$random docheni { doch1 doch2 doch3 doch4 doch5 doch6 doch7 doch8 }
+doch1 doch1
+doch2 doch2
+doch3 doch3
+doch4 doch4
+doch5 doch5
+doch6 doch6
+doch7 doch7
+doch8 doch8
+
+$random bacio { kiss1 kiss2 }
+kiss1 kiss1
+kiss2 kiss2
+
+$random autotr { autotr1 autotr2 autotr3 autotr4 autotr5 }
+autotr1 autotr1
+autotr2 autotr2
+autotr3 autotr3
+autotr4 autotr4
+autotr5 autotr5
+
+$random mark/sight { mamma1 mamma2 dsacosit ciao }
+dsacosit dsacosit
+mamma1 mamma1
+mamma2 mamma2
+ciao ciao
+
+$random mark/idle { song1 song2 bambini }
+song1 song1
+song2 song2
+bambini bambini
+
+mark/pain bene
+
+mark/death ciao
+
+noiv noiv
+
+$random prete/fire { gesu1 gesu2 gesu3 }
+gesu1 gesu1
+gesu2 gesu2
+gesu3 gesu3
+
+
+
+
+$random mommi/see { c2gsee1 c2gsee2 c2gsee3 c2gsee4 c2gsee5 c2gsee6 }
+c2gsee1 c2gsee1
+c2gsee2 c2gsee2
+c2gsee3 c2gsee3
+c2gsee4 c2gsee4
+c2gsee5 c2gsee5
+c2gsee6 c2gsee6
+
+$random mommi/idle { c2gidle1 c2gidle2 c2gidle3 c2gidle4 c2gidle5 }
+c2gidle1 c2gidle1
+c2gidle2 c2gidle2
+c2gidle3 c2gidle3
+c2gidle4 c2gidle4
+c2gidle5 c2gidle5
+
+$random mommi/attack { c2gatk1 c2gatk2 c2gatk3 }
+c2gatk1 c2gatk1
+c2gatk2 c2gatk2
+c2gatk3 c2gatk3
+
+mommi/death c2gdth
+
+
+$random tossico/pera { pera1 pera2 pera3 pera4 pera5 pera6 }
+pera1 pera1
+pera2 pera2
+pera3 pera3
+pera4 pera4
+pera5 pera5
+pera6 pera6
+
+$random tossico/see { drsee1 drsee2 drsee3 drsee4 drsee5 drsee6 drsee7 drsee8 drsee9 drsee10 drsee11 drsee12 drsee13 }
+drsee1 drsee1
+drsee2 drsee2
+drsee3 drsee3
+drsee4 drsee4
+drsee5 drsee5
+drsee6 drsee6
+drsee7 drsee7
+drsee8 drsee8
+drsee9 drsee9
+drsee10 drsee10
+drsee11 drsee11
+drsee12 drsee12
+drsee13 drsee13
+
+$random tossico/attack { drat21 drat22 drat23 drat24 drat25 drat26 }
+drat21 drat21
+drat22 drat22
+drat23 drat23
+drat24 drat24
+drat25 drat25
+drat26 drat26
+
+drpai1 drpai1
+
+$random tossico/droga { drg1 drg2 drg3 drg4 }
+drg1 drg1
+drg2 drg2
+drg3 drg3
+drg4 drg4
+
+
+
+$random vecchio/barbecue2 { vbarb2 vbarb3 vbarb4 }
+vbarb2 vbarb2
+vbarb3 vbarb3
+vbarb4 vbarb4
+
+$Random stampelle/idle { argite arnite }
+argite argite
+arnite arnite
+natale2 natale2
+arnite arnite
+natale2/sight  piacere
+natale2/death  nataled
+natale2/pain   sie
+natale2/attack argite
+
+galina galina
+
+$random dgreggio/attack { dgatk1 dgatk2 dgatk3 dgatk4 dgatk5 dgatk6 dgatk7 dgatk8 dgatk9 dgatk10 }
+dgatk1 dgatk1
+dgatk2 dgatk2
+dgatk3 dgatk3
+dgatk4 dgatk4
+dgatk5 dgatk5
+dgatk6 dgatk6
+dgatk7 dgatk7
+dgatk8 dgatk8
+dgatk9 dgatk9
+dgatk10 dgat10
+
+$random dgreggio/death { dgdth1 dgdth2 dgdth3 dgdth4 dgdth5 dgdth6 dgdth7 dgdth8 }
+dgdth1 dgdth1
+dgdth2 dgdth2
+dgdth3 dgdth3
+dgdth4 dgdth4
+dgdth5 dgdth5
+dgdth6 dgdth6
+dgdth7 dgdth7
+dgdth8 dgdth8
+
+$random dgreggio/pain { dgpain1 dgpain2 dgpain3 dgpain4 dgpain5 dgpain6 dgpain7 dgpain8 dgpain9 dgpain10 }
+dgpain1 dgpain1
+dgpain2 dgpain2
+dgpain3 dgpain3
+dgpain4 dgpain4
+dgpain5 dgpain5
+dgpain6 dgpain6
+dgpain7 dgpain7
+dgpain8 dgpain8
+dgpain9 dgpain9
+dgpain10 dgpain10
+
+$random dgreggio/see { dgsee1 dgsee2 dgsee3 dgsee4 dgsee5 dgsee6 dgsee7 dgsee8 dgsee9 dgsee10 dgsee11 }
+dgsee1 dgsee1
+dgsee2 dgsee2
+dgsee3 dgsee3
+dgsee4 dgsee4
+dgsee5 dgsee5
+dgsee6 dgsee6
+dgsee7 dgsee7
+dgsee8 dgsee8
+dgsee9 dgsee9
+dgsee10 dgsee10
+dgsee11 dgsee11
+
+$random dgreggio/idle { dgid1 dgid2 dgid3 dgid4 dgid5 dgid6 dgid7 dgid8 dgid9 dgid10 dgid11 }
+dgid1 dgid1
+dgid2 dgid2
+dgid3 dgid3
+dgid4 dgid4
+dgid5 dgid5
+dgid6 dgid6
+dgid7 dgid7
+dgid8 dgid8
+dgid9 dgid9
+dgid10 dgid10
+dgid11 dgid11
+
+
+
+$random angelo/active { angcull angnpu angpur angver }
+angcull angcull
+angnpu angnpu
+angpur angpur
+angver angver
+$random angelo/sight { angnpu angpur anglus angver2 angmore }
+anglus anglus
+angver2 angver2
+angmore angmore
+
+Dog/Sight		DSDOGSEE
+Dog/Active		DSDOGIDL
+Dog/Pain		DSDOGPAN
+Dog/Attack		DSDOGATK
+Dog/Death		DSDOGDIE
+
+$random vasco/sight	{ saqvas vuoid ohyeahs mbene }
+saqvas saqvas
+vuoid vuoid
+ohyeahs ohyeahs
+mbene mbene
+vasco/pain vasco6
+ehv1 ehv1
+ehv2 ehv2
+ehv3 ehv3
+ehv4 ehv4
+ehv5 ehv5
+ehgiav1 ehgiav1
+ehgiav2 ehgiav2
+vasco6 vasco6
+vasco/die saqvas
+$random vasco/idle { ehv1 ehv2 ehv3 ehv4 ehv5 ehgiav1 ehgiav2 vuoid ohyeahs mbene }
+
+$random vasco { ehv1 ehv2 ehv3 ehv4 ehv5 ehgiav1 ehgiav2 vuoid ohyeahs mbene saqvas vasco6 }
+
+$random prete2/death { prdeath1 prdeath2 prdeath3 prdeath5 angesu }
+prdeath1 prdeath1
+prdeath2 prdeath2
+prdeath3 prdeath3
+prdeath5 prdeath5
+angesu angesu
+$random prete2/pain { pain01 pain02 pain03 }
+pain01 pain01
+pain02 pain02
+pain03 pain03
+$random prete2/attack { corpo signore angver angver2 }
+corpo corpo
+signore signore
+
+$random ibex/sound	{ ibex1 ibex2 ibex3 ibex4 ibex5 ibex6 ibex7 ibex8 ibex9 }
+ibex1 ibex1
+ibex2 ibex2
+ibex3 ibex3
+ibex4 ibex4
+ibex5 ibex5
+ibex6 ibex6
+ibex7 ibex7
+ibex8 ibex8
+ibex9 ibex9
+ibex/die ibex10
+
+
+
+
+//////////////// BOMBOCLAT
+
+$random smista/see { bombos1 bombos2 bombos3 bombos4 bombos5 }
+bombos1 bombos1
+bombos2 bombos2
+bombos3 bombos3
+bombos4 bombos4
+bombos5 bombos5
+
+$random smista/die { bomdie1 bomdie2 }
+bomdie1 bomdie1
+bomdie2 bomdie2
+
+$random smista/pain { bompai1 bompai2 }
+bompai1 bompai1
+bompai2 bompai2
+
+$random smista/idle { erbs1 erbs2 erbs3 erbs4 erbs5 bombos3 bombos4 bombos5 }
+erbs1 erbs1
+erbs2 erbs2
+erbs3 erbs3
+erbs4 erbs4
+erbs5 erbs5
+
+$random gmoscamorto { gmo1 gmo2  }
+gmo1 gmo1
+gmo2 gmo2
+
+
+
+
+////////////// APOMANUEL
+
+$random manuel/see { pumsee1 pumsee2 pumsee3 pumsee4 pumsee5 pumsee6 pumsee7 pumsee8 pumsee9 pumsee10 pumsee11 }
+pumsee1 pumsee1
+pumsee2 pumsee2
+pumsee3 pumsee3
+pumsee4 pumsee4
+pumsee5 pumsee5
+pumsee6 pumsee6
+pumsee7 pumsee7
+pumsee8 pumsee8
+pumsee9 pumsee9
+pumsee10 pumsee10
+pumsee11 pumsee11
+
+$random manuel/granata { pumgr1 pumgr2 pumgr3 pumgr4 pumgr5 }
+pumgr1 pumgr1
+pumgr2 pumgr2
+pumgr3 pumgr3
+pumgr4 pumgr4
+pumgr5 pumgr5
+
+$random manuel/attack { pumatk1 pumatk2 pumatk3 pumatk4 pumatk5 pumatk6 pumgr1 pumgr2 }
+pumatk1 pumatk1
+pumatk2 pumatk2
+pumatk3 pumatk3
+pumatk4 pumatk4
+pumatk5 pumatk5
+pumatk6 pumatk6
+pumgr1 pumgr1
+pumgr2 pumgr2
+
+$random manuel/die { pumdie1 pumdie2 pumdie3 pumdie4 }
+pumdie1 pumdie1
+pumdie2 pumdie2
+pumdie3 pumdie3
+pumdie4 pumdie4
+
+$random manuel { pumsee1 pumsee2 pumsee3 pumsee4 pumsee5 pumsee6 pumsee7 pumsee8 pumsee9 pumsee10 pumsee11 pumidle1 pumidle2 pumidle3 pumidle4 }
+pumsee1 pumsee1
+pumsee2 pumsee2
+pumsee3 pumsee3
+pumsee4 pumsee4
+pumsee5 pumsee5
+pumsee6 pumsee6
+pumsee7 pumsee7
+pumsee8 pumsee8
+pumsee9 pumsee9
+pumsee10 pumsee10
+pumsee11 pumsee11
+pumidle1 pumidle1
+pumidle2 pumidle2
+pumidle3 pumidle3
+pumidle4 pumidle4
+
+$random manuel/pain { pumpai1 pumpai2 pumpai3 pumpai4 pumpai5 pumpai6 pumpai7 pumpai8 }
+pumpai1 pumpai1
+pumpai2 pumpai2
+pumpai3 pumpai3
+pumpai4 pumpai4
+pumpai5 pumpai5
+pumpai6 pumpai6
+pumpai7 pumpai7
+pumpai8 pumpai8
+
+
+DSCHING		DSCHING
+
+ceramica ceramica
+
+olle olle
+
+QSGFIRE1 QSGFIRE1
+
+$random sirena { siren1 siren2 }
+siren1 siren1
+siren2 siren2
+
+$rolloff sirena 1600 3700
+//$volume sirena 0.5
+
+$random gucci/sight	{ gusi1 gusi2 gusi3 gusi4 gusi5 gusi6 gusi7 gusi8 gusi9 gusi10 gusi11 }
+gusi1 gusi1
+gusi2 gusi2
+gusi3 gusi3
+gusi4 gusi4
+gusi5 gusi5
+gusi6 gusi6
+gusi7 gusi7
+gusi8 gusi8
+gusi9 gusi9
+gusi10 gusi10
+gusi11 gusi11
+
+gucci/attack2 guatk21
+
+$random gucci/attack	{ guatk1 guatk2 }
+guatk1 guatk1
+guatk2 guatk2
+
+$random gucci/idle	{ guidl1 guidl2 guidl3 guidl4 guidl5 guidl6 guidl7 guidl8 }
+guidl1 guidl1
+guidl2 guidl2
+guidl3 guidl3
+guidl4 guidl4
+guidl5 guidl5
+guidl6 guidl6
+guidl7 guidl7
+guidl8 guidl8
+
+$random gucci/death { gudth1 gudth2 minghie3 }
+gudth1 gudth1
+gudth2 gudth2
+minghie3 minghie3
+
+$random gucci/pain { minghie1 minghie2 }
+minghie1 minghie1
+minghie2 minghie2
+
+$random siringa { siri1 siri2 siri3 siri4 siri5 siri6 siri7 }
+siri1 siri1
+siri2 siri2
+siri3 siri3
+siri4 siri4
+siri5 siri5
+siri6 siri6
+siri7 siri7
+
+$random scora { scora1 scora2 scora3 scora4 }
+scora1 scora1
+scora2 scora2
+scora3 scora3
+scora4 scora4
+
+$random solange	{ solange1 solange2 solange3 solange4 solange5 }
+solange1 solange1
+solange2 solange2
+solange3 solange3
+solange4 solange4
+solange5 solange5
+
+solange/death solange6
+
+$random vecchia2/sight { bonasera giovane chiappo2 }
+bonasera bonasera
+giovane giovane
+chiappo2 chiappo2
+
+$random signora/knife { sigKNIFE coff }
+sigKNIFE sigKNIFE
+coff coff
+
+$random vecchia2/idle { chaditto maccone lmic eheh bulo idle1 idle2 pregiu coff chiappo2 }
+eheh eheh
+maccone maccone
+lmic lmic
+chaditto chaditto
+bulo bulo
+idle1 idle1
+idle2 idle2
+pregiu pregiu
+coff coff
+
+$random vecchia2/pain { coff vpain1 vpain2 vpain3 vpain4 vpain5 vpain6 }
+vpain1 vpain1
+vpain2 vpain2
+vpain3 vpain3
+vpain4 vpain4
+vpain5 vpain5
+vpain6 vpain6
+
+$random vecchia2/scare { amado dosso scare1 scare2 scare3 marito }
+amado amado
+dosso dosso
+scare1 scare1
+scare2 scare2
+scare3 scare3
+marito marito
+
+$random vecchia2/death { amado scare2 vdie1 vdie2 vdie3 }
+vdie1 vdie1
+vdie2 vdie2
+vdie3 vdie3
+
+$random nonna/cazzo { bonasera giovane chiappo2 amado scare2 vdie1 vdie2 vdie3 off vpain1 vpain2 vpain3 vpain4 vpain5 vpain6 amado dosso scare1 scare2 scare3 marito chaditto maccone lmic eheh bulo idle1 idle2 pregiu coff chiappo2  }
+
+$random frego/sight { ciao2 cazzg daje sorba prob }
+ciao2 ciao2
+cazzg cazzg
+daje daje
+sorba sorba
+prob prob
+
+$random macchina/sight { vado porto }
+vado vado
+porto porto
+macchina/pain brum
+$random macchina/idle { vado porto brumbrum }
+brumbrum brumbrum
+Segway/Go vado
+
+$random nfiorucci/sight { nf1 nf2 nf3 nf4 nf5 nf6 nf7 nf8 nfp1 nfp2 nfp3 nfp4 nfp5 nfp6 }
+nf1 nf1
+nf2 nf2
+nf3 nf3
+nf4 nf4
+nf5 nf5
+nf6 nf6
+nf7 nf7
+nf8 nf8
+nfp1 nfp1
+nfp2 nfp2
+nfp3 nfp3
+nfp4 nfp4
+nfp5 nfp5
+nfp6 nfp6
+
+$RANDOM alex/pain { alpai1 alpai2 }
+alpai1 alpai1
+alpai2 alpai2
+$RANDOM alex/idle { alact1 alact2 alact3 alact4 alact5 alact6 }
+alact1 alact1
+alact2 alact2
+alact3 alact3
+alact4 alact4
+alact5 alact5
+alact6 alact6
+$RANDOM alex/sight { alact5 asee1 asee2 asee3 }
+asee1 asee1
+asee2 asee2
+asee3 asee3
+$RANDOM alex/attack { alatk1 alatk2 }
+alatk1 alatk1
+alatk2 alatk2
+alex/death aldth1
+$RANDOM alex/fermo { alact1 alact2 alact3 alact4 alact5 alact6 asee1 asee2 asee3 alatk1 alatk2 }
+
+$random frego/pain { cazzo lassa }
+cazzo cazzo
+lassa lassa
+
+$random frego/idle { anoe avog pipo teldic bicchi ehehm eheh2 mepia scopot }
+anoe anoe
+avog avog
+pipo pipo
+teldic teldic
+bicchi bicchi
+ehehm ehehm
+eheh2 eheh2
+mepia mepia
+scopot scopot
+
+$random frego/death { diocane2 magna2 dajegi }
+diocane2 diocane2
+magna2 magna2
+dajegi dajegi
+
+$random frego/scare { mano bicchi2 stabo }
+mano mano
+bicchi2 bicchi2
+stabo stabo
+
+$random vecchio/canile { vcan1 vcan2 vcan3 vcan4 vcan5 vcan6 vcan7 vcan8 }
+vcan1 vcan1
+vcan2 vcan2
+vcan3 vcan3
+vcan4 vcan4
+vcan5 vcan5
+vcan6 vcan6
+vcan7 vcan7
+vcan8 vcan8
+
+canearmato/walk cingoli
+
+$random picione/attack { pigatk1 pigatk2 pigatk3 pigidl1 pigidl2 pigidl3 pigsee }
+pigatk1 pigatk1
+pigatk2 pigatk2
+pigatk3 pigatk3
+
+$random delfino/attack { pigatk2 pigatk3 }
+pigatk2 pigatk2
+pigatk3 pigatk3
+
+pigsee pigsee
+pigdth pigdth
+pigpa pigpa
+
+$random picione/idle { pigidl1 pigidl2 pigidl3 }
+pigidl1 pigidl1
+pigidl2 pigidl2
+pigidl3 pigidl3
+
+$random vecchio/aids { vaids1 vaids2 vaids3 vaids4 vaids5 vaids6 vaids7 vaids8 vaids9 vaids10 vaids11 vaids12 }
+vaids1 vaids1
+vaids2 vaids2
+vaids3 vaids3
+vaids4 vaids4
+vaids5 vaids5
+vaids6 vaids6
+vaids7 vaids7
+vaids8 vaids8
+vaids9 vaids9
+vaids10 vaids10
+vaids11 vaids11
+vaids12 vaids12
+
+
+
+
+$random vecchio2/aids { vaids1 vaids2 vaids3 vaids4 vaids6 vaids7 vaids8 vaids12 }
+
+$random peppa/sight { peppas1 peppas2 peppas3 peppas4 peppas5 peppas6 peppas7 peppas8 peppas9 peppas10 }
+peppas1 peppas1
+peppas2 peppas2
+peppas3 peppas3
+peppas4 peppas4
+peppas5 peppas5
+peppas6 peppas6
+peppas7 peppas7
+peppas8 peppas8
+peppas9 peppas9
+peppas10 peppas10
+
+$random peppa/die { peppad1 peppad2 peppad3 peppad4 peppad5 peppad6 peppad7 }
+peppad1 peppad1
+peppad2 peppad2
+peppad3 peppad3
+peppad4 peppad4
+peppad5 peppad5
+peppad6 peppad6
+peppad7 peppad7
+
+$random peppa/idle { peppai1 peppai2 peppai3 peppai4 peppai5 peppai6 peppai7 peppai8 }
+peppai1 peppai1
+peppai2 peppai2
+peppai3 peppai3
+peppai4 peppai4
+peppai5 peppai5
+peppai6 peppai6
+peppai7 peppai7
+peppai8 peppai8
+
+$random peppa { peppai1 peppai2 peppai3 peppai4 peppai5 peppai6 peppai7 peppai8 peppas1 peppas2 peppas3 peppas4 peppas5 peppas6 peppas7 peppas8 peppas9 peppas10 }
+
+$random peppa/pain { peppap1 peppap2 peppap3 peppap4 }
+peppap1 peppap1
+peppap2 peppap2
+peppap3 peppap3
+peppap4 peppap4
+
+$random peppa/scare { peppac1 peppac2 peppac3 peppac4 peppac5 peppac6 peppac7 }
+peppac1 peppac1
+peppac2 peppac2
+peppac3 peppac3
+peppac4 peppac4
+peppac5 peppac5
+peppac6 peppac6
+peppac7 peppac7
+
+$random peppa/attack { peppac1 peppac4 peppac6 peppac7 peppad5 peppad7 peppai2 peppai4 peppai7 peppap1 peppap2 peppap3 peppap4 peppas1 peppas10 }
+
+$random SBIRRO/SIGHT { MAMMA MACHE SCIACQ MANI }
+MAMMA MAMMA
+MACHE MACHE
+SCIACQ SCIACQ
+MANI MANI
+$random SBIRRO/ACTIVE { MAMMA SCIACQ VOLAVIA MANI PUZZA SCHIFO FIABI }
+VOLAVIA VOLAVIA
+PUZZA PUZZA
+SCHIFO SCHIFO
+FIABI FIABI
+$random SBIRRO/PAIN { OH1 OH2 OH3 OH4 OH5 }
+OH1 OH1
+OH2 OH2
+OH3 OH3
+OH4 OH4
+OH5 OH5
+$random SBIRRO/DEATH { OH1 OH2 OH3 OH4 OH5 TONTO2 } 
+TONTO2 TONTO2
+$random SBIRRO/ATTACK { OH4 SCHIFO SCIACQ VOLAVIA }
+
+
+$random sergio/gun	{ sgun1 sgun2 }
+sgun1 sgun1
+sgun2 sgun2
+
+$rolloff sergio/gun 1600 3700
+$volume sergio/gun 0.5
+
+AIDS AIDS
+
+$random sbirri/talk	{ sbirri1 sbirri2 sbirri3 sbirri5 sbirri6 sbirri7 sbirri9 sbirri10 }
+sbirri1 sbirri1
+sbirri2 sbirri2
+sbirri3 sbirri3
+sbirri5 sbirri5
+sbirri6 sbirri6
+sbirri7 sbirri7
+sbirri9 sbirri9
+sbirri10 sbirri10
+sbirri11 sbirri11
+
+$rolloff sbirri/talk 800 1850
+
+$Random moira/sight { mrurlo mride }
+mrurlo mrurlo
+mride mride
+
+$Random moira/attack { basta2 mride }
+basta2 basta2
+
+$Random moira/pain { mrpain1 mrpain2 mrpain3 }
+mrpain1 mrpain1
+mrpain2 mrpain2
+mrpain3 mrpain3
+
+$Random moira/death { mrdie1 mrdie2 mrdie3 }
+mrdie1 mrdie1
+mrdie2 mrdie2
+mrdie3 mrdie3
+
+$random moto/fly { moto1 moto2 }
+moto1 moto1
+moto2 moto2
+
+$Random mongolo { tont1 tont2 tont3 }
+tont1 tont1
+tont2 tont2
+tont3 tont3
+$Random mongolo/scare { nom1 nom2 }
+nom1 nom1
+nom2 nom2
+mongolo/death nom3
+
+dipre1 dipre1
+
+$random dipre2 { dipre3 dipre4 }
+dipre3 dipre3
+dipre4 dipre4
+
+$random dipreD { dipre3 dipre4 dipre1 }
+
+/////////// MEDICO
+
+$random medi/death { medeath1 medeath2 medeath3 medeath4 medeath5 }
+medeath1 medeath1
+medeath2 medeath2
+medeath3 medeath3
+medeath4 medeath4
+medeath5 medeath5
+
+$random medi/pain { medp1 medp2 medp3 }
+medp1 medp1
+medp2 medp2
+medp3 medp3
+
+$random medi/idle { medidle1 medidle2 medidle3 }
+medidle1 medidle1
+medidle2 medidle2
+medidle3 medidle3
+
+$random medi/see { medsee1 medsee2 medsee3 medsee4 }
+medsee1 medsee1
+medsee2 medsee2
+medsee3 medsee3
+medsee4 medsee4
+
+zitto zitto
+
+////// DR SABA
+
+$random drsaba/attack { dratk1 dratk2 dratk13 }
+dratk1 dratk1
+dratk2 dratk2
+dratk3 dratk3
+
+$random drsaba/death { drsdth1 drsdth2 }
+drsdth1 drsdth1
+drsdth2 drsdth2
+
+$random drsaba/idle { drsi1 drsi2 drsi3 drsi4 drsi5 drsi6 drsi7 drsi8 drsi9 }
+drsi1 drsi1
+drsi2 drsi2
+drsi3 drsi3
+drsi4 drsi4
+drsi5 drsi5
+drsi6 drsi6
+drsi7 drsi7
+drsi8 drsi8
+drsi9 drsi9
+
+$random drsaba/pain { drsp1 drsp2 }
+drsp1 drsp1
+drsp2 drsp2
+
+$random drsaba/see { dsabas1 dsabas2 dsabas3 dsabas4 dsabas5 dsabas9 dsabas10 dsabas11 dsabas12 dsabas13 }
+dsabas1 dsabas1
+dsabas2 dsabas2
+dsabas3 dsabas3
+dsabas4 dsabas4
+dsabas5 dsabas5
+dsabas8 dsabas9
+dsabas10 dsabas10
+dsabas11 dsabas11
+dsabas12 dsabas12
+dsabas13 dsabas13
+
+
+/////// PRETE FROCIO
+
+$random shovel/impact {shovel/impact1 shovel/impact2}
+shovel/impact1          dsshvi1
+shovel/impact2          dsshvi2
+
+shovel/wall          dsshvi3
+
+$random shovel/miss {shovel/miss1 shovel/miss2 shovel/miss3}
+shovel/miss1            dsshvw1
+shovel/miss2            dsshvw2
+shovel/miss3            dsshvw3
+
+$random flesh/step		{ fhstep1  fhstep2 fhstep3 fhstep4 }
+fhstep1		flesh1
+fhstep2		flesh2
+fhstep3		flesh3
+fhstep4		flesh4
+$volume flesh/step 0.7
+$limit flesh/step 12 256
+
+$random PIEDI	{ piedi1 piedi2 piedi3 piedi4 piedi5 piedi6 piedi7 piedi8 }
+piedi1 piedi1
+piedi2 piedi2
+piedi3 piedi3
+piedi4 piedi4
+piedi5 piedi5
+piedi6 piedi6
+piedi7 piedi7
+piedi8 piedi8
+
+$random PASSIPIEDI { piedi1 piedi2 piedi3 piedi4 piedi5 piedi6 piedi7 piedi8 fhstep1 fhstep2 fhstep3 fhstep4  }
+
+$random pfrocio/pain { gfpain1 gfpain2 gfpain3 }
+gfpain1 gfpain1
+gfpain2 gfpain2
+gfpain3 gfpain3
+
+$random pfrocio/attack { gfatk1 gfatk2 gfatk3 gfatk4 gfatk5 }
+gfatk1 gfatk1
+gfatk2 gfatk2
+gfatk3 gfatk3
+gfatk4 gfatk4
+gfatk5 gfatk5
+
+$random pfrocio2/death { gfdth1 gfdth2 gfdth3 gfdth4 gfdth5 gfdth6 gfdth7 gfdth8 gfdth9 gfdth10 gfdth11 }
+gfdth1 gfdth1
+gfdth2 gfdth2
+gfdth3 gfdth3
+gfdth4 gfdth4
+gfdth5 gfdth5
+gfdth6 gfdth6
+gfdth7 gfdth7
+gfdth8 gfdth8
+gfdth9 gfdth9
+gfdth10 gfdth10
+gfdth11 gfdth11
+
+$random pfrocio/idle { gfi1 gfi2 gfi3 gfi4 gfi5 gfi6 gfi7 gfi8 gfi9 gfi10 gfi11 gfi12 gfi13 gfi14  }
+gfi1 gfi1
+gfi2 gfi2
+gfi3 gfi3
+gfi4 gfi4
+gfi5 gfi5
+gfi6 gfi6
+gfi7 gfi7
+gfi8 gfi8
+gfi9 gfi9
+gfi10 gfi10
+gfi11 gfi11
+gfi12 gfi12
+gfi13 gfi13
+gfi14 gfi14
+
+$random pfrocio/see { gfsee1 gfsee2 gfsee3 gfsee4 gfsee5 gfsee6 gfsee7 gfsee8 gfsee9 gfsee10 gfsee11 gfsee12  }
+gfsee1 gfsee1
+gfsee2 gfsee2
+gfsee3 gfsee3
+gfsee4 gfsee4
+gfsee5 gfsee5
+gfsee6 gfsee6
+gfsee7 gfsee7
+gfsee8 gfsee8
+gfsee9 gfsee9
+gfsee10 gfsee10
+gfsee11 gfsee11
+gfsee12 gfsee12
+ 
+
+
+$random pfrocio/death{mard3 marp3 marp4}
+mard3 mard3
+
+
+/////////// ROBOJESUS
+
+$random roboj/step { robost1 robost2 robost3 bast1 bast2 bast3 bast4 bast5 zyl1 ztep }
+robost1 robost1
+robost2 robost2
+robost3 robost3
+zyl1 zyl1
+bast1		barstep1
+bast2		barstep2
+bast3		barstep3
+bast4		barstep4
+bast5		barstep5
+$volume baron/step 0.65
+$limit baron/step 12 256
+
+gesus gesus
+gesud gesud
+
+pap1 pap1
+
+CYBRLZR CYBRLZR
+$rolloff CYBRLZR 1500 2500
+
+weapons/StachanovFire		STCHFIRE
+$rolloff weapons/StachanovFire 300 2000
+
+Weapons/StachanovFly		STCHFLY
+
+$random belphegor/missile { BELMSL1 BELMSL2 }
+BELMSL1 BELMSL1
+BELMSL2 BELMSL2
+$rolloff belphegor/missile 1300 1800
+
+$random supergesu { ges1 ges2 ges3 ges4 ges5 }
+ges1 ges1
+ges2 ges2
+ges3 ges3
+ges4 ges4
+ges5 ges5
+
+$random franca/idle {frn1 frn2 frn3 frn4 frn5 frn6 frn7 frn8 frn9 frn10 frn11 frn12 frn13 frn14 frn15 frn16 frn17}
+frn1 frn1
+frn2 frn2
+frn3 frn3
+frn4 frn4
+frn5 frn5
+frn6 frn6
+frn7 frn7
+frn8 frn8
+frn9 frn9
+frn10 frn10
+frn11 frn11
+frn12 frn12
+frn13 frn13
+frn14 frn14
+frn15 frn15
+frn16 frn16
+frn17 frn17
+
+$random franca/pain {frnp1 frnp2}
+frnp1 frnp1
+frnp2 frnp2
+
+$random franca/death {frnd1 frnd2 frnd3}
+frnd1 frnd1
+frnd2 frnd2
+frnd3 frnd3
+
+$random franca/fuga {frnf1 frnf2 frnf3 frnf4 frnf5}
+frnf1 frnf1
+frnf2 frnf2
+frnf3 frnf3
+frnf4 frnf4
+frnf5 frnf5
+
+$random franca/attack {frnp1 frnp2 frnd1 frnd2 frnd3}
+
+clap clap
+
+gesu/roar gesuroar
+
+$random roboj/metal { DSTEKFS1 DSTEKFS2 DSTEKFS3 DSTEKFS4 }
+DSTEKFS1 DSTEKFS1
+DSTEKFS2 DSTEKFS2
+DSTEKFS3 DSTEKFS3
+DSTEKFS4 DSTEKFS4
+
+
+WILHELM WILHELM
+
+$random frega/death { frdie1 frdie2 frdie3 frdie4 frdie5 frdie6 frdie7 ardth1 ardth2 ardth3 ardth4 }
+frdie1 frdie1
+frdie2 frdie2
+frdie3 frdie3
+frdie4 frdie4
+frdie5 frdie5
+frdie6 frdie6
+frdie7 frdie7
+ardth1 ardth1
+ardth2 ardth2
+ardth3 ardth3
+ardth4 ardth4 
+
+$random frega/ATTACK { frdie5 frdie6 ariatk1 ariatk2 }
+frdie5 frdie5
+frdie6 frdie6
+ariatk1 ariatk1
+ariatk2 ariatk2
+
+$random frega/idle { ride2 fridle1 fridle2 fridle3 arid1 arid2 arid3 arid4 arid5 arid6 arid7 arid8 arid9 arid10 arisee1 arisee2 arisee3 arisee4 arisee5 arisee6 }
+arid1 arid1
+arid2 arid2
+arid3 arid3
+arid4 arid4
+arid5 arid5
+arid6 arid6
+arid7 arid7
+arid8 arid8
+arid9 arid9
+arid10 arid10
+ride2 ride2
+fridle1 fridle1
+fridle2 fridle2
+fridle3 fridle3
+arisee1 arisee1
+arisee2 arisee2
+arisee3 arisee3
+arisee4 arisee4
+arisee5 arisee5
+arisee6 arisee6
+
+$random frega/scare { frocio6 lass1 lass2 muri frsca1 frsca2 frsca3 frsca4 aricz1 aricz2 aricz3 aricz4 aricz5 aricz6 aricz7 }
+frocio6 frocio6
+lass1 lass1
+lass2 lass2
+muri muri
+frsca1 frsca1
+frsca2 frsca2
+frsca3 frsca3
+frsca4 frsca4
+aricz1 aricz1
+aricz2 aricz2
+aricz3 aricz3
+aricz4 aricz4
+aricz5 aricz5
+aricz6 aricz6
+aricz7 aricz7
+
+$random frega/pain { frdie1 frdie2 frdie3 frdie4 frdie5 frdie6 frdie7 aridth1 aridth2 aridth3 aridth4 arip1 arip2 }
+arip1 arip1
+arip2 arip2
+
+
+///////////// VECCHI
+
+$random dalgi/sight { dalgi1 dalgi2 dalgi3 dalgi4 dalgi5 dalgi6 }
+dalgi1 dalgi1
+dalgi2 dalgi2
+dalgi3 dalgi3
+dalgi4 dalgi4
+dalgi5 dalgi5
+dalgi6 dalgi6
+
+$random dalgi/scare { dalgis1 dalgis2 dalgis3 }
+dalgis1 dalgis1
+dalgis2 dalgis2
+dalgis3 dalgis3
+
+$random dalgi/death { dalgid1 dalgip }
+dalgid1 dalgid1
+dalgip dalgip
+
+satyr/sight dssatsit
+
+$random nonno/pain { udio ohech sieh sieh2 tosse }
+udio udio
+ohech ohech
+sieh sieh
+sieh2 sieh2
+tosse tosse
+
+$random dalgi/parla { dalgi1 dalgi2 dalgi3 dalgi4 dalgi5 dalgi6 dalgis1 dalgis2 dalgis3 dalgid1 dalgip }
+
+$random nonno/death { buccio come diolupo }
+buccio buccio
+come come
+diolupo diolupo
+
+$random nonno/idle { cucca gite na2 infe }
+cucca cucca
+gite gite
+na2 na2
+infe infe
+
+$random nonno2/idle { cucca gite na2 buccio tosse }
+
+$random nonno/scare { udio ohech buccio come diolupo matto }
+matto matto
+
+omino/melee ominom
+
+$random nonno/parla { ohech sieh sieh2 tosse cucca gite na2 buccio infe come }
+
+
+/////////// SUORA
+
+$random Machete/Yum { Machete/Yum1 Machete/Yum2 Machete/Yum3 Machete/Yum4 Machete/Yum5 Machete/Yum6 }
+Machete/Yum1	MCHYUM1
+Machete/Yum2	MCHYUM2
+Machete/Yum3	MCHYUM3
+Machete/Yum4	MCHYUM4
+Machete/Yum5	MCHYUM5
+Machete/Yum6	MCHYUM6
+
+$random humans/step		{ hustep1  hustep2 hustep3 hustep4 }
+hustep1		boot1
+hustep2		boot2
+hustep3		boot3
+hustep4		boot4
+$volume humans/step 0.7
+$limit humans/step 12 256
+
+//MOTOSEGA
+weapons/chainsaw/draw	CSAWDRAW
+weapons/chainsaw/start	CSAWSTRT
+weapons/chainsaw/loop	CSAWFUL
+weapons/chainsaw/loop2	CSAWFL1
+weapons/chainsaw/loop3	CSAWFL2
+weapons/chainsaw/stop	CSAWSTOP
+weapons/chainsaw/idle	CSAWREDY
+
+CSAWCUT                 CSAWCUT
+
+$random suora/sight { trcaz trcaz2 trfuo trdent trpara }
+trcaz trcaz
+trcaz2 trcaz2
+trfuo trfuo
+trdent trdent
+trpara trpara
+$random suora/active { trsbor trculo trcaz2 trmaroc trbuc trsfon trsfon2 trsbor2 trdonf trmadr trfig trchai trseg trbuc2 trinq trinq2 trmol }
+trmaro trmaro
+trculo trculo
+trsbor trsbor
+trbuc trbuc
+trbuc2 trbuc2
+trsfon trsfon
+trsfon2 trsfon2
+trsbor2 trsbor2
+trmadr trmadr
+trdonf trdonf
+trfig trfig
+trchai trchai
+trseg trseg
+trinq trinq
+trinq2 trinq2
+trmol trmol
+$random suora/die { trporc trmaro trdie treva troia trscop trperga }
+trporc trporc
+trdie trdie
+treva treva
+troia troia
+trscop trscop
+trperga trperga
+$random suora/scare { trporc treva trcaz3 trpisc trmen trvog trvog2 treno trsfon }
+trmen trmen
+trvog trvog
+trvog2 trvog2
+treno treno
+trsfon trsfon
+$random suora/pain { trpain1 trpain2 trpain3 trlec trvom trcza trtag }
+trpain1 trpain1
+trpain2 trpain2
+trpain3 trpain3
+trcza trcza
+trlec trlec
+trvom trvom
+trcaz3 trcaz3
+trpisc trpisc
+trtag trtag
+
+
+alien/jetpack		jetpaki
+
+
+
+
+
+
+
+
+$random prete/sight { mamma1 mamma2 }
+mamma1 mamma1
+mamma2 mamma2
+$random prete/idle { song1 song2 }
+song1 song1
+song2 song2
+prete/pain bene
+prete/death ciao
+$random prete/fire { gesu1 gesu2 gesu3 }
+gesu1 gesu1
+gesu2 gesu2
+gesu3 gesu3
+$random prete/bambini { bambini dsacosit }
+bambini bambini
+
+$random gesu/sbirro { bambini dsacosit song1 song2 mamma1 mamma2 }
+
+
+
+$random robo/sight { atten odio sonos } 
+atten atten
+odio odio
+sonos sonos
+$random robo/attack { atten stuf2 viaaa schifo13 }
+stuf2 stuf2
+viaaa viaaa
+schifo13 schifo13
+$random robo/idle { nnposs1 nnposs2 nnposs3 atten sonos odio }
+nnposs1 nnposs1
+nnposs2 nnposs2
+nnposs3 nnposs3
+$random robo/death { paz1 paz2 }
+paz1 paz1
+paz2 paz2
+
+$random metal/hit  { metal/hit1 metal/hit2 }
+metal/hit1	MtalHit1
+metal/hit2	MtalHit2
+
+gesu/teleport telepr1
+misc/teleport telepr2
+
+$random segac	{ segac1 segac2 }
+segac1 segac1
+segac2 segac2
+
+
+
+GLSFAL GLSFAL
+
+$random troia/gode	{ TRGOD1 TRGOD2 TRGOD3 TRGOD4 TRGOD5 TRGOD6 TRGOD7 TRGOD8 }
+TRGOD1 TRGOD1
+TRGOD2 TRGOD2
+TRGOD3 TRGOD3
+TRGOD4 TRGOD4
+TRGOD5 TRGOD5
+TRGOD6 TRGOD6
+TRGOD7 TRGOD7
+TRGOD8 TRGOD8
+
+$random troia/pain	{ TRPA1 TRPA2 TRPA3 TRPA4 TRPA5 TRPA6 TRPA7 TRPA8 }
+TRPA1 TRPA1
+TRPA2 TRPA2
+TRPA3 TRPA3
+TRPA4 TRPA4
+TRPA5 TRPA5
+TRPA6 TRPA6
+TRPA7 TRPA7
+TRPA8 TRPA8
+
+
+
+$Random LaserChaingun/Shoot { LaserChaingun/Shoot1 LaserChaingun/Shoot2
+                              LaserChaingun/Shoot3 }   
+
+LaserChaingun/Shoot1                        LASCFIR1
+LaserChaingun/Shoot2                        LASCFIR2
+LaserChaingun/Shoot3                        LASCFIR3
+
+$rolloff LaserChaingun/Shoot 1600 3700
+//$volume LaserChaingun/Shoot 0.5
+
+
+//INSETTI
+
+$random insetto/see	{ insee1 insee2 insee3 }
+insee1 insee1
+insee2 insee2
+insee3 insee3
+
+$random insetto/idle	{ insidle1 insidle2 insidle3 }
+insidle1 insidle1
+insidle2 insidle2
+insidle3 insidle3
+
+$random insetto/passi	{ inspas1 inspas2 }
+inspas1 inspas1
+inspas2 inspas2
+
+$random insetto/attack	{ insatk1 insatk2 insatk3 insatk4 insatk5 insatk6 insatk7 insatk8 insatk9 insatk10 }
+insatk1 insatk1
+insatk2 insatk2
+insatk3 insatk3
+insatk4 insatk4
+insatk5 insatk5
+insatk6 insatk6
+insatk7 insatk7
+insatk8 insatk8
+insatk9 insatk9
+insatk10 insatk10
+
+$random suoragno/attack	{ TRPA3 TRPA5 TRPA6 insatk1 insatk2 insatk3 insatk4 insatk5 insatk6 insatk7 insatk8 insatk9 insatk10 }
+
+$random cimicia/pain	{ cimpain1 cimpain2 cimpain3 cimpain4 cimpain5 cimpain6 cimpain7 cimpain8 cimpain9 }
+cimpain1 cimpain1
+cimpain2 cimpain2
+cimpain3 cimpain3
+cimpain4 cimpain4
+cimpain5 cimpain5
+cimpain6 cimpain6
+cimpain7 cimpain7
+cimpain8 cimpain8
+cimpain9 cimpain9
+
+$random insetto/death	{ insdth1 insdth2 insdth3 insdth4 insdth5 insdth6 insdth7 insdth8 insdth9 insdth10 insdth11 insdth12 insdth13 }
+insdth1 insdth1
+insdth2 insdth2
+insdth3 insdth3
+insdth4 insdth4
+insdth5 insdth5
+insdth6 insdth6
+insdth7 insdth7
+insdth8 insdth8
+insdth9 insdth9
+insdth10 insdth10
+insdth11 insdth11
+insdth12 insdth12
+insdth13 insdth13
+
+
+
+
+
+
+
+
+
+
+
+///////////////////
+
+////////// SCIENZIATO SUONI
+
+///////////////////
+
+prete/attack gesu4
+
+marp1 marp1
+marp4 marp4
+
+$random scienziato/pain { marp1 marp4 }
+
+$random scienziato/attacco { marp2 marp3 mard2 mard3 }
+marp3 marp3
+marp2 marp2
+
+$random scienziato/idle { mar3 mar4 mar5 mar6 mar8 mar9 mar12 mar13 mar14 mar15 mar16 mar19 mar20 mar21 mar23 mar24 mar25 mar26 } 
+
+mar3 mar3
+mar4 mar4
+mar5 mar5
+mar6 mar6
+mar8 mar8
+mar9 mar9
+mar12 mar12
+mar13 mar13
+mar14 mar14
+mar15 mar15
+mar16 mar16
+mar19 mar19
+mar20 mar20
+mar21 mar21
+mar23 mar23
+mar24 mar24
+mar25 mar25
+mar26 mar26
+
+$random scienziato/death{mard3 marp3 marp4}
+mard3 mard3
+
+scienziato/laser		gblasr01
+
+$RANDOM passi { ENST1 ENST2 ENST3 ENST4 ENST5 }
+ENST1 ENFSTE1
+ENST2 ENFSTE2
+ENST3 ENFSTE3
+ENST4 ENFSTE4
+ENST5 ENFSTE5
+
+Enforcer/Attack ENFIRE
+Enforcer/hit ENFSTOP
+
+
+$random PAURA { UHULUL canep1 canep2 canep3 }
+
+////////////////////// ZOO SAFARI
+
+///////////////////// SCIMMIA
+
+$RANDOM scimmia/attack { scimatk1 scimatk2 scimp1 scimp1 }
+scimatk1 scimatk1
+scimatk2 scimatk2
+scimp1 scimp1
+scimp2 scimp1
+
+$RANDOM scimmia/death { scimold galina scimdth1 scimdth2 }
+scimold scimold
+scimdth1 scimdth1
+scimdth2 scimdth2
+
+$RANDOM scimmia/idle { scmdle1 scmdle2 galina  }
+scmdle1 scmdle1
+scmdle2 scmdle2
+
+$RANDOM scimmia/pain { scimidle1 scimidle2 ibex2 ibex3 ibex4 ibex5 ibex6 ibex7 ibex8 ibex9 galina }
+
+$RANDOM galina { bochie1 bochie2 bochie3 }
+bochie1 bochie1
+bochie2 bochie2
+bochie3 bochie3
+bochie bochie
+
+$RANDOM scimmia { galina scmdle1 scmdle2 ibex2 ibex3 ibex4 ibex5 ibex6 ibex7 ibex8 ibex9  }

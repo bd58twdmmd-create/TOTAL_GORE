@@ -1,0 +1,1283 @@
+navicella/idle      DSBIKIDL
+navicella/start     DSBIKSTA
+navicella/accel     DSBIKREV
+navicella/reverse   DSBIKTHR
+navicella/drift     DSBIKSKI
+
+
+// Credits: PillowBlaster - Russian Overkill
+//Sounds of nuclear booms
+
+///////////////////////////////////////////////////////
+
+$RANDOM minigun/fire { minigun/fire1 minigun/fire2 minigun/fire3 }
+minigun/fire1				m_gun1
+minigun/fire2				m_gun2
+minigun/fire3				m_gun3
+
+cannon/boing CNONBONC
+$volume cannon/boing 4
+$rolloff cannon/boing 700 2100
+
+Weapons/GorynchUp		FUUUP
+Weapons/GorynchFire		FUUFIRE
+Weapons/GorynchStart	FUUSTART
+Weapons/GorynchALoop	FUUALOP
+Weapons/GorynchLoop		FUULOOP
+Weapons/GorynchAStop	FUUASTP
+Weapons/GorynchStop		FUUSTOP
+
+$random MITRAGLIONE { dscgfir1 dscgfir2 dscgfir3 }
+dscgfir1 dscgfir1
+dscgfir2 dscgfir2
+dscgfir3 dscgfir3
+
+$volume MITRAGLIONE 8
+
+$volume Weapons/GorynchUp 0.8
+
+$limit weapons/minigun 9999
+weapons/cgwindup		dschgwup
+weapons/minigunspin1		dssw2up
+weapons/minigunspin2		dssw2idl
+weapons/minigunspin3		dssw2ful
+$limit weapons/minigunspin1	1
+$limit weapons/minigunspin2	1
+$limit weapons/minigunspin3	1
+
+HW40SHO0 HW40SHO0
+HW40SHO1 HW40SHO1
+HW40SHO2 HW40SHO2
+$random halflife/mp5_shoot { HW40SHO0 HW40SHO1 HW40SHO2 }
+
+// SCACCIACANI PICKUP
+
+$random pain/pera { pain1 pain2 pain19 }
+
+$random music/droga { coca1 coca2 coca3 coca4 }
+coca1 coca1
+coca2 coca2
+coca3 coca3
+coca4 coca4
+coca5 coca5
+coca6 coca6
+
+$random music/eroina { coca5 coca6 egor2 coca7 perf }
+perf perf
+egor2 egor2
+
+
+//mp5shot mp5shot
+
+$random mp5shot { mp5s1 mp5s2 mp5s3 }
+mp5s1 mp5s1
+mp5s2 mp5s2
+mp5s3 mp5s3
+
+$volume mp5shot 0.7
+
+Weapons/GuruUp		GURUUP
+Weapons/GuruIdle	GURUIDLE
+Weapons/GuruTrigger	GURUTRIG
+Weapons/GuruCharge	GURUCHRG
+Weapons/GuruFire	GURUFIRE
+Weapons/GuruAddFire	GURUAFIR
+Weapons/GuruLoad	GURULOAD
+
+Weapons/GuruFly		GURUFLY
+Weapons/GuruBlast	GURUBLST
+Weapons/GuruBlast2	GURUBLS2
+Weapons/GuruBlast3	GURUBLS2
+Weapons/GuruHit		GURUHIT
+Weapons/GuruLoop	GURULOOP
+Weapons/GuruFuuu	GURUFUUU
+Weapons/GuruBoom	GURUBOOM
+Weapons/GuruBolt	GURUBOLT
+
+$random Weapons/GuruStruck { Weapons/GuruStruck0 Weapons/GuruStruck1 Weapons/GuruStruck2 Weapons/GuruStruck3 Weapons/GuruStruck4 Weapons/GuruStruck5 Weapons/GuruStruck6 Weapons/GuruStruck7 Weapons/GuruStruck8 Weapons/GuruStruck9 }
+Weapons/GuruStruck0	GURUSTR0
+Weapons/GuruStruck1	GURUSTR1
+Weapons/GuruStruck2	GURUSTR2
+Weapons/GuruStruck3	GURUSTR3
+Weapons/GuruStruck4	GURUSTR4
+Weapons/GuruStruck5	GURUSTR5
+Weapons/GuruStruck6	GURUSTR6
+Weapons/GuruStruck7	GURUSTR7
+Weapons/GuruStruck8	GURUSTR8
+Weapons/GuruStruck9	GURUSTR9
+
+$rolloff Weapons/GuruBlast3 700 2100
+$rolloff Weapons/GuruLoop 3100 10200
+$rolloff Weapons/GuruFuuu 3100 10200
+$rolloff Weapons/GuruBlast 3100 10200
+$rolloff Weapons/GuruBoom 5100 11200
+$rolloff Weapons/GuruBlast2 3100 10200
+$rolloff Weapons/GuruStruck 3100 10200
+
+// REVOLVER
+
+$random REVF { P_Fire1 P_Fire3 }
+P_Fire1 P_Fire1
+P_Fire3 P_Fire3
+
+$rolloff revf 1600 3700
+
+$volume P_Fire1 0.9
+
+Weapons/MegaNukeExp			MNUKEXP
+
+$random FUCK { FUCK1 FUCK2 FUCK3 FUCK4 FUCK5 FUCK6 FUCK7 FUCK8 FUCK9 FUCK10 FUCK11 }
+FUCK1 FUCK1
+FUCK2 FUCK2
+FUCK3 FUCK3
+FUCK4 FUCK4
+FUCK5 FUCK5
+FUCK6 FUCK6
+FUCK7 FUCK7
+FUCK8 FUCK8
+FUCK9 FUCK9
+FUCK10 FUCK10
+FUCK11 FUCK11
+
+$random Weapons/DeathheadExplode { Weapons/DeathheadExplode1 Weapons/DeathheadExplode2 Weapons/DeathheadExplode3 Weapons/DeathheadExplode4 Weapons/DeathheadExplode5 Weapons/DeathheadExplode6 Weapons/DeathheadExplode7 }
+Weapons/DeathheadExplode1	DETHEXP1
+Weapons/DeathheadExplode2	DETHEXP2
+Weapons/DeathheadExplode3	DETHEXP3
+Weapons/DeathheadExplode4	DETHEXP4
+Weapons/DeathheadExplode5	DETHEXP5
+Weapons/DeathheadExplode6	DETHEXP6
+Weapons/DeathheadExplode7	DETHEXP7
+
+Weapons/StalinowiczBoom		STLNBOOM
+
+Weapons/MiniNukeBoom		MININUEK
+
+$rolloff Weapons/MiniNukeBoom 4000 8200
+$rolloff Weapons/StalinowiczBoom 4000 8200
+$rolloff Weapons/DeathheadExplode 4000 8200
+
+// EXPLOTRACER
+explot			explot
+$limit explot 10
+
+macgun macgun
+macgun macgun
+
+NAZISPARO macgun2
+$rolloff NAZISPARO 1000 2200
+
+flamer flamer
+
+$random schioppo {schiop1 schiop2}
+schiop1		schiop1
+schiop2	schiop2
+$rolloff schioppo 1000 2200
+
+$random miniz {miniz1 miniz2 miniz3 miniz4}
+miniz1		miniz1
+miniz2	miniz2
+miniz3 miniz3
+miniz4 miniz4
+
+/// SQUARCIAFICHE
+
+$random weapons/drill{weapons/drill1 weapons/drill2 weapons/drill3 weapons/drill4}
+weapons/drill1		drill1
+weapons/drill2		drill2
+weapons/drill3		drill3
+weapons/drill4		drill4
+
+m162 m162
+
+weapons/firegrenade			GLAUNCH
+weapons/reloadgrenade			GRELOAD
+
+////////// PISTOLA GAY
+
+pisfir4 pisfir4
+
+$random gays { fr1  fr2  fr3 fr4 fr5 fr6 fr7 fr8 }
+fr1 fr1
+fr2 fr2
+fr3 fr3
+fr4 fr4
+fr5 fr5
+fr6 fr6
+fr7 fr7
+fr8 fr8 
+
+/////////// TENNENTS
+
+$random tennents/pickup { tpick1  tpick2  tpick3 tpick4 tpick5 tpick6 tpick7 }
+tpick1 tpick1
+tpick2 tpick2
+tpick3 tpick3
+tpick4 tpick4
+tpick5 tpick5
+tpick6 tpick6
+tpick7 tpick7
+
+$random tennents/crash { GLSFAL  tcrash1  tcrash2 tcrash3 tcrash4 tcrash5 tcrash6 tcrash7 tcrash8  }
+tcrash1 tcrash1
+tcrash2 tcrash2
+tcrash3 tcrash3
+tcrash4 tcrash4
+tcrash5 tcrash5
+tcrash6 tcrash6
+tcrash7 tcrash7
+tcrash8 tcrash8
+
+$random tennents/up { stap1  stap2  stap3  }
+
+stap1 stap1
+stap2 stap2
+stap3 stap3
+
+$random tennents/gulp { gulp1  gulp2  gulp3  }
+
+gulp1 gulp1
+gulp2 gulp2
+gulp3 gulp3
+
+
+
+
+
+/// Mp5
+
+$random pistolina2 { C-96-1  C-96-2  C-96-3  C-96-4 }
+
+C-96-1 C-96-1
+C-96-2 C-96-2
+C-96-3 C-96-3
+C-96-4 C-96-4
+
+FireEnd  FireEnd
+rowe rowe
+
+// DOPPIOCAZZO
+
+$random DOPPIOCAZZO		{ lick1  lick2 lick3 lick4 lick5 lick6 lick7 HELKTJB1 HELKTJB2 HELKTJB3 HELKTJB4 HELKTJB5 HELKTJB6 HELKTJB7 HELKTSP1 HELKTSP2 TROOBLO1 TROOBLO2 TROOBLO3 TROOBLO4 TROOBLO5 TROOBLO6 TROOSWA1 TROOSWA2 TROOSWA3 SOULBLO1 SOULBLO2 SOULBLO3 SOULBLO4 SOULBLO5 SOULBLO6 }
+
+lick1                           lick1
+lick2                           lick2
+lick3                           lick3
+lick4                           lick4
+lick5                           lick5
+lick6                           lick6
+lick7                           lick7
+HELKTJB1                           HELKTJB1
+HELKTJB2                           HELKTJB2
+HELKTJB3                           HELKTJB3
+HELKTJB4                           HELKTJB4
+HELKTJB5                           HELKTJB5
+HELKTJB6                           HELKTJB6
+HELKTSP1                         HELKTSP1
+HELKTSP2                         HELKTSP2
+trooblo1                          TROOBLO1
+trooblo2                          TROOBLO2
+trooblo3                          TROOBLO3
+trooblo4                          TROOBLO4
+trooblo5                          TROOBLO5
+trooblo6                          TROOBLO6
+TROOSWA1                           TROOSWA1
+TROOSWA1                           TROOSWA2
+TROOSWA1                           TROOSWA3
+soulblo1                          SOULBLO1
+soulblo2                          SOULBLO2
+soulblo3                          SOULBLO3
+soulblo4                          SOULBLO4
+soulblo5                          SOULBLO5
+soulblo6                          SOULBLO6
+
+
+
+//Lightning Gun
+LightningHum					LGHUM
+LightningStrom					LGFIR
+LightningStromUltimate			LGULTI
+$limit LightningStromUltimate 0
+$rolloff LightningStromUltimate 512 1600
+LightningCore					LGCORULT
+$rolloff LightningCore 800 2048
+$limit LightningCore 0
+LightningElec					LGELEC
+$random LightningHit		{ LGHIT1  LGHIT2 LGHIT3 }
+LGHIT1  						LGHIT1
+LGHIT2  						LGHIT2
+LGHIT3  						LGHIT3
+$limit LightningHit 0
+$random LightningHitBody		{ LGHITB1  LGHITB2 LGHITB3 LGHITB4 }
+LGHITB1  						LGHITB1
+LGHITB2  						LGHITB2
+LGHITB3  						LGHITB3
+LGHITB4  						LGHITB4
+$limit LightningHitBody 0
+weapons/lgup					LGUP
+
+misc/change						CHANGE
+$limit misc/change 0
+
+////////// FOOTSTEPS
+
+step/stalk1			stalk1
+step/stalk2			stalk2
+step/stalk3			stalk3
+step/stalk4			stalk4
+$random step/stalker { step/stalk1  step/stalk2  step/stalk3  step/stalk4 }
+
+// Default / Ground
+step/default1			DSSTP1
+step/default2			DSSTP2
+step/default3			DSSTP3
+step/default4			DSSTP4
+$random step/default { step/default1  step/default2  step/default3  step/default4 }
+
+// Water
+step/water1			DSWTR1
+step/water2			DSWTR2
+step/water3			DSWTR3
+step/water4			DSWTR4
+$random step/water { step/water1  step/water2  step/water3  step/water4 }
+
+// Carpet
+step/carpet1			DSCARP1
+step/carpet2			DSCARP2
+step/carpet3			DSCARP3
+$random step/carpet { step/carpet1 step/carpet2 step/carpet3 }
+
+// Dirt
+step/dirt1			DSDIRT1
+step/dirt2			DSDIRT2
+step/dirt3			DSDIRT3
+step/dirt4			DSDIRT4
+step/dirt5			DSDIRT5
+step/dirt6			DSDIRT6
+$random step/dirt { step/dirt1 step/dirt2 step/dirt3 step/dirt4 step/dirt5 step/dirt6 }
+
+// Gravel
+step/gravel1			DSGRAV1
+step/gravel2			DSGRAV2
+step/gravel3			DSGRAV3
+step/gravel4			DSGRAV4
+$random step/gravel { step/gravel1 step/gravel2 step/gravel3 step/gravel4 }
+
+// Hard
+step/hard1			DSHARD1
+step/hard2			DSHARD2
+step/hard3			DSHARD3
+step/hard4			DSHARD4
+step/hard5			DSHARD5
+step/hard6			DSHARD6
+$random step/hard { step/hard1 step/hard2 step/hard3 step/hard4 step/hard5 step/hard6 }
+
+// Metal A
+step/metal/a1			DSMET01
+step/metal/a2			DSMET02
+step/metal/a3			DSMET03
+step/metal/a4			DSMET04
+step/metal/a5			DSMET05
+step/metal/a6			DSMET06
+$random step/metal/a { step/metal/a1 step/metal/a2 step/metal/a3 step/metal/a4 step/metal/a5 step/metal/a6 }
+
+// Metal B (Thin Metals, Girders)
+step/metal/b1			DSMET201
+step/metal/b2			DSMET202
+step/metal/b3			DSMET203
+step/metal/b4			DSMET204
+$random step/metal/b { step/metal/b1 step/metal/b2 step/metal/b3 step/metal/b4 }
+
+// Rock
+step/rock1			DSROCK1
+step/rock2			DSROCK2
+step/rock3			DSROCK3
+step/rock4			DSROCK4
+step/rock5			DSROCK5
+step/rock6			DSROCK6
+step/rock7			DSROCK7
+step/rock8			DSROCK8
+$random step/rock { step/rock1 step/rock2 step/rock3 step/rock4 step/rock5 step/rock6 step/rock7 step/rock8 }
+
+// Snow
+step/snow1			DSSNOW1
+step/snow2			DSSNOW2
+step/snow3			DSSNOW3
+step/snow4			DSSNOW4
+step/snow5			DSSNOW5
+step/snow6			DSSNOW6
+$random step/snow { step/snow1 step/snow2 step/snow3 step/snow4 step/snow5 step/snow6 }
+
+// Tile A
+step/tile/a1			DSTILE01
+step/tile/a2			DSTILE02
+step/tile/a3			DSTILE03
+step/tile/a4			DSTILE04
+step/tile/a5			DSTILE05
+step/tile/a6			DSTILE06
+$random step/tile/a { step/tile/a1 step/tile/a2 step/tile/a3 step/tile/a4 step/tile/a5 step/tile/a6 }
+
+// Tile B (Hallways, Marble/Finer Tiles)
+step/tile/b1			DSTILE21
+step/tile/b2			DSTILE22
+step/tile/b3			DSTILE23
+step/tile/b4			DSTILE24
+step/tile/b5			DSTILE25
+step/tile/b6			DSTILE26
+step/tile/b7			DSTILE27
+step/tile/b8			DSTILE28
+$random step/tile/b { step/tile/b1 step/tile/b2 step/tile/b3 step/tile/b4 step/tile/b5 step/tile/b6 step/tile/b7 step/tile/b8 }
+
+// Wood
+step/wood1			DSWOOD1
+step/wood2			DSWOOD2
+step/wood3			DSWOOD3
+step/wood4			DSWOOD4
+$random step/wood { step/wood1 step/wood2 step/wood3 step/wood4 }
+
+// Slime
+step/slime1			DSSLIME1
+step/slime2			DSSLIME2
+step/slime3			DSSLIME3
+step/slime4			DSSLIME4
+$random step/slime { step/slime1 step/slime2 step/slime3 step/slime4 }
+
+// Slimy
+step/slimy1			DSSLIMY1
+step/slimy2			DSSLIMY2
+step/slimy3			DSSLIMY3
+step/slimy4			DSSLIMY4
+$random step/slimy { step/slimy1 step/slimy2 step/slimy3 step/slimy4 }
+
+// Lava
+step/lava1			DSLAVA1
+step/lava2			DSLAVA2
+step/lava3			DSLAVA3
+step/lava4			DSLAVA4
+$random step/lava { step/lava1 step/lava2 step/lava3 step/lava4 }
+
+
+
+
+
+
+
+////////////// DOPPIETTA
+
+weapons/ssgopen  ssgopen
+weapons/ssgin  ssgin
+weapons/ssgclos  ssgclos
+
+$random SHELLIN { SHELL_S SHELL_L SHELL_IN }
+SHELL_S  SHELL_S
+SHELL_L  SHELL_L
+SHELL_IN  SHELL_IN
+
+///////////////////////////////// CORTELLACCIO
+
+$random CRTDRW { CRTDRW1 CRTDRW2 CRTDRW3 CRTDRW4 }
+CRTDRW1 CRTDRW1
+CRTDRW2 CRTDRW2
+CRTDRW3 CRTDRW3
+CRTDRW4 CRTDRW4
+
+CRTSHT1 CRTSHT1
+
+$random CORTSWI { CORTSW MELSWNG5 MELSWNG6 MELSWNG7 MELSWNG8 MELSWNG9 MELSNG10 } 
+cortsw cortsw
+MELSWNG8 MELSWNG8
+MELSWNG9 MELSWNG9
+MELSNG10 MELSNG10
+
+$random CBWP/WP1/HT1 {1HT1 1HT2 1HT3 1HT4 1HT5 1HT6 1HT7 1HT8 1HT9 }
+1HT1			CBWP1HT1
+1HT2			CBWP1HT2
+1HT3			CBWP1HT3
+1HT4			CBWP1HT4
+1HT5			CBWP1HT5
+1HT6			CBWP1HT6
+1HT7 1HT7
+1HT8 1HT8
+1HT9 1HT9
+1ht10 1ht10
+
+$random CBWP/WP1/CR1 {1CR1 1CR2 1CR3 1CR4 1CR5 1CR6}
+1CR1			CBWP1CR1
+1CR2			CBWP1CR2
+1CR3			CBWP1CR3
+1CR4			CBWP1CR4
+1CR5			CBWP1CR5
+1CR6			CBWP1CR6
+
+
+
+Weapons/ShotGunFire		SHOTGF1B
+
+$random MILAN { MILAN1 MILAN2 }
+MILAN1 MILAN1
+MILAN2 MILAN2
+
+SCHIOP SCHIOP
+
+SSHFIRE SSHFIRE
+
+weapons/arfire				DSCGUN
+$rolloff weapons/arfire 1600 3700
+$volume weapons/arfire 0.3
+
+scaccia/fire					schFIRE
+
+DSPFIRE DSPFIRE
+$volume DSPFIRE 2
+
+$Random SuperShotgun/Select { SuperShotGun/Reload1 SuperShotGun/Reload2 }   
+SuperShotGun/Reload1                        DBSGREL1
+SuperShotGun/Reload2                        DBSGREL2
+
+$random scacciacani/fire { scani1 scani2 }
+scani1 scani1
+scani2 scani2
+
+$random FAREXPL { FAREXPL0 FAREXPL1 FAREXPL2 FA2EXP1 FA2EXP2 FA2EXP3 FA2EXP4 FA2EXP5 FA2EXP6 FA2EXP7 FA2EXP8 FA2EXP9 FA2EXP10 FA2EXP11 FA2EXP12 FA2EXP13 FA2EXP14 FA2EXP15 FA2EXP16 }
+FAREXPL0 FAREXPL0
+FAREXPL1 FAREXPL1
+FAREXPL2 FAREXPL2
+FA2EXP1 FA2EXP1
+FA2EXP2 FA2EXP2
+FA2EXP3 FA2EXP3
+FA2EXP4 FA2EXP4
+FA2EXP5 FA2EXP5
+FA2EXP6 FA2EXP6
+FA2EXP7 FA2EXP7
+FA2EXP8 FA2EXP8
+FA2EXP9 FA2EXP9
+FA2EXP10 FA2EXP10
+FA2EXP11 FA2EXP11
+FA2EXP12 FA2EXP12
+FA2EXP13 FA2EXP13
+FA2EXP14 FA2EXP14
+FA2EXP15 FA2EXP15
+FA2EXP16 FA2EXP16
+
+$rolloff FAREXPL 3200 7400
+$limit FAREXPL 4
+
+$random EXPLOSIONA { fexpl1 fexpl2 fexpl1 fexpl2 fexpl3 fexpl4 fexpl5 fexpl6 fexpl7 fexpl8 fexpl9 fexpl10 fexpl11 fexpl12 fexpl13 fexpl14 fexpl15 fexpl16 fexpl17 }
+fexpl0 fexpl0
+fexpl1 fexpl1
+fexpl2 fexpl2
+fexpl1 fexpl1
+fexpl2 fexpl2
+fexpl3 fexpl3
+fexpl4 fexpl4
+fexpl5 fexpl5
+fexpl6 fexpl6
+fexpl7 fexpl7
+fexpl8 fexpl8
+fexpl9 fexpl9
+fexpl10 fexpl10
+fexpl11 fexpl11
+fexpl12 fexpl12
+fexpl13 fexpl13
+fexpl14 fexpl14
+fexpl15 fexpl15
+fexpl16 fexpl16
+fexpl17 fexpl17
+
+$rolloff EXPLOSIONA 3200 7400
+$limit EXPLOSIONA 4
+
+$random EXPLOC { EXPLOC1 EXPLOC2 EXPLOC3 EXPLOC4 }
+EXPLOC1 EXPLOC1
+EXPLOC2 EXPLOC2
+EXPLOC3 EXPLOC3
+EXPLOC4 EXPLOC4
+
+$rolloff EXPLOC 3200 7400
+$limit EXPLOC 4
+
+pfire pfire
+
+weapon/up		wepup
+weapon/down		wepdown
+
+
+
+magnum/fire		magnumf
+
+1911 1911
+
+DSNUKXPL DSNUKXPL
+$rolloff  DSNUKXPL 1400 49100
+$volume  DSNUKXPL 2.0
+
+canngo canngo
+ratzi ratzi
+
+PANTFIRE PANTFIRE
+
+SmallerDistantGunshot RGDIS
+
+$rolloff SmallerDistantGunshot 2800 7000
+$limit SmallerDistantGunshot 80
+$volume SmallerDistantGunshot 0.7
+
+$random LightDistantGunshot { DSRFA1 DSRFA2 }
+DSRFA1 DSRFA1
+DSRFA2 DSRFA2
+
+$rolloff LightDistantGunshot 2800 7000
+$limit LightDistantGunshot 80
+$volume LightDistantGunshot 0.7
+
+PAPE1 PAPE1
+
+BOLTS1	BOLTS1
+BOLTS2	BOLTS2
+BOLTS3	BOLTS3
+
+Morgenstern_MeatHit1		MORGD
+Morgenstern_MeatHit2		MORGE
+Morgenstern_WallHit1		MORGF
+Morgenstern_WallHit2		MORGG
+Morgenstern_Timer			MORGH
+Morgenstern_Explode		    MORGI
+Morgenstern_Bomb_Impack		MORGJ
+Morgenstern_Mine_Throw      MORGK
+Morgenstern_End_Loop	    MORGL
+Morgenstern_Primary1	    MORGM
+Morgenstern_Primary2	    MORGN
+Morgenstern_Primary3	    MORGO
+Morgenstern_Loop	        MORGP
+Morgenstern_Start	        MORGQ
+
+$Random Morgenstern_MeatHit {Morgenstern_MeatHit1 Morgenstern_MeatHit2}
+
+$Random Morgenstern_WallHit {Morgenstern_WallHit1 Morgenstern_WallHit2}
+
+$Random Morgenstern_HeroAttack {Morgenstern_HeroAttack1 Morgenstern_HeroAttack2}
+
+$Random Morgenstern_Primary_Attack {Morgenstern_Primary1 Morgenstern_Primary2 Morgenstern_Primary3}
+
+
+Weapons/show				WEAPSHOW
+
+$Random BOLTS {BOLTS1 BOLTS2 BOLTS3}
+
+pregpk pregpk
+
+weapons/uzi			DSUZI
+
+$Random bestemmione { best1 best2 best3 best4 best5 best6 best7 best8 best9 best10 best11 best12 }
+best1 best1
+best2 best2
+best3 best3
+best4 best4
+best5 best5
+best6 best6
+best7 best7
+best8 best8
+best9 best9
+best10 best10
+best11 best11
+best12 best12
+
+//PREGIUTTO
+$Random WPN/WPA/MV1 	{WPAMV1 WPAMV2 WPAMV3}
+WPAMV1							SSWPAMV1
+WPAMV2							SSWPAMV2
+WPAMV3							SSWPAMV3
+
+$Random WPN/WPA/HT1 	{WPAHT1 WPAHT2}
+WPAHT1							SSWPAHT1
+WPAHT2							SSWPAHT2
+
+$Random WPN/WPA/MS1 	{WPAMS1 WPAMS2}
+WPAMS1							SSWPAMS1
+WPAMS1							SSWPAMS1
+
+
+
+BassSMG/fire BASSFI
+
+Lever  Lever
+xshot1 xshot1
+
+weapons/shotgun      shotgun
+SHTFIR  SHTFIR
+
+weapons/carbine/up RFMAGUP
+weapons/carbine/down RFMAGDN
+
+DRYFIRE  DRYFIRE
+
+$random weapons/akm {2PFIRE1 2PFIRE2 2PFIRE3}
+2PFIRE1 2XPFIRE1
+2PFIRE2 2XPFIRE2
+2PFIRE3 2XPFIRE3
+$volume weapons/pistol 0.8
+$rolloff weapons/pistol 100 2200
+
+DESELECT  DESELECT
+weapons/risear    risear
+
+$random weapons/pcwfire { M16-1 M16-2 M16-3 }
+M16-1  M16-1
+M16-2  M16-2
+M16-3  M16-3
+PCW-Fire  PCW-Fire
+MFire1  MFire1
+ARLOOP  ARLOOP
+
+ASSFR1 ASSFR1
+$volume assfr1 0.7
+
+$random Weapons/AutoShotgun { XSG1 XSG2 XSG3 XSG4 XSG5 XSG6 XSG7 XSG8 }
+XSG1 A4SGFIR1
+XSG2 A4SGFIR2
+XSG3 A4SGFIR3
+XSG4 A4SGFIR4
+XSG5 A4SGFIR5
+XSG6 A4SGFIR6
+XSG7 A4SGFIR7
+XSG8 A4SGFIR8
+//$volume Weapons/AutoShotgun 0.61
+$rolloff Weapons/AutoShotgun 100 2200
+
+blackrifle/single briffire
+blackrifle/loop brifloop
+blackrifle/stop brifstop
+blackrifle/out brifout
+blackrifle/in brifin
+
+ass_fire
+
+TRPFIRE TRPFIRE
+
+Weapons/Rifle/SFire 4AFLFIR1
+
+/////// DESERT EAGLE
+
+deagle/draw deagledraw
+//deagle/fire defire
+
+$random DIOE { defire4 defire2 defire3  }
+defire4 defire4
+defire2 defire2
+defire3 defire3
+//defire defire
+
+$random DIOG { diog11 diog22 diog33  }
+diog11 diog11
+diog22 diog22
+diog33 diog33
+
+$random toz34	 { toz341 toz342 toz343 }
+toz341 toz341
+toz342 toz342
+toz343 toz343
+
+tozn1 tozn1
+tozn2 tozn2
+
+$random swish { swish1 swish2 swish3 swish4 swish5 swish6 swish7 }
+swish1 swish1
+swish2 swish2
+swish3 swish3
+swish4 swish4
+swish5 swish5
+swish6 swish6
+swish7 swish7
+
+$random paperissima { swish1 swish2 swish3 swish4 swish5 swish6 swish7 pap1 }
+
+$random papertennents { swish1 swish2 swish3 swish4 swish5 swish6 swish7 pap1 Melee/Swing1 Melee/Swing2 Melee/Swing3 Melee/Swing4 }
+
+$random tozrel { tozrel1 tozrel2 }
+tozrel1 tozrel1
+tozrel2 tozrel2
+
+DSELECT  DSELECT
+
+$random SlugShot	 { SlugSS1 SlugSS2 SlugSS3 SlugSS4 SPASS1 SPASS2 SPASS3 }
+SlugSS1 SlugSS1
+SlugSS2 SlugSS2
+SlugSS3 SlugSS3
+SlugSS4 SlugSS4
+SPASS1 SPASS1
+SPASS2 SPASS2
+SPASS3 SPASS3
+
+pump pump
+
+weapons/shell1			dsshell1
+weapons/shell2			dsshell2
+weapons/shell3			dsshell3
+$random weapons/shell		{weapons/shell1 weapons/shell2 weapons/shell3}
+
+MiniRocket/Fly                              DSEMIFLY
+Executor/Shoot                              DSEXECFI
+$rolloff Executor/Shoot  1600 3700
+
+$random esplosione { rlboom ROCKLX1A }
+rlboom  rlboom
+ROCKLX1A ROCKLX1A
+
+bloddrop		bloddrop
+S2NGUE S2NGUE
+
+NLGNS03 NLGNS03
+NLGNS06 NLGNS06
+
+$random Weapons/NailMGFire	{ Nailfire1 Nailfire2 Nailfire3 }
+Nailfire1 Nailfr1
+Nailfire2 Nailfr2
+Nailfire3 Nailfr3
+
+$rolloff Weapons/NailMGFire 1600 3700
+
+coltello/miss	CBWP1MV1
+
+$random coltello/hit {1HT1 1HT2 1HT3 1HT4 1HT5 1HT6}
+1HT1			CBWP1HT1
+1HT2			CBWP1HT2
+1HT3			CBWP1HT3
+1HT4			CBWP1HT4
+1HT5			CBWP1HT5
+1HT6			CBWP1HT6
+
+$random coltello/wall {1CR1 1CR2 1CR3 1CR4 1CR5 1CR6}
+1CR1			CBWP1CR1
+1CR2			CBWP1CR2
+1CR3			CBWP1CR3
+1CR4			CBWP1CR4
+1CR5			CBWP1CR5
+1CR6			CBWP1CR6
+
+BeefSupreme/Explode		BEEFEXP
+
+$rolloff BeefSupreme/Explode 700 2600
+
+//Dark Matter Gun
+DMG/Charge						DMGCHG
+DMG/Fire						DMGFIR
+DMG/EnergyLoop					DMGLOP3
+DMG/WooshLoop					DMGLOP2
+DMG/Burst						DMGBURST
+$rolloff DMG/Burst 800 2048
+weapons/dmgup					DMGUP
+
+Weapons/RocketFly		ROCKFLY
+
+/// SANGUE
+
+$limit Bullet/BleedHit 0
+$random Bullet/BleedHit { BLTHIT1 BLTHIT2 BLTHIT3 hflesh BHIT1 BHIT2 BHIT3 BHIT4 POSANG1 POSANG2 POSANG3 POSANG4 }
+BLTHIT1					BLTHIT1
+BLTHIT2					BLTHIT2
+BLTHIT3					BLTHIT3
+hflesh                          hflesh
+BHIT1			BHIT1
+BHIT2			BHIT2
+BHIT3			BHIT3
+BHIT4			BHIT4
+BHIT5 BHIT5
+$volume BHIT5 2.0
+POSANG1 POSANG1
+POSANG2 POSANG2
+POSANG3 POSANG3
+POSANG4 POSANG4
+
+$RANDOM SND1007 {SND1003 SND1004 SND1005 SND1006}
+
+SND1008 SND1008
+SND1009 SND1009
+SND1010 SND1010
+SND1011 SND1011
+SND1012 SND1012 
+SND1013 SND1013
+
+$RANDOM SND1014 {SND1008 SND1009 SND1010 SND1011 SND1012 SND1013}
+
+
+$random flesh/land { fland1 fland2 }
+fland1		organic1
+fland2		organic2
+
+$limit misc/gibbounce 0
+$random misc/gibbounce		{ gibimp1 gibimp2 gibimp3 gibimp4 gibimp5 gibimp6 gibimp7 }
+GIBIMP1						GIBIMP1
+GIBIMP2						GIBIMP2
+GIBIMP3						GIBIMP3
+GIBIMP4						GIBIMP4
+GIBIMP5						GIBIMP5
+GIBIMP6						GIBIMP6
+GIBIMP7						GIBIMP7
+
+$random misc/xdeath		{ misc/xdeath1a misc/xdeath1b misc/xdeath1c misc/xdeath1d misc/xdeath1e misc/xdeath1f misc/xdeath2a misc/xdeath2b misc/xdeath2c misc/xdeath2d misc/xdeath2e misc/xdeath2f misc/xdeath3a misc/xdeath3b misc/xdeath3c misc/xdeath4a misc/xdeath4b misc/xdeath4c }
+misc/xdeath1a			dsxdth1a
+misc/xdeath1b			dsxdth1b
+misc/xdeath1c			dsxdth1c
+misc/xdeath1d			dsxdth1d
+misc/xdeath1e			dsxdth1e
+misc/xdeath1f			dsxdth1f
+$random misc/xdeath1		{ misc/xdeath1a misc/xdeath1b misc/xdeath1c misc/xdeath1d misc/xdeath1e misc/xdeath1f }
+misc/xdeath2a			dsxdth2a
+misc/xdeath2b			dsxdth2b
+misc/xdeath2c			dsxdth2c
+misc/xdeath2d			dsxdth2d
+misc/xdeath2e			dsxdth2e
+misc/xdeath2f			dsxdth2f
+$random misc/xdeath2		{ misc/xdeath2a misc/xdeath2b misc/xdeath2c misc/xdeath2d misc/xdeath2e misc/xdeath2f }
+misc/xdeath3a			dsxdth3a
+misc/xdeath3b			dsxdth3b
+misc/xdeath3c			dsxdth3c
+$random misc/xdeath3		{ misc/xdeath3a misc/xdeath3b misc/xdeath3c }
+misc/xdeath4a			dsxdth4a
+misc/xdeath4b			dsxdth4b
+
+misc/xdeath4c			dsxdth4c
+gib_exp gib_exp
+gorez1 gorez2
+gorez2 gorez2
+gorez3 gorez3
+gorez4 gorez4
+gorez5 gorez5
+gorez6 gorez6
+gorez7 gorez7
+gorez8 gorez8
+gorez9 gorez9
+gorez10 gorez10
+gorez11 gorez11
+gorez12 gorez12
+gorez13 gorez13
+hitz1 hitz1
+hitz2 hitz2 
+SAWHI1 SAWHI1
+SAWHI2 SAWHI2
+SAWHI3 SAWHI3
+MWHS1 MWHS1
+MWHS2 MWHS2
+MWHS3 MWHS3
+MWHS4 MWHS4
+MWHS5 MWHS5
+MWHS6 MWHS6
+MWHS7 MWHS7
+MWHS8 MWHS8
+MWHS9 MWHS9
+MWHS10 MWHS10
+MWFL1 MWFL1
+MWFL2 MWFL2
+MWFL3 MWFL3
+MWFL4 MWFL4
+MWFL5 MWFL5
+MWFL6 MWFL6
+MWFL7 MWFL7
+MWFL8 MWFL8
+MWFL9 MWFL9
+MWFL10 MWFL10
+NGORES1 NGORES1
+NGORES2 NGORES2
+NGORES3 NGORES3
+NGORES4 NGORES4
+NGORES5 NGORES5
+NGORES6 NGORES6
+NGORES7 NGORES7
+
+$random misc/xdeath4		{ BODSPLT2 BODSPLT3 BODSPLT4 BODSPLT5 BODSPLT6 misc/xdeath4c gib_exp gorez1 gorez2 gorez3 gorez4 gorez5 gorez6 gorez7 gorez8 gorez9 gorez11 gorez12 gorez13 SAWHI1 SAWHI2 SAWHI3 bhit5 NGORES2 NGORES3 NGORES4 NGORES5 NGORES6 NGORES7 NGORES8 }
+//$rolloff misc/xdeath4 512 1024
+$limit misc/xdeath4 1
+$volume misc/xdeath4 0.7
+$volume misc/xdeath4c 1.0
+$volume gib_exp 1.0
+
+BODSPLT2 BODSPLT2
+BODSPLT3 BODSPLT3
+BODSPLT4 BODSPLT4
+BODSPLT5 BODSPLT5
+BODSPLT6 BODSPLT6
+$volume BODSPLT2 0.5
+$volume BODSPLT3 0.7
+$volume BODSPLT4 0.6
+$volume BODSPLT5 0.6
+$volume BODSPLT6 0.6
+
+$random HEADSHOT	{ misc/xdeath4c gib_exp gorez9 bhit5 } //MWFL3
+$limit HEADSHOT 1
+$volume HEADSHOT 1.5
+$rolloff HEADSHOT 1024 2048
+
+macebld1 macebld1
+macebld2 macebld2
+macebld3 macebld3
+macebld4 macebld4
+macebld5 macebld5
+
+$random misc/xdeathpain		{ misc/xdeath4a misc/xdeath4b mwfl9 mwhs3 mwfl8 mwhs4 bhit1 bhit2 bhit3 bhit4 macebld5 FALGOR1 FALGOR2 FALGOR3 FALGOR4 FALGOR5 FALGOR6 FALGOR7 FALGOR8 FALGOR9 }
+bhit6 bhit6
+bhit7 bhit7
+bhit8 bhit8
+falgor9 falgor9
+
+$volume bhit6 0.5
+$volume bhit7 0.5
+$volume bhit8 0.5
+
+$rolloff misc/xdeathpain 1024 2048
+$limit misc/xdeathpain 1
+$volume misc/xdeathpain 0.6
+$volume bhit1 1//1.2
+$volume bhit2 1//1.2
+$volume bhit3 1//1.2
+$volume bhit4 1//1.2
+
+$random BHITDIOCANE { bhit1 bhit2 bhit3 bhit4 bhit5 }
+$volume BHITDIOCANE 1//1.5
+$limit BHITDIOCANE 1
+
+
+
+
+$random hit/player { misc/xdeath4a misc/xdeath4b hitz1 MWHS1 MWHS2 MWHS3 MWHS4 MWHS5 MWHS6 MWHS7 MWHS8 MWHS9 MWHS10 }
+$volume hit/player 0.7
+//$limit hit/player 4
+
+/// CAZZOTTI
+
+
+
+$random Melee/Swing { Melee/Swing1 Melee/Swing2 Melee/Swing3 MELSWNG7 }
+Melee/Swing1	MELSWNG1
+Melee/Swing2	MELSWNG2
+Melee/Swing3	MELSWNG3
+Melee/Swing4    MELSWNG4
+MELSWNG5 MELSWNG5
+MELSWNG6 MELSWNG6
+MELSWNG7 MELSWNG7
+
+$random Punch/Wall { Punch/Wall1 Punch/Wall2 Punch/Wall3 Punch/Wall4
+					 Punch/Wall5 Punch/Wall6 Punch/Wall7 Punch/Wall8 }
+Punch/Wall1	PNC2WAL1
+Punch/Wall2	PNC2WAL2
+Punch/Wall3	PNC2WAL3
+Punch/Wall4	PNC2WAL4
+Punch/Wall5	PNC2WAL5
+Punch/Wall6	PNC2WAL6
+Punch/Wall7	PNC2WAL7
+Punch/Wall8	PNC2WAL8
+
+$random mhit { cazhit1 cazhit2 cazhit3 cazhit4 cazhit5 cazhit6 cazhit7 cazhit8 cazhit9 cazhit10 cazhit11 cazhit17 cazhit18 cazhit19 cazhit20 cazhit21 cazhit22 FALGOR1 FALGOR2 FALGOR3 FALGOR4 FALGOR5 FALGOR6 FALGOR7 FALGOR8}//Punch/Wall1 Punch/Wall2 Punch/Wall3 Punch/Wall4 Punch/Wall5 Punch/Wall6 Punch/Wall7 Punch/Wall8 }
+cazhit1 cazhit1
+cazhit2 cazhit2
+cazhit3 cazhit3
+cazhit4 cazhit4
+cazhit5 cazhit5
+cazhit6 cazhit6
+cazhit7 cazhit7
+cazhit8 cazhit8
+cazhit9 cazhit9
+cazhit10 cazhit10
+cazhit11 cazhit11
+cazhit17 cazhit17
+cazhit18 cazhit18
+cazhit19 cazhit19
+cazhi12 cazhi12
+cazhi16 cazhi16
+cazhit20 cazhit20
+cazhit21 cazhit21
+cazhit22 cazhit22
+
+FALGOR1 FALGOR1
+FALGOR2 FALGOR2
+FALGOR3 FALGOR3
+FALGOR4 FALGOR4
+FALGOR5 FALGOR5
+FALGOR6 FALGOR6
+FALGOR7 FALGOR7
+FALGOR8 FALGOR8
+
+$random Punch/Flesh { Punch/Flesh1 Punch/Flesh2 Punch/Flesh3 Punch/Flesh4 }
+Punch/Flesh1	PNCHFLS1
+Punch/Flesh2	PNCHFLS2
+Punch/Flesh3	PNCHFLS3
+Punch/Flesh4	PNCHFLS4
+
+// BERETTA
+
+beretta/select bersel
+beretta/fire bershoot
+ 
+
+$random beretta/fire { bere1 bere2 bere3 }
+bere1 bere1
+bere2 bere2
+bere3 bere3
+$volume beretta/fire 0.6
+
+// GAUSS
+
+DSELECT  DSELECT
+KICKSW KICKSW
+Laser/Death                                 SHORTED
+$Limit Laser/Death 0
+S01PF  S01PF
+S02PF  S02PF
+S03PF  S03PF
+USP-1  USP-1
+$random gauss2/fire { USP-1 S02PF }
+$rolloff world/ricochet1 200 700
+$rolloff S02PF 1000 2000
+
+BLASTER BLASTER
+$rolloff BLASTER 1000 2000
+
+DSRGFIRE DSRGFIRE
+DSRAFAIL DSRAFAIL
+DSRAILUP DSRAILUP
+
+$rolloff DSRGFIRE 1000 2500
+//$voume DSRGFIRE 0.8
+
+// FUCILEDELFUTURO
+
+Weapons/HyperBlasterLoop	HYPRBL1A
+Weapons/HyperBlasterFire	HYPRBF1A
+Weapons/HyperBlasterStop	HYPRBD1A
+
+$random LKW/Fire { LKW/Fire1 LKW/Fire2 LKW/Fire3 LKW/Fire4 LKW/Fire5 }		//MachineGames - Wolfenstein: The New Order
+LKW/Fire1				"Sounds/armi/fuciledelfuturo/Fire1.ogg"
+LKW/Fire2				"Sounds/armi/fuciledelfuturo/Fire2.ogg"
+LKW/Fire3				"Sounds/armi/fuciledelfuturo/Fire3.ogg"
+LKW/Fire4				"Sounds/armi/fuciledelfuturo/Fire4.ogg"
+LKW/Fire5				"Sounds/armi/fuciledelfuturo/Fire5.ogg"
+
+$random Rifle/PlasmaFire	{ Rifle/PlasmaFire1 Rifle/PlasmaFire2 Rifle/PlasmaFire3 }	//ID Software - Doom 2016
+Rifle/PlasmaFire1		"Sounds/armi/fuciledelfuturo/PlasmaFire1.ogg"
+Rifle/PlasmaFire2		"Sounds/armi/fuciledelfuturo/PlasmaFire2.ogg"
+Rifle/PlasmaFire3		"Sounds/armi/fuciledelfuturo/PlasmaFire3.ogg"
+
+SND1174 SND1174
+SND1175 SND1175
+SND1176 SND1176
+SND1179 SND1179
+SND1182 SND1182
+
+$RANDOM SND1180 {SND1176 SND1179}
+
+//// WINCHESTER1300
+
+weapons/winch winchf
+Weapons/ShotGunPump		pump
+winch/Select                     ESXHSELE
+
+ExplosiveShotgun/Select                     ESXHSELE
+ExplosiveShotgun/Shoot                      EXSHGUN7
+ExplosiveShotgun/Pump                       EXSHGNCK 
+
+$Random ExplosiveShotgun/Explode { ExplosiveShotgun/Explode1 
+                                   ExplosiveShotgun/Explode2 }   
+
+ExplosiveShotgun/Explode1                   ESHEXPL1
+ExplosiveShotgun/Explode2                   ESHEXPL2
+
+
+
+
+// EFFETTI
+
+/*$random ricochet/hit        {  world/ricochet1 world/ricochet2 world/ricochet3 world/ricochet4 world/ricochet5 world/ricochet6 world/ricochet7 }
+world/ricochet1     ricoche1
+world/ricochet2     ricoche2
+world/ricochet3     ricoche3
+world/ricochet4     ricoche4
+world/ricochet5     ricoche5
+world/ricochet6     ricoche6
+world/ricochet7     ricoche7
+
+$limit world/ricochet1 1
+$limit world/ricochet2 1
+$limit world/ricochet3 1
+$limit world/ricochet4 1
+$limit world/ricochet5 1
+$limit world/ricochet6 1
+$limit ricochet/hit 1
+$volume ricochet/hit 0.5
+
+$rolloff world/ricochet1 200 700  
+$rolloff world/ricochet2 200 700
+$rolloff world/ricochet3 200 700 
+$rolloff world/ricochet4 200 700 
+$rolloff world/ricochet5 200 700 
+$rolloff world/ricochet6 200 700 
+$rolloff world/ricochet7 200 700
+*/
+
+$random RICOCHET/HIT { RICON1 RICON2 RICON3 RICON4 RICON5 RICON6 HW00RIC0 HW00RIC1 HW00RIC2 MISC/RICOCHE1 MISC/RICOCHE2 MISC/RICOCHE3 MISC/RICOCHE4 MISC/RICOCHE5 MISC/RICOCHE6 MISC/RICOCHE7 MISC/RICOCHE8 MISC/RICOCHE9 MISC/RICMET1 MISC/RICMET2 MISC/RICMET3 MISC/RICMET4 }
+MISC/RICOCHE1     ricoche1
+MISC/RICOCHE2     ricoche2
+MISC/RICOCHE3     ricoche3
+MISC/RICOCHE4     ricoche4
+MISC/RICOCHE5     ricoche5
+MISC/RICOCHE6     ricoche6
+MISC/RICOCHE7     ricoche7
+MISC/RICOCHE8     ricoche8
+MISC/RICOCHE9     ricoche9
+MISC/RICMET1  RICMET1
+MISC/RICMET2  RICMET2
+MISC/RICMET3  RICMET3
+MISC/RICMET4  RICMET4
+HW00RIC0 HW00RIC0
+HW00RIC1 HW00RIC1
+HW00RIC2 HW00RIC2
+RICON1 RICON1
+RICON2 RICON2
+RICON3 RICON3
+RICON4 RICON4
+RICON5 RICON5
+RICON6 RICON6
+
+$limit misc/ricochet1 1
+$limit misc/ricochet2 1
+$limit misc/ricochet3 1
+$limit misc/ricochet4 1
+$limit misc/ricochet5 1
+$limit misc/ricochet6 1
+$limit misc/ricochet7 1
+$limit misc/ricochet8 1
+$limit misc/ricochet9 1
+$limit ricochet/hit 1
+
+$rolloff world/ricochet1 200 700  
+$rolloff world/ricochet2 200 700
+$rolloff world/ricochet3 200 700 
+$rolloff world/ricochet4 200 700 
+$rolloff world/ricochet5 200 700 
+$rolloff world/ricochet6 200 700 
+$rolloff world/ricochet7 200 700
+$rolloff world/ricochet8 200 700
+$rolloff world/ricochet9 200 700
+$volume ricochet/hit 0.7
+
+$random weapons/casing  { weapons/casing2 weapons/casing3 } 
+$limit weapons/casing  5
+weapons/casing2	dscasin1
+weapons/casing2	dscasin2
+weapons/casing3	dscasin3
+
+$rolloff  weapons/casing 100 600
+
+//$volume weapons/casing2 0.7 
+
+Railgun/Impact                              DSRAEXPL                      
+
+$Limit Railgun/Impact 0
+
+$random DOPPIETTAF  { xshot1 sshfire } 
+
+uzi_mini/fire uzimin
+$volume uzi_mini/fire 0.6
+
+
+SSARFIRE SSARFIRE
+SSARLOAD SSARLOAD
+S.S.A/Fire SSARFIRE
+S.S.A/Reload SSARLOAD

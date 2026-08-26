@@ -1,0 +1,51 @@
+Decal merdadecal1
+{
+	Pic "graphics/merda/merdadecal1.png"
+	//OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+	//translucent 0.4
+x-scale 0.12
+y-scale 0.12
+}
+
+Decal merdadecal2
+{
+	Pic "graphics/merda/merdadecal2.png"
+	//OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+	//translucent 0.4
+x-scale 0.16
+y-scale 0.16
+}
+
+Decal merdadecal3
+{
+	Pic "graphics/merda/merdadecal3.png"
+	//OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+	//translucent 0.4
+x-scale 0.15
+y-scale 0.15
+}
+
+Decal merdadecal4
+{
+	Pic "graphics/merda/merdadecal4.png"
+	//OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+	//translucent 0.4
+x-scale 0.12
+y-scale 0.12
+}
+
+DecalGroup merdadecal
+{
+	merdadecal1 1
+	merdadecal2 1
+	merdadecal3 2
+	merdadecal4 2
+}

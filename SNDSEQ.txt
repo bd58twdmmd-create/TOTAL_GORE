@@ -1,0 +1,17 @@
+:PortaMacelleria 
+	door 1
+	play PORTA1
+	nostopcutoff
+end
+
+:BigDoor
+	door 2
+	play BIGDOOR
+	nostopcutoff
+end
+
+:ascensore
+	door 3
+	play ascens
+	nostopcutoff
+end

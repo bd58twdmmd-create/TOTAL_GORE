@@ -1,0 +1,435 @@
+DefaultListMenu
+{
+	LineSpacing 20
+	Selector "UCELLO",  -115, -32
+	Font "PSTARTSH", "white", "yellow"
+	LineSpacing 18
+}
+
+ListMenu "MainMenu"
+{
+	AnimatedTransition
+	StaticPatchCentered 180, -15, "LOGOMENU"
+	LineSpacing 40
+	Position 80, 80
+	PatchItem "GIOCA", "n", "PlayerclassMenu"
+	PatchItem "CONTINUA", "l", "LoadGameMenu"
+	PatchItem "OPZIONI", "o", "MenuOpzioni"
+	PatchItem "TROMBA", "q", "QuitMenu"
+}
+
+ListMenu "EpisodeMenu"
+{
+	AnimatedTransition
+	LineSpacing 48
+	selector "GNOMO", -80, -50
+	Position -15, 170
+}
+
+ListMenu "MenuOpzioni"
+{
+	AnimatedTransition
+	LineSpacing 75
+	Selector "CHENE1", -32, -5
+	Position 68, 4
+	PatchItem "BOTONI", "c", "MenuBotoni"
+	PatchItem "graFICA", "v", "MenuGrafica"
+	PatchItem "SONI", "a", "MenuSoni"
+	TextItem "$GAMEMNU_TITLE", "g", "MenuGameplay"
+}
+
+// BOTONI E COMANDI
+
+OptionMenu "MenuBotoni"
+{
+	Title "$OB_MO_CONTROLS_TITLE"
+
+	Submenu "$OB_MO_GAMEPADSETTINGS",		"JoystickOptions"
+
+	StaticText ""
+	StaticText "$MOUSE_TITLE", "purple"
+	Slider "$MOUSEMNU_SENSITIVITY_X",	"m_sensitivity_x", 0.1, 8, 0.05
+	Slider "$MOUSEMNU_SENSITIVITY_Y",	"m_sensitivity_y", 0.1, 8, 0.05
+	Option "$MOUSEMNU_INVERTMOUSE",		"invertmouse", "OnOff"
+
+	StaticText ""
+	StaticText ""
+	StaticText "$MOVEMENT_TITLE", "purple"
+	Control    "$CNTRLMNU_FORWARD"          , "+forward"
+	Control    "$CNTRLMNU_BACK"             , "+back"
+	Control    "$CNTRLMNU_MOVELEFT"         , "+moveleft"
+	Control    "$CNTRLMNU_MOVERIGHT"        , "+moveright"
+	Control    "$CNTRLMNU_JUMP"             , "+jump"
+	Control    "$CNTRLMNU_CROUCH"           , "+crouch"
+	Control    "$CNTRLMNU_TOGGLECROUCH"     , "crouch"
+	Control    "$CNTRLMNU_RUN"              , "+speed"
+	Control    "$CNTRLMNU_TOGGLERUN"        , "toggle cl_run"
+
+	StaticText ""
+	StaticText ""
+	StaticText "$CNTRLMNU_ACTION", "purple"
+	Control    "$CNTRLMNU_ATTACK"           , "+attack"
+	Control    "$CNTRLMNU_ALTATTACK"        , "+altattack"
+	Control    "$CNTRLMNU_USE"              , "+use"
+	Control    "$CNTRLMNU_USEITEM"      	, "invuse"
+	Control    "$CNTRLMNU_TORCIA"           , "FPP_Toggle"
+	Control    "$CNTRLMNU_SLOMO"            , "bullettime"
+	Control    "$BTN_SACCAGNATA"            , "+user1"
+	Control    "$BTN_SUPPLIZIO"             , "+user2"
+	Control    "$BTN_VAFFANCULO"            , "+user3"
+
+	StaticText ""
+	StaticText ""
+	StaticText "$CNTRLMNU_WEAPONS", "purple"
+	Control    "$CNTRLMNU_NEXTWEAPON"     , "weapnext"
+	Control    "$CNTRLMNU_PREVIOUSWEAPON" , "weapprev"
+	Control    "$CNTRLMNU_WEAPWHEEL"	  , "+pyweaponwheel"
+	Control    "$CNTRLMNU_SLOT1"          , "slot 1"
+	Control    "$CNTRLMNU_SLOT2"          , "slot 2"
+	Control    "$CNTRLMNU_SLOT3"          , "slot 3"
+	Control    "$CNTRLMNU_SLOT4"          , "slot 4"
+	Control    "$CNTRLMNU_SLOT5"          , "slot 5"
+	Control    "$CNTRLMNU_SLOT6"          , "slot 6"
+	Control    "$CNTRLMNU_SLOT7"          , "slot 7"
+	Control    "$CNTRLMNU_SLOT8"          , "slot 8"
+
+
+	StaticText ""
+	StaticText "$CNTRLMNU_OTHER", "purple"
+	Control    "$CNTRLMNU_SCREENSHOT"      , "screenshot"
+	Control    "$CNTRLMNU_CONSOLE"         , "toggleconsole"
+	Control    "$CNTRLMNU_PAUSE"           , "pause"
+	StaticText ""
+	Control    "$CNTRLMNU_OPEN_HELP"       , "menu_help"
+	Control    "$CNTRLMNU_OPEN_SAVE"       , "menu_save"
+	Control    "$CNTRLMNU_OPEN_LOAD"       , "menu_load"
+	Control    "$CNTRLMNU_OPEN_OPTIONS"    , "menu_options"
+	Control    "$CNTRLMNU_OPEN_DISPLAY"    , "menu_display"
+	Control    "$CNTRLMNU_EXIT_TO_MAIN"    , "menu_endgame"
+	Control    "$CNTRLMNU_MENU_QUIT"       , "menu_quit"
+	StaticText ""
+	Control    "$CNTRLMNU_QUICKSAVE"       , "quicksave"
+	Control    "$CNTRLMNU_QUICKLOAD"       , "quickload"
+	StaticText ""
+	Control "$MNU_FREECAM", "TFC"
+	StaticText ""
+}
+
+// FINE BOTONI E COMANDI
+
+//Video Settings
+
+OptionMenu "MenuGrafica"
+{
+	Title "$MNU_VID_TITLE"
+
+	StaticText ""
+	Option "$OPTMNU_LANGUAGE",					"language", "LanguageOptions"
+	StaticText ""
+
+	StaticText "$MNU_SCR_TITLE", "purple"
+
+	Slider "$DSPLYMNU_BRIGHTNESS",				"vid_brightness",				-0.8,0.8, 0.05,2
+	Slider "$DSPLYMNU_CONTRAST",				"vid_contrast",	   				0.1, 3.0, 0.1
+	Slider "$DSPLYMNU_SATURATION",				"vid_saturation",  				-3.0, 3.0, 0.25, 2
+	Slider "$DSPLYMNU_GAMMA",					"vid_gamma",					0.75, 3.0, 0.05, 2
+
+	StaticText ""
+	Slider "$DSPLYMNU_FOV",						"fov",							75.0, 120.0, 0.1, 1
+
+	StaticText ""
+	SubMenu "$VIDMNU_RESPRESET", CustomResolutionMenu
+	TextField "$VIDMNU_CUSTOMX", menu_resolution_custom_width
+	TextField "$VIDMNU_CUSTOMY", menu_resolution_custom_height
+	Slider "$VIDMNU_SCALEFACTOR",		"vid_scalefactor", 0.25, 2.0, 0.25, 2
+	Command "$VIDMNU_APPLYFS", "menu_resolution_commit_changes 1"
+	Command "$VIDMNU_APPLYW", "menu_resolution_commit_changes 0"
+
+	StaticText ""
+	Option "$VIDMNU_FULLSCREEN",		"vid_fullscreen", "YesNo"
+	
+	Option "$DSPLYMNU_VSYNC",					"vid_vsync", "OnOff"
+	Option "$VIDMNU_MAXFPS",					"vid_maxfps", "MaxFpsOptions"
+	Option "$MNU_FPSCOUNTER",					"vid_fps", "OnOff"
+
+	StaticText ""
+	StaticText "$MNU_MAIALATE_TITLE", "purple"
+	Option "$MNU_API_BACKEND",		"vid_preferbackend", "PreferBackend"
+	Option "$GLPREFMNU_BLOOM",		 			gl_bloom,						"OnOff"
+	Option "$GLPREFMNU_FXAA",		 			gl_fxaa,						"FXAAQuality"
+	Option "$GLPREFMNU_MULTISAMPLE", 			gl_multisample,					"Multisample"
+	Option "$GLPREFMNU_RENDERQUALITY",			gl_seamless,					"Precision"
+	Option "$GLPREFMNU_FOGMODE",				gl_fogmode,						"FogMode"
+	StaticText ""
+	Option "$MNU_LENSFLARES", "tc_pp_lensflares", "YesNo"
+	Option "$MNU_TONEMAP", dpwh_filmictonemap2, "OnOff"
+	Option "$MNU_FILMGRAIN",dpwh_filmgrain2, "OnOff"
+	Option "$MNU_LUMASHARPEN", "mfx_lsharpenable", "YesNo"
+	Option "$MNU_SCRDIRT", "mfx_dirtenable", "YesNo"
+	Option "$MNU_MEGASHARPEN", "mfx_bsssharpenable", "YesNo"
+	Option "$MNU_ABCROM", "mfx_bssshiftenable", "YesNo"
+	Option "$MNU_ITALIA7", "SH_ShaderEnable", "OnOff"
+	StaticText ""
+	Option "$MNU_PIXELIZATION", "retro_pixelation", "PixelOptions"
+	Option "$MNU_POSTERIZATION", "retro_posterization", "OnOff"
+
+
+	StaticText ""
+	StaticText "$MNU_TEXTURES_TITLE", "purple"
+	Option "$GLTEXMNU_TEXFILTER",		gl_texture_filter,				"FilterModes"
+	Option "$GLTEXMNU_ANISOTROPIC",		gl_texture_filter_anisotropic,	"Anisotropy"
+	StaticText ""
+
+	StaticText "$GLLIGHTMNU_TITLE", "purple"
+	Option "$GLLIGHTMNU_LIGHTSENABLED",			gl_lights,				"OnOff"
+	Option "$GLLIGHTMNU_LIGHTSHADOWMAP",		gl_light_shadowmap,		"YesNo"
+	Option "$GLLIGHTMNU_LIGHTSHADOWMAPQUALITY", gl_shadowmap_quality,	"ShadowMapQuality"
+	Option "$GLLIGHTMNU_LIGHTSHADOWMAPFILTER", 	gl_shadowmap_filter,	"ShadowMapFilter"
+	
+	StaticText ""
+	
+	StaticText "$MNU_PERFORMANCE_TITLE", "purple"
+	Option "$DSPLYMNU_SPRITESHADOW",			"r_actorspriteshadow", "SpriteShadowModes"
+	StaticText ""
+	Slider "$DSPLYMNU_MAXPARTICLES",			"r_maxparticles", 100, 10000, 100, 0
+	Slider "$DSPLYMNU_MAXDECALS",				"cl_maxdecals", 0, 10000, 100, 0
+
+	StaticText ""
+	Option "Dynamic Distance Culling", "dynamic_distance_culling", "OnOff"
+	Slider "$DSPLYMNU_SPRITECULL",				"r_sprite_distance_cull",	2000.0, 8000.0, 500.0, 0, dynamic_distance_culling, 1
+	Slider "$DSPLYMNU_LINECULL",				"r_line_distance_cull",	4000.0, 16000.0, 1000.0, 0, dynamic_distance_culling, 1
+	Command "$DSPLYMNU_DISABLERENDERCULL",		"disablerendercull"
+	
+	StaticText ""
+	Slider "$MNU_CLEARGOREDELAY", "cleardelaytime", 1, 120, 5
+	StaticText ""
+	Option "$MNU_ENABLE_SSP", "LTP_Smallsplash", "LTPYesOrNo"
+	Option "$MNU_ENABLE_LSP", "LTP_Largesplash", "LTPYesOrNo"
+	Slider "$MNU_INT_TORCIA", "cl_flashlight_plus_intensity", 0, 1024, 1, 0
+
+	StaticText ""
+}
+
+AddOptionMenu "PostProcessMenu"
+{
+	StaticText ""
+	StaticText "RetroShader", "gold"
+	Option "Pixelation", "retro_pixelation", "PixelOptions"
+	Option "Posterization", "retro_posterization", "OnOff"
+	Slider "Color bit depth", "retro_postcolors", 3, 32, 1, 0
+	Slider "Shadow gamma", "retro_postgamma", 0, 1, 0.01, 2
+}
+
+OptionValue "PixelOptions"
+{
+	-1, 	"$OPTVAL_OFF"
+	0, 		"$MNU_PIXELOPTION_LOW"
+	1, 		"$MNU_PIXELOPTION_VAN"
+	1.5, 	"$MNU_PIXELOPTION_WIND"
+	2, 		"$MNU_PIXELOPTION_95"
+	2.4, 	"$MNU_PIXELOPTION_HIGH"
+}
+
+// Sound Menu
+OptionMenu "MenuSoni"
+{
+	Title "$OPTMNU_SOUND"
+	Slider "$MODMNU_MASTERVOLUME",		"snd_mastervolume", 0, 1, 0.05, 2
+	StaticText ""
+	Slider "$SNDMNU_SFXVOLUME",			"snd_sfxvolume", 0, 1, 0.05, 2
+	Slider "$SNDMNU_MUSICVOLUME",		"snd_musicvolume", 0, 1, 0.05, 2
+	StaticText ""
+	Slider "$SNDMNU_MENUVOLUME",		"snd_menuvolume", 0, 1, 0.05, 2
+	StaticText ""
+	Option "$OPENALMNU_PLAYBACKDEVICE",		"snd_aldevice",		"ALDevices"
+	StaticText ""
+	Command "$SNDMNU_RESTART",			"snd_reset"
+}
+
+OptionMenu "MenuGameplay" {
+	Title "$GAMEMNU_TITLE"
+	StaticText ""
+	Option     "$HUDMNU_CROSSHAIR"   , crosshair, Crosshairs
+	StaticText ""
+	StaticText "$MNU_SKILLOPTS_TITLE", "purple"
+	Option "$MNU_SKILLOPTS_MODENABLE", "som_um_dmg_enabled", "OnOff"
+	Slider "$MNU_SKILLOPTS_DAMDEALTM", "som_um_dmg_dealt", 0.00, 10.00, 0.01, 2
+	Slider "$MNU_SKILLOPTS_DAMRECVM", "som_um_dmg_rec", 0.00, 10.00, 0.01, 2
+	StaticText ""
+	Slider "$MNU_SKILLOPTS_MONHEALTHMUL",				"ugt_monsterhealthmul",	0.0,10000.0,0.5,1
+	Slider "$MNU_SKILLOPTS_MONDAMMUL",				"ugt_monsterdamagemul",	0.0,10000.0,0.5,1
+	Slider "$MNU_SKILLOPTS_MONSPDMUL",				"ugt_monsterspeedmul",	0.0,100.0,0.1,1
+	Slider "$MNU_SKILLOPTS_MONSIZEMUL",				"ugt_monstersizemul",	0.1,20.0,0.1,1
+	Slider "$MNU_SKILLOPTS_MONPROJVELMUL","ugt_monstersprojvel",	0.1,10.0,0.1,1
+	StaticText ""
+	Slider "$MNU_SKILLOPTS_AMMOAMOUNT",			"ugt_ammoamountmul",	0.0,100.0,0.5,1
+	Slider "$MNU_SKILLOPTS_HEALTHAMOUNT",		"ugt_medamountmul",		0.0,100.0,0.5,1
+	StaticText ""
+	StaticText "$MNU_CHEATS_TITLE", "purple"
+	Command "$MNU_CHEATS_NEXTMAP", "som-um-cmd-exit-normal"
+	Command "$MNU_CHEATS_RESTARTMAP", "som-um-cmd-map-restart"
+}
+
+AddOptionMenu "OptionsMenu" {
+	Submenu "$U2P_OptionsMenu_Title", "UseToPickupOptions"
+}
+
+OptionMenu "UseToPickupOptions" {
+	Title "$U2P_OptionsMenu_Title"
+	
+	StaticText "$NETMNU_HOSTOPTIONS", "Gold"
+	StaticText ""
+	Option "$U2P_OptionsMenu_FullUseRange", "usetopickup_fulluserange", "YesNo"
+	Slider "$U2P_OptionsMenu_ScanFreq", "usetopickup_scanfreq", 1, 10, 1, 0
+	StaticText ""
+	StaticText "$OPTMNU_PLAYER", "Gold"
+	StaticText ""
+	Option "$U2P_OptionsMenu_Enable", "usetopickup_enabled", "YesNo"
+	ColorPicker "$U2P_OptionsMenu_HighlightColor", "usetopickup_highlight_color"
+	Slider "$U2P_OptionsMenu_HighlightOpacity", "usetopickup_highlight_opacity", 0, 1, 0.125, 3
+	Slider "$U2P_OptionsMenu_HighlightOpacityUnfocused", "usetopickup_highlight_opacity_unfocused", 0, 1, 0.125, 3
+	Slider "$U2P_OptionsMenu_FadeInTime", "usetopickup_fadeintime", 0, 2, 0.1, 1
+	Slider "$U2P_OptionsMenu_FadeOutTime", "usetopickup_fadeouttime", 0, 2, 0.1, 1
+	Slider "$U2P_OptionsMenu_PickupDelay", "usetopickup_pickupdelay", 0, 2, 0.1, 1
+	ScaleSlider "$U2P_OptionsMenu_HighlightRange", "usetopickup_highlight_range", 0, 2048, 16, "$U2P_OptionsMenu_FocusedOnly"
+	StaticText ""
+	StaticText "$OPTMNU_CONTROLS", "Gold"
+	StaticText ""
+	Control "$U2P_KeyBindMenu_EnableToggle", "toggle usetopickup_enabled"
+	Control "$U2P_KeyBindMenu_Push", "usetopickup_push"
+	StaticText ""
+	SafeCommand "$OPTMNU_DEFAULTS", "event UseToPickup_ResetAllCVars", "$U2P_OptionsMenu_ResetDefaultConfirm"
+}
+
+
+AddOptionMenu "OptionsMenu"
+{
+	StaticText ""
+	Submenu "$PWW_MenuTitle", "PyWheelMenu"
+}
+
+OptionValue Py_Inverted
+{
+	0, "No"
+	1, "Invert X"
+	2, "Invert Y"
+	3, "Invert X/Y"
+}
+
+OptionMenu "PyWheelMenu"
+{
+	Title "$PWW_MenuTitle"
+	StaticText ""
+	Control "Open Weapon Wheel", "+pyweaponwheel"
+	PWWStaticText "Bind this!"
+	StaticText ""
+	Option "Freeze when wheel is open", "py_weaponwheel_freeze", "OnOff"
+	PWWStaticText "Monsters, projectiles, and the player will freeze"
+	PWWStaticText "in place while the wheel is open. Recommended for"
+	PWWStaticText "controller players and fast-paced mods."
+	StaticText ""
+	Option "Invert wheel controls", "py_weaponwheel_invert", "Py_Inverted"
+	PWWStaticText "There are four options for inverted controls."
+	PWWStaticText "Choose one that suits your control style best!"
+	StaticText ""
+	StaticText "Below options require map restart."
+	StaticText ""
+	Option "Fade music when wheel is open", "py_weaponwheel_musicfade", "OnOff"
+	PWWStaticText "Fades the music out when you open the weapon wheel."
+	PWWStaticText "Warning: Doesn't play well with MIDIs, or other"
+	PWWStaticText "mods that mess with the music volume. Beware."
+}
+
+
+
+AddOptionMenu "OptionsMenu"
+{
+	Submenu "Liquid Texture Pack Options", "LTPOptions" 
+}
+
+OptionMenu "LTPOptions" 
+{
+	Title "Liquid Texture Pack Options"
+	StaticText " "
+	Option "Enable Small Splash Particles", "LTP_Smallsplash", "LTPYesOrNo"
+	Option "Enable Large Splash Particles", "LTP_Largesplash", "LTPYesOrNo"
+	Option "Large Splash Size", "LTP_Largesplashsize", "LsplashYesOrNo"
+	StaticText " "
+	StaticText "Underwater Shader"
+	Slider "Shader Effect Size (Fraction of screen)", "uw_effectsize", 0, 0.1, 0.005, 3
+}
+
+OptionValue "LTPYesOrNo"
+{
+	0, "No"
+	1, "Yes"
+}
+
+OptionValue "LsplashYesOrNo"
+{
+	0, "Medium"
+	1, "Large"
+}
+
+OptionString "LanguageOptions"
+{
+	"hu", "Perugino"
+	"it", "Italiano"
+	"enu", "English"
+	"es", "Spanish"
+}
+
+OptionValue "MaxFpsOptions" {
+	0, "Unlimited"
+	35, "35"
+	60, "60"
+	120, "120"
+	144, "144"
+	165, "165"
+}
+
+AddOptionMenu "OptionsMenu"
+{
+	StaticText "$MOD_INTRO"
+	SubMenu "$M_MODSHADER_TITLE","ModShader"
+}
+
+OptionMenu "ModShader"
+{
+	Title "$M_MODSHADER_TITLE"
+	
+	Option "$CV_SHENABLE_OPTION", "SH_ShaderEnable", "OnOff"
+	
+	StaticText ""
+	
+	Option "$CV_VHSENABLE_OPTION", "SH_VHSEnable", "OnOff"
+	Slider "$CV_VHSNOISEQUAL_OPTION", "SH_VHSNoiseQuality", 1.0, 500.0, 0.1, 1
+	Slider "$CV_VHSNOISEINT_OPTION", "SH_VHSNoiseIntensity", 0.0, 0.015, 0.001, 3
+	Slider "$CV_VHSOFFINT_OPTION", "SH_VHSOffsetIntensity", 0.0, 0.05, 0.001, 3
+	Slider "$CV_VHSCOLOROFF_OPTION", "SH_VHSColorOffsetIntensity", 0.0, 2.0, 0.1, 1
+	Option "$CV_VHSLINEEN_OPTION", "SH_VHSLineEnable", "OnOff"
+	Slider "$CV_VHSLINECNT_OPTION", "SH_VHSLineCount", 250, 10000, 1, 0
+	Slider "$CV_VHSLINESPD_OPTION", "SH_VHSLineSpeed", 1.0, 10.0, 0.1, 1
+	
+	StaticText ""
+	
+	Option "$CV_CRTENABLE_OPTION", "SH_CRTEnable", "OnOff"
+	Slider "$CV_CRTHARDSCAN_OPTION", "SH_CRTHardScan", 1, 100, 1, 0
+	
+	StaticText ""
+	
+	Option "$CV_WARPENABLE_OPTION", "SH_WarpEnable", "OnOff"
+	Slider "$CV_WARPMULTX_OPTION", "SH_WarpMultX", 1, 100, 1, 0
+	Slider "$CV_WARPMULTY_OPTION", "SH_WarpMultY", 1, 100, 1, 0
+	Slider "$CV_GRAININT_OPTION", "SH_GrainIntensity", 0.0, 1.0, 0.01, 2
+	Slider "$CV_CONTRAST_OPTION", "SH_Contrast", 0.0, 5.0, 0.01, 2
+	Slider "$CV_SATURATION_OPTION", "SH_Saturation", 0.0, 3.0, 0.01, 2
+	
+	StaticText ""
+	
+	Command "$AL_RESETSHADERSETTINGS", "SHA_ResetToDefault"
+	
+	StaticText ""
+	
+	StaticText "$MOD_INTRO"
+}

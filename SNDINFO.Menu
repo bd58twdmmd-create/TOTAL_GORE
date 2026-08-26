@@ -1,0 +1,16 @@
+menu/activate			MENUACT
+menu/backup				FISCHIO4
+menu/prompt				FISCHIO2
+menu/cursor				menu/cursor//MENUMOVE
+menu/change				DSPINGY
+menu/invalid			AIEAAOO
+menu/dismiss			FISCHIO3
+menu/choose				BONG
+menu/clear				FISCHIO1
+
+$random Menu/cursor	{ Menu/cursor1 Menu/cursor2 }
+Menu/cursor1			FLIP
+Menu/cursor2			FLAP
+
+SIMBAMOR SIMBAMOR
+ELDENRIN ELDENRIN

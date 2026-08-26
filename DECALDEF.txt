@@ -1,0 +1,927 @@
+//MINISCORCH
+decal crateremini
+{
+	pic cratere
+	translucent 0.9
+	x-scale 0.1
+	y-scale 0.1
+	randomflipx
+	randomflipy
+}
+
+decal bruc1mini
+{
+	pic scrh1
+	translucent 0.9
+	x-scale 0.15
+	y-scale 0.15
+	randomflipx
+	randomflipy
+}
+
+decal bruc2mini
+{
+	pic scrh2
+	translucent 0.9
+	x-scale 0.15
+	y-scale 0.15
+	randomflipx
+	randomflipy
+}
+
+decalgroup minidecals
+{
+	bruc1mini	1
+	bruc2mini	1
+	crateremini 1
+}
+
+///////////////////////////////////
+
+decal cratere
+{
+	pic cratere
+	translucent 0.9
+	x-scale 0.4
+	y-scale 0.4
+	randomflipx
+	randomflipy
+}
+
+decal buco
+{
+	pic buco
+	translucent 0.9
+	x-scale 0.2
+	y-scale 0.2
+	randomflipx
+	randomflipy
+}
+
+
+Decal porcodioSplat01
+{
+	Pic "graphics/decals/porcodio/porcodio1.png"
+	//OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+	translucent 0.9
+x-scale 0.18
+y-scale 0.18
+	LowerDecal "NashGoreBloodDrip"
+}
+
+Decal porcodioSplat02
+{
+	Pic "graphics/decals/porcodio/porcodio2.png"
+	//OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+	translucent 0.9
+x-scale 0.15
+y-scale 0.15
+	//LowerDecal "NashGoreBloodDrip"
+}
+
+Decal porcodioSplat03
+{
+	Pic "graphics/decals/porcodio/porcodio3.png"
+	//OpaqueBlood
+	RandomFlipX
+	//RandomFlipY
+	translucent 0.9
+x-scale 0.12
+y-scale 0.12
+	LowerDecal "NashGoreBloodDrip"
+}
+
+Decal porcodioSplat04
+{
+	Pic "graphics/decals/porcodio/porcodio4.png"
+	//OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+	translucent 0.9
+x-scale 0.08
+y-scale 0.08
+	//LowerDecal "NashGoreBloodDrip"
+}
+
+Decal porcodioSplat05
+{
+	Pic "graphics/decals/porcodio/porcodio5.png"
+	//OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+	//translucent 0.8
+x-scale 0.10
+y-scale 0.10
+	//LowerDecal "NashGoreBloodDrip"
+}
+
+Decal porcodioSplat06
+{
+	Pic "graphics/decals/porcodio/porcodio6.png"
+	//OpaqueBlood
+	RandomFlipX
+	//RandomFlipY
+	translucent 1 //0.9
+x-scale 0.20
+y-scale 0.20
+	LowerDecal "NashGoreBloodDrip"
+}
+
+Decal porcodioSplat07
+{
+	Pic "graphics/decals/porcodio/porcodio7.png"
+	//OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+	translucent 0.9
+x-scale 0.18
+y-scale 0.18
+	LowerDecal "NashGoreBloodDrip"
+}
+
+Decal porcodioSplat08
+{
+	Pic "graphics/decals/porcodio/porcodio8.png"
+	//OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+	translucent 0.9
+x-scale 0.18
+y-scale 0.18
+	//LowerDecal "NashGoreBloodDrip"
+}
+
+Decal porcodioSplat09
+{
+	Pic "graphics/decals/porcodio/porcodio9.png"
+	//OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+	translucent 0.9
+x-scale 0.12
+y-scale 0.10
+}
+
+Decal porcodioSplat10
+{
+	Pic "graphics/decals/porcodio/porcodio10.png"
+	//OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+	translucent 0.9
+x-scale 0.22
+y-scale 0.22
+	LowerDecal "NashGoreBloodDrip"
+}
+
+Decal porcodioSplat11
+{
+	Pic "graphics/decals/porcodio/porcodio11.png"
+	//OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+	translucent 0.9
+x-scale 0.08
+y-scale 0.08
+
+}
+
+Decal porcodioSplat12
+{
+	Pic "graphics/decals/porcodio/porcodio12.png"
+	//OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+	translucent 0.9
+x-scale 0.10
+y-scale 0.10
+}
+
+decal porcodioSplat13 // enhanced quake shit
+{
+Pic "graphics/decals/porcodio/porcodio13.png"
+x-scale 0.10
+y-scale 0.10
+translucent 0.9
+randomflipx
+randomflipy
+}
+
+decal porcodioSplat14 // enhanced quake shit
+{
+pic "graphics/decals/BSPLBIG2.png"
+x-scale 0.25
+y-scale 0.25
+randomflipx
+shade "#3f0000"
+//translucent 0.9
+LowerDecal "NashGoreBloodDrip"
+}
+
+decal porcodioSplat15 // enhanced quake shit
+{
+pic "graphics/decals/BSPLBIG3.png"
+x-scale 0.25
+y-scale 0.25
+randomflipx
+shade "#3f0000"
+//translucent 0.9
+LowerDecal "NashGoreBloodDrip"
+}
+
+Decal porcodioSplat16
+{
+	Pic "graphics/decals/porcodio11.png"
+	//OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+	translucent 0.9
+x-scale 0.12
+y-scale 0.12
+	LowerDecal "NashGoreBloodDrip"
+}
+
+DecalGroup porcodioSplat
+{
+	//porcodioSplat01 1
+	porcodioSplat02 1
+	porcodioSplat03 1
+	//porcodioSplat04 1
+	porcodioSplat05 1
+	porcodioSplat06 1
+	porcodioSplat07 1
+	porcodiosplat08 1
+	porcodioSplat09 1
+	porcodioSplat10 1
+	porcodioSplat11 1
+	porcodioSplat12 1
+	porcodioSplat13 1
+}
+
+
+
+
+/*
+decal BloodSplater1 1
+{
+	pic SPLATTONE1
+	translucent 0.85
+	x-scale 0.2//x-scale 0.3
+	y-scale 0.2//y-scale 0.3
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater2 2
+{
+	pic SPLATTONE2
+	translucent 0.85
+	x-scale 0.1
+	y-scale 0.1
+	randomflipx
+	randomflipy
+}
+
+
+decal BloodSplater3 3
+{
+	pic SPLATTONE3
+	translucent 0.85
+	x-scale 0.1
+	y-scale 0.1
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater4 4
+{
+	pic SPLATTONE4
+	translucent 0.85
+	//Shade "40 00 00"
+	x-scale 0.3
+	y-scale 0.3
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater5 5
+{
+	pic SPLATTONE5
+	translucent 0.85
+	//Shade "40 00 00"
+	x-scale 0.3
+	y-scale 0.3
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater6 6
+{
+	pic SPLATTONE6
+	translucent 0.85
+	x-scale 0.3
+	y-scale 0.3
+	randomflipx
+	randomflipy
+}
+
+
+decal BloodSplater7 7
+{
+	pic SPLATTONE1
+	Shade "40 00 00"
+	x-scale 0.3
+	y-scale 0.3
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater8 8
+{
+	pic SPLATTONE2
+	Shade "40 00 00"
+	x-scale 0.3
+	y-scale 0.3
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater9 9
+{
+	pic SPLATTONE4
+	Shade "40 00 00"
+	x-scale 0.3
+	y-scale 0.3
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater10 10
+{
+	pic SPLATTONE5
+	Shade "40 00 00"
+	x-scale 0.3
+	y-scale 0.3
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater11 11
+{
+	pic SPLATTONE6
+	Shade "40 00 00"
+	x-scale 0.3
+	y-scale 0.3
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater12 12
+{
+	pic SPLATTONE1
+	Shade "40 00 00"
+	x-scale 0.3
+	y-scale 0.3
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater13 13
+{
+	pic SPLATTONE2
+	Shade "40 00 00"
+	x-scale 0.3
+	y-scale 0.3
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater14 14
+{
+	pic SPLATTONE3
+	Shade "40 00 00"
+	x-scale 0.3
+	y-scale 0.3
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater15 15
+{
+	pic SPLATTONE4
+	Shade "40 00 00"
+	x-scale 0.3
+	y-scale 0.3
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater16 16
+{
+	pic SPLATTONE5
+	Shade "40 00 00"
+	x-scale 0.3
+	y-scale 0.3
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater17 17
+{
+	pic SPLATTONE6
+	Shade "40 00 00"
+	x-scale 0.3
+	y-scale 0.3
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater18 18
+{
+	pic SPLATTONE1
+	Shade "40 00 00"
+	x-scale 0.3
+	y-scale 0.3
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater19 19
+{
+	pic SPLATTONE2
+	Shade "40 00 00"
+	x-scale 0.3
+	y-scale 0.3
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater20 20
+{
+	pic SPLATTONE3
+	Shade "40 00 00"
+	x-scale 0.3
+	y-scale 0.3
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater21 21
+{
+	pic SPLATTONE1
+	Shade "40 00 00"
+	x-scale 0.3
+	y-scale 0.3
+	randomflipx
+	randomflipy
+}
+
+
+
+decalgroup BloodSplater
+{
+	BloodSplater1	1
+	BloodSplater2	1
+	BloodSplater3   1
+	BloodSplater4   1
+	BloodSplater5   1
+	BloodSplater6   1
+	BloodSplater7	1
+	BloodSplater8	1
+	BloodSplater9	1
+	BloodSplater10	1
+	BloodSplater11	1
+	BloodSplater12	1
+	BloodSplater13	1
+	BloodSplater14	1
+	BloodSplater15	1
+	BloodSplater16	1
+	BloodSplater17	1
+	BloodSplater18	1
+	BloodSplater19	1
+	BloodSplater20	1
+	BloodSplater21	1
+}
+*/
+
+decal crepa1
+{
+	pic crack1
+	translucent 0.9
+	x-scale 0.05
+	y-scale 0.05
+	randomflipx
+	randomflipy
+}
+
+decal crepa2
+{
+	pic crack2
+	translucent 0.9
+	x-scale 0.05
+	y-scale 0.05
+	randomflipx
+	randomflipy
+}
+
+decal crepa3
+{
+	pic crack3
+	translucent 0.9
+	x-scale 0.05
+	y-scale 0.05
+	randomflipx
+	randomflipy
+}
+
+decal crepa4
+{
+	pic crack4
+	translucent 0.9
+	x-scale 0.05
+	y-scale 0.05
+	randomflipx
+	randomflipy
+}
+
+decalgroup crepe
+{
+	crepa1	1
+	crepa2	1
+	crepa3  1
+	crepa4  1
+}
+
+decal bruc1
+{
+	pic scrh1
+	translucent 0.9
+	x-scale 1.25
+	y-scale 1.25
+	randomflipx
+	randomflipy
+}
+
+decal bruc2
+{
+	pic scrh2
+	translucent 0.9
+	x-scale 1.25
+	y-scale 1.25
+	randomflipx
+	randomflipy
+}
+
+decalgroup scorchone
+{
+	bruc1	1
+	bruc2	1
+	cratere 1
+	buco 1
+}
+
+decal PunchStamp
+{
+	pic PNCHPRN1
+	translucent 0.85
+	shade "00 00 00"
+	x-scale 0.5
+	y-scale 0.5
+}
+
+decal crackwall
+{
+	pic BTHOLE_01
+	translucent 0.85
+	shade "00 00 00"
+	x-scale 0.35
+	y-scale 0.35
+	randomflipx
+	randomflipy
+}
+
+////////////////////////////////////////// BULLET DECALS
+//[DoomKrakken]: Taken from D4T.
+
+Fader GoAwayBulletGlow
+{
+	DecayStart 0.5
+	DecayTime 1.0
+}
+
+ColorChanger ToBlackFaster
+{
+	FadeStart 0.5
+	FadeTime 0.5
+}
+
+Decal crocedecal
+{
+	Pic crocedecal
+	X-Scale 0.05
+	Y-Scale 0.05
+	RandomFlipX
+	//RandomFlipY
+	Translucent 0.85
+	//Shade "00 00 00"
+}
+
+Decal minicrocedecal
+{
+	Pic crocedecal
+	X-Scale 0.02
+	Y-Scale 0.02
+	RandomFlipX
+	//RandomFlipY
+	Translucent 0.85
+	//Shade "00 00 00"
+}
+
+Decal minicrocedecal2
+{
+	Pic crocedecal
+	X-Scale 0.05
+	Y-Scale 0.05
+	RandomFlipX
+	RandomFlipY
+	Translucent 0.85
+	//Shade "00 00 00"
+}
+
+Decal NewBulletChip1
+{
+	Pic Bullet1
+	X-Scale 0.18
+	Y-Scale 0.18
+	RandomFlipX
+	RandomFlipY
+	Translucent 0.85
+	Shade "00 00 00"
+}
+
+Decal NewBulletChip2
+{
+	Pic Bullet2
+	X-Scale 0.18
+	Y-Scale 0.18
+	RandomFlipX
+	RandomFlipY
+	Translucent 0.85
+	Shade "00 00 00"
+}
+Decal NewBulletChip3
+{
+	Pic Bullet3
+	X-Scale 0.18
+	Y-Scale 0.18
+	RandomFlipX
+	RandomFlipY
+	Translucent 0.85
+	Shade "00 00 00"
+}
+Decal NewBulletChip4
+{
+	Pic Bullet4
+	X-Scale 0.18
+	Y-Scale 0.18
+	RandomFlipX
+	RandomFlipY
+	Translucent 0.85
+	Shade "00 00 00"
+}
+Decal NewBulletChip5
+{
+	Pic Bullet5
+	X-Scale 0.18
+	Y-Scale 0.18
+	RandomFlipX
+	RandomFlipY
+	Translucent 0.85
+	Shade "00 00 00"
+}
+
+Decal NewBulletChip1Glow	//Glowing spot
+{
+	Pic X003B0
+	X-Scale 0.051
+	Y-Scale 0.051
+	RandomFlipX
+	RandomFlipY
+	Shade "ff4e00"
+	fullbright
+	Animator GoAwayBulletGlow
+	LowerDecal "NewBulletChip1"
+}
+Decal NewBulletChip2Glow
+{
+	Pic X003B0
+	X-Scale 0.051
+	Y-Scale 0.051
+	RandomFlipX
+	RandomFlipY
+	Shade "ff4e00"
+	fullbright
+	Animator GoAwayBulletGlow
+	LowerDecal "NewBulletChip2"
+}
+Decal NewBulletChip3Glow
+{
+	Pic X003B0
+	X-Scale 0.051
+	Y-Scale 0.051
+	RandomFlipX
+	RandomFlipY
+	Shade "ff4e00"
+	fullbright
+	Animator GoAwayBulletGlow
+	LowerDecal "NewBulletChip3"
+}
+Decal NewBulletChip4Glow
+{
+	Pic X003B0
+	X-Scale 0.051
+	Y-Scale 0.051
+	RandomFlipX
+	RandomFlipY
+	Shade "ff4e00"
+	fullbright
+	Animator GoAwayBulletGlow
+	LowerDecal "NewBulletChip4"
+}
+Decal NewBulletChip5Glow
+{
+	Pic X003B0
+	X-Scale 0.051
+	Y-Scale 0.051
+	RandomFlipX
+	RandomFlipY
+	Shade "ff4e00"
+	fullbright
+	Animator GoAwayBulletGlow
+	LowerDecal "NewBulletChip5"
+}
+
+/*DecalGroup BulletChip //only the black part
+{
+	NewBulletChip1 1
+	NewBulletChip2 1
+	NewBulletChip3 1
+	NewBulletChip4 1
+	NewBulletChip5 1
+}*/
+
+DecalGroup BulletChip //with glowy stuff
+{
+	NewBulletChip1Glow 1
+	NewBulletChip2Glow 1
+	NewBulletChip3Glow 1
+	NewBulletChip4Glow 1
+	NewBulletChip5Glow 1
+}
+
+DECAL LaserChaingunDecal
+{
+	Pic PLASMA1
+	X-Scale 0.40
+	Y-Scale 0.40
+	RandomFlipX
+	RandomFlipY
+	Shade "00 00 00"
+}
+
+DECAL LaserChaingunDecal2
+{
+	Pic PLASMA1
+	X-Scale 1//0.60
+	Y-Scale 1//0.60
+	RandomFlipX
+	RandomFlipY
+	Shade "00 00 00"
+}
+
+DECAL RailgunBulletScorch1
+{
+	Pic "BFGLITE1"
+	Shade "00 00 00"
+	RandomFlipX
+	RandomFlipY
+	X-Scale "0.80"
+	Y-Scale "0.80"
+}
+
+DECAL RailgunBulletScorch2
+{
+	Pic "BFGLITE2"
+	Shade "00 00 00"
+	RandomFlipX
+	RandomFlipY
+	X-Scale "0.80"
+	Y-Scale "0.80"
+}
+
+DECAL "RailgunLightning1"
+{
+	Pic "BFGLITE1"
+	Shade "FF 00 00"
+	FullBright
+	RandomFlipX
+	X-Scale "0.80"
+	Y-Scale "0.80"
+	//Animator "MediumGoAway2"
+	LowerDecal "RailgunBulletScorch1"
+}
+
+DECAL "RailgunLightning2"
+{
+	Pic "BFGLITE2"
+	Shade "FF 00 00"
+	FullBright
+	RandomFlipY
+	X-Scale "0.80"
+	Y-Scale "0.80"
+	//Animator "MediumGoAway2"
+	LowerDecal "RailgunBulletScorch2"
+}
+
+DECALGROUP RailgunDukeDecal
+{
+	RailgunLightning1 1
+	RailgunLightning2 1
+}
+
+/////////////////////// BIG BULLET CHIP
+
+Decal BIGBulletChip1
+{
+	Pic Bullet1
+	X-Scale 0.22
+	Y-Scale 0.22
+	RandomFlipX
+	RandomFlipY
+	Translucent 0.85
+	Shade "00 00 00"
+}
+
+Decal BIGBulletChip2
+{
+	Pic Bullet2
+	X-Scale 0.22
+	Y-Scale 0.22
+	RandomFlipX
+	RandomFlipY
+	Translucent 0.85
+	Shade "00 00 00"
+}
+Decal BIGBulletChip3
+{
+	Pic Bullet3
+	X-Scale 0.22
+	Y-Scale 0.22
+	RandomFlipX
+	RandomFlipY
+	Translucent 0.85
+	Shade "00 00 00"
+}
+Decal BIGBulletChip4
+{
+	Pic Bullet4
+	X-Scale 0.22
+	Y-Scale 0.22
+	RandomFlipX
+	RandomFlipY
+	Translucent 0.85
+	Shade "00 00 00"
+}
+Decal BIGBulletChip5
+{
+	Pic Bullet5
+	X-Scale 0.22
+	Y-Scale 0.22
+	RandomFlipX
+	RandomFlipY
+	Translucent 0.85
+	Shade "00 00 00"
+}
+
+DECALGROUP BIGBulletChip
+{
+	BIGBulletChip1 1
+	BIGBulletChip2 1
+	BIGBulletChip3 1
+	BIGBulletChip4 1
+	BIGBulletChip5 1
+}
+
+Decal pistoldecal
+{
+	x-scale 0.10
+	y-scale 0.10
+	Solid
+	Pic BPUFE0
+	randomflipx
+}
+

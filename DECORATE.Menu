@@ -1,0 +1,16 @@
+////////////////////
+// SPECIAL ACTORS //
+////////////////////
+
+actor ClientSpawner 19191
+{
+  -SOLID
+  +NOGRAVITY
+  +ALLOWCLIENTSPAWN
+  States
+   {
+   Spawn:
+    TNT1 A 1
+    Loop
+   }
+}

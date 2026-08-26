@@ -1,0 +1,82 @@
+
+//Default
+flashlightOn    	      "sounds/torcia/BlackMesa_On.ogg"
+flashlightOff             "sounds/torcia/BlackMesa_off.ogg"
+
+//Halo: Doom Evolved
+altflashlightOn           "sounds/torcia/Alternate_On.ogg"
+altflashlightOff          "sounds/torcia/Alternate_Off.ogg"
+
+//Old BM + HL2 
+oldflashlightOn           "sounds/torcia/BlackMesaHL2_On.ogg"
+oldflashlightOff          "sounds/torcia/BlackMesaHL2_Off.ogg"
+
+//Half-Life
+hl1flashlightToggle       "sounds/torcia/HalfLife1_Toggle.ogg"
+
+//Selaco
+selacoflashlightOn        "sounds/torcia/Selaco_On.ogg"
+selacoflashlightOff       "sounds/torcia/Selaco_Off.ogg"
+
+//DarkDoomZ
+darkdoomzflashlightToggle "sounds/torcia/DarkDoomZ_On.ogg"
+$pitchset darkdoomzflashlightToggle 0.9 1.1
+
+//Prey '06
+preyflashlightOn          "sounds/torcia/PreyLighter_On.ogg"
+preyflashlightOff         "sounds/torcia/PreyLighter_Off.ogg"
+
+//HL OpForce
+op4flashlightOn           "sounds/torcia/OpposingForce_On.ogg"
+op4flashlightOff          "sounds/torcia/OpposingForce_Off.ogg"
+
+//Selaco
+selaco2flashlightOn       "sounds/torcia/SelacoAlt_On.ogg"
+selaco2flashlightOff      "sounds/torcia/SelacoAlt_Off.ogg"
+
+//LiTDOOM (When the Doom is Lit :flushed:)
+litdoomflashlightOn       "sounds/torcia/LiTDoom_On.ogg"
+litdoomflashlightOff      "sounds/torcia/LiTDoom_Off.ogg"
+
+//Brutal Doom
+brutaldoomflashlightOn    "sounds/torcia/BrutalDoom_On.ogg"
+brutaldoomflashlightOff    "sounds/torcia/BrutalDoom_Off.ogg"
+
+"weather/rain" RAIN
+"weather/wind" WIND
+
+$random "weather/thunder" { THND1 THND2 THND3 THND4 THND5 THND6 }
+THND1 THND1
+THND2 THND2
+THND3 THND3
+THND4 THND4
+THND5 THND5
+THND6 THND6
+
+
+$random SLIDE
+	{ SLIDE2 SLIDE3 SLIDE4 SLIDE5 }
+SLIDE2 SLIDE2
+SLIDE3 SLIDE3
+SLIDE4 SLIDE4
+SLIDE5 SLIDE5
+SLIDE6 SLIDE6
+
+$random CLIMB
+	{ CLIMB1 CLIMB2 CLIMB3 CLIMB4 CLIMB5 CLIMB6 }
+
+CLIMB1 CLIMB1
+CLIMB2 CLIMB2
+CLIMB3 CLIMB3
+CLIMB4 CLIMB4
+CLIMB5 CLIMB5
+CLIMB6 CLIMB6
+
+//Slide		"Sounds/Slide.ogg"
+WallSlide	"Sounds/WallSlide.ogg"
+//Climb		"Sounds/Climb.ogg"
+
+HookWall	"Sounds/HookWall.ogg"
+HookMeat	"Sounds/HookMeat.ogg"
+HookFailed	"Sounds/HookFailed.ogg"
+HookLaunch	"Sounds/HookLaunch.ogg"

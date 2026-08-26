@@ -1,0 +1,16 @@
+IWad
+{
+	Name = "GREZZODUE 2"
+	Autoname = "GrezzoDue2"
+	StartupType = "Hexen"
+	StartupSong = "GIYGAS"
+	Game = "Doom"
+	Config = "GrezzoDue2"
+	IWADName = "grezzodue2.ipk3"
+	Mapinfo = "mapinfo/mindefaults.txt"
+	BannerColors = "FF 00 00", "00 00 00"
+	LoadLights = 0
+	LoadBrightmaps = 0
+	LoadWidescreen = 1
+	DiscordAppId="1124392694450491532"
+}

@@ -1,0 +1,88 @@
+CLEARLOCKS
+
+Lock 1 
+{
+	tesseracoop
+	Message "INGRESSO RISERVATO TA I SOCI DE LA COOP E BASTA"
+	RemoteMessage "INGRESSO RISERVATO TA I SOCI DE LA COOP E BASTA"
+	Mapcolor 0 0 0
+}
+
+Lock 2 
+{
+	chiaveeden
+	Message "TE SERVE LA CHIAVE DEL GIARDIN DEL'EDEN!"
+	RemoteMessage "TE SERVE LA CHIAVE DEL GIARDIN DEL'EDEN!"
+	Mapcolor 0 0 0
+}
+
+Lock 3 
+{
+	chiaveeden2
+	Message "STO CAZZO!"
+	RemoteMessage "STO CAZZO!"
+	Mapcolor 0 0 0
+}
+
+Lock 4 
+{
+	bigliettogigione
+	//Message "CE VOLE L BIGLIETTO PER GI' A VEDE' TA GIGIONE!"
+	//RemoteMessage "CE VOLE L BIGLIETTO PER GI' A VEDE' TA GIGIONE!"
+	Mapcolor 0 0 0
+}
+
+Lock 5 
+{
+    //altrachiave
+	chiavevivaio
+	Mapcolor 0 0 0
+}
+
+Lock 6 
+{
+	cartafreccia
+	Message "CE VOLE L PROGRAMMA FEDELTA' CARTA FRECCIA PER GUIDA' L PULMAN!"
+	RemoteMessage "CE VOLE L PROGRAMMA FEDELTA' CARTA FRECCIA PER GUIDA' L PULMAN!"
+	Mapcolor 0 0 0
+}
+
+Lock 7 
+{
+	tessera_autogrill
+	Message "TE SERVE LA TESSERA DELL'AUTOGRILL!"
+	RemoteMessage "TE SERVE LA TESSERA DELL'AUTOGRILL!"
+	Mapcolor 0 0 0
+}
+
+Lock 8
+{
+	tesseracoop
+	Message "TE SERVE LA TESSERA DELLA COOP!"
+	RemoteMessage "TE SERVE LA TESSERA DELLA COOP!"
+	Mapcolor 0 0 0
+} 
+
+Lock 9
+{
+	carta_identita
+	Message "DEVI TROVARE LA CARTA D'IDENTITA' PER ENTRA' ALLE POSTE!"
+	RemoteMessage "DEVI TROVARE LA CARTA D'IDENTITA' PER ENTRA' ALLE POSTE!"
+	Mapcolor 0 0 0
+} 
+
+Lock 10
+{
+	laureakey
+	Message "PER ENTRA' CE VOLE NA LAUREA"
+	RemoteMessage "PER ENTRA' CE VOLE NA LAUREA"
+	Mapcolor 0 0 0
+} 
+
+Lock 11
+{
+	ticket
+	Message "DEVI PAGA' L TICKET SE VOI GI' VIA."
+	RemoteMessage "DEVI PAGA' L TICKET SE VOI GI' VIA."
+	Mapcolor 0 0 0
+} 

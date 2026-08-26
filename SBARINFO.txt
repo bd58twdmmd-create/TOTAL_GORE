@@ -1,0 +1,119 @@
+height 64;
+monospacefonts true, "0";
+
+statusbar fullscreen, fullscreenoffsets // ZDoom HUD
+{
+	InInventory "HideHud" 
+	{
+		//niente
+	} 
+	else 
+	{
+		//health
+		drawmugshot "STF", 5, 3, -63;
+		
+		IfHealth not 10 {
+			drawnumber 3, HEALTHHUD, untranslated, health, drawshadow, 90, -37;
+		} else 	IfHealth not 100 {
+			drawnumber 3, HEALTHHUD, untranslated, health, drawshadow, 109, -37;
+		} else 	IfHealth 100 {
+			drawnumber 3, HEALTHHUD, untranslated, health, drawshadow, 128, -37;
+		}
+		
+		//armor
+		//drawimage armoricon, 20, -34, centerbottom;
+		//drawnumber 3, HUDFONT_DOOM, untranslated, armor, drawshadow, whennotzero, 82, -49;
+
+		//ammo
+		IsSelected not supplizio {
+			IsSelected not yeeelauncher {
+				IsSelected not anticotestamento, sparastuzzicadenti {
+					drawimage ammoicon1, -14, -4, centerbottom;
+				}
+				IsSelected anticotestamento, sparastuzzicadenti {
+					drawimage ammoicon1, -14, -12, centerbottom;
+				}
+				drawnumber 3, ARMAHUD, untranslated, ammo1, drawshadow, -32, -37;
+			}
+
+			InInventory supplizioammo, 1 {
+			drawimage "SUPHA0", -14, -100, centerbottom;
+			drawnumber 3, ARMAHUD, untranslated, "supplizioammo", drawshadow, -32, -130;
+			}
+		}
+
+		IsSelected supplizio {
+			drawimage ammoicon1, -14, -4, centerbottom;
+			drawnumber 3, ARMAHUD, untranslated, ammo1, drawshadow, -32, -37;
+		}
+
+		IsSelected yeeelauncher {
+			drawimage ammoicon1, -33, -4, centerbottom;
+			drawnumber 3, ARMAHUD, untranslated, ammo1, drawshadow, -64, -37;
+		}
+
+		
+		//drawnumber 3, HUDFONT_DOOM, untranslated, ammo1capacity, drawshadow, -25, -20;
+
+
+		usesammo
+		{
+			//drawstring DBIGFONT, red, "/", -70, -18, 0, drawshadow;
+			//secondary ammo and inventory
+			usessecondaryammo
+			{
+				drawimage ammoicon2, -14, -22, centerbottom;
+				drawnumber 3, ARMAHUD, untranslated, ammo2, drawshadow, -25, -63;
+				//drawstring DBIGFONT, red, "/", -70, -36, 0, drawshadow;
+				//drawnumber 3, HUDFONT_DOOM, untranslated, ammo2capacity, drawshadow, -25, -38;
+				inventorybarnotvisible
+				{
+					drawselectedinventory centerbottom, drawshadow, alwaysshowcounter, HUDFONT_DOOM, -14, -39, -26, -56, untranslated;
+				}
+			}
+			//no secondary ammo
+			usessecondaryammo not
+			{
+				inventorybarnotvisible
+				{
+					drawselectedinventory centerbottom, drawshadow, alwaysshowcounter, HUDFONT_DOOM, -14, -21, -26, -38, untranslated;
+				}
+			}
+		}
+		
+		// no ammo but inventory
+		usesammo not
+		{
+			inventorybarnotvisible
+			{
+				drawselectedinventory centerbottom, drawshadow, alwaysshowcounter, HUDFONT_DOOM, -14, -3, -26, -20, untranslated;
+			}
+		}
+
+		//chiavi
+
+		InInventory tesseracoop
+		{
+			DrawImage "sprites/omini/schea0.png", -40, -422, center, 43, 32, forcescale;
+		}
+
+		InInventory chiaveeden
+		{
+			DrawImage "sprites/omini/rdkea0.png", -100, -422, center, 26, 32;
+		}
+
+		InInventory chiavevivaio
+		{
+			DrawImage "sprites/omini/blkea0.png", -147, -422, center, 26, 32;
+		}
+
+		gamemode deathmatch
+		{
+			drawnumber 2, HUDFONT_DOOM, untranslated, frags, drawshadow, -3, 1;
+		}
+		gamemode singleplayer, cooperative, teamgame
+		{
+			drawkeybar 6, vertical, reverserows, auto, -10, 2, 0, 3, auto;
+		}
+	}
+}

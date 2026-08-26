@@ -1,0 +1,82 @@
+[en]
+The author of the mod - DRON12261.
+
+The shader works on the GZDoom and LZDoom ports.
+For best effect, it is not recommended to use both 
+CRT effect and VHS effect at the same time. It is also 
+recommended to play at 640x480 resolution.
+
+The shader mod code was based on the following sources:
+1) FixingPixelArt by Timothy Lottes
+https://www.shadertoy.com/view/XsjSzR 
+2) VHS tape noise by Vladimir Storm
+https://www.shadertoy.com/view/MlfSWr
+3) VHS tape effect by Gaktan
+https://www.shadertoy.com/view/Ms3XWH
+
+[ru]
+Автор мода - DRON12261.
+
+Шейдер работает на портах GZDoom и LZDoom.
+Для лучшего эффекта не рекомендуется использовать одновременно и 
+CRT эффект и VHS эффект. Также рекомендуется играть в разрешении 640х480.
+
+Код шейдер мода был основан на следующих исходниках:
+1) FixingPixelArt от Timothy Lottes
+https://www.shadertoy.com/view/XsjSzR 
+2) VHS tape noise от Vladimir Storm
+https://www.shadertoy.com/view/MlfSWr
+3) VHS tape effect от Gaktan
+https://www.shadertoy.com/view/Ms3XWH
+
+//// FlashLight++
+Programming-----------------------------------
+
+• RicardoLuis0 - the entirety of Flashlight+
+• Agent_Ash and RicardoLuis0 - Help with code (their help is highlighted in ZSCRIPT.zs with code comments)
+• generic name guy - Presets, On/Off sound, Menu polish, Code cleanup upon other under-the-hood improvements.
+• ProydohaRupert - Bug reporting and code optimizations
+• Caligari87 - DarkDoomZ sway code
+• Blackmore1014 - BD:BE Alerting code (very cool)
+• A_D_M_E_R_A_L - Rewritten toggle sound code
+
+Sound Effects---------------------------------
+
+• Altered Orbit Studios - Futuristic Flashlight sound effect
+• LOL_DUDE (Gamebanana) - Old Flashlight sound effect
+• Crowbar Collective - Default Flashlight sound effect
+• senn_twt - Resampled HL1 Flashlight sound effect
+• Lewisk3 - Alternate Flashlight sound effect 
+• IDDQD_1337 - Providing the Prey and OP4 sounds
+• DraugraK - Providing the Selaco "Clicky Clack" sounds
+• Caligari87 - DarkDoomZ Sound (mshahen: "Flashlight On/Off Clicks" (freesound.org, 271109, modified) CC BY 3.0)
+• Gearbox Software - HL OP4 NVG Sounds
+• Human Head Studio - Prey 2006 Lighter Sound
+• Grey_Wolf - LiTDOOM Flashlight sound effect
+• Sergeant_Mark_IV - Brutal Doom flashlight sound effect
+
+Localization----------------------------------
+
+• IDDQD_1337 - Russian (removed)
+• generic name guy - Portuguese
+
+Other-----------------------------------------
+
+• cosmos - Bug reporting
+
+
+JonnyFive - Rain and snow sprites
+Raven Software - Rain splash sprites
+Unknown - Rain, wind, and thunder sounds
+
+Dusk Movement is inspired by the game DUSK, developed by David Szymanski and published by New Blood Interactive.
+Painkiller movement is inspired by the game Painkiller, developed by People Can Fly and published by THQ Nordic.
+UT Movement is inspired by the Unreal Tournament series developed and published by Epic Games.
+Build Engine movement in inspired by the classic Build Trilogy, and Ion Fury developed by Voidpoint and published by 3DRealms.
+Quake movement is inspired by the Quake series developed and published by id Software.
+Sounds included in this mod come from the aforementioned games except the wallslide and climbing sounds which come from QC:DE: Kane's crouch slide (QC's Slash crouchslide) and Major's climbing.
+
+Credits:
+- Ivory Duke: all original coding;
+- Ijon: endless source of inspiration;
+- Michaelis and DoomKrakken: cool dudes, help, support, and answers to my ZScript questions.

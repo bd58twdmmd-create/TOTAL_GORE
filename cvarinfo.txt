@@ -1,0 +1,224 @@
+//DROGA E ALCOL
+user bool dm_permanentdrunk = false;
+user float dm_drunksize = 0.02;
+user int dm_bacthreshold = 100;
+user float dm_drunktime = 10;
+//FINE DROGA E ALCOL
+
+nosave noarchive bool mostra_disclaimer = true;
+
+user bool dynamic_distance_culling = true;
+
+server bool usetopickup_fulluserange = true;
+server int usetopickup_scanfreq = 1;
+user bool usetopickup_enabled = true;
+user color usetopickup_highlight_color = "ff ff ff";
+user float usetopickup_highlight_opacity = 1;
+user float usetopickup_highlight_opacity_unfocused = .4;
+user float usetopickup_highlight_range = 200;
+user float usetopickup_fadeintime = .2;
+user float usetopickup_fadeouttime = .4;
+user float usetopickup_pickupdelay = .2;
+
+
+user bool py_weaponwheel_freeze = true;
+user int py_weaponwheel_invert = 0;
+user bool py_weaponwheel_musicfade = false;
+
+user float uw_effectsize = 0.01;
+
+server int LTP_Largesplash = 1;
+server int LTP_Smallsplash = 1;
+server int LTP_Largesplashsize = 1;
+
+user bool 	SH_ShaderEnable = true;
+user bool 	SH_VHSEnable = true;
+user float 	SH_VHSRange = 0.05;
+user float 	SH_VHSNoiseQuality = 300.0;
+user float 	SH_VHSNoiseIntensity = 0.001;
+user float 	SH_VHSOffsetIntensity = 0.002;
+user float 	SH_VHSColorOffsetIntensity = 0.2;
+user float 	SH_VHSLineCount = 250;
+user float 	SH_VHSLineSpeed = 3;
+user bool 	SH_VHSLineEnable = true;
+user bool 	SH_CRTEnable = false;
+user int 	SH_CRTHardScan = 8;
+user bool 	SH_WarpEnable = true;
+user int 	SH_WarpMultX = 32;
+user int 	SH_WarpMultY = 24;
+user float 	SH_GrainIntensity = 0.2;
+user float 	SH_Contrast = 1.0;
+user float 	SH_Saturation = 1.0;
+
+user float retro_pixelation    = 2;     // Higher = More pixels. Can use decimals. 1=factors pixels as if expanding 320x200 to your aspect ratio, 0 = 160x200, -1 = off
+user bool  retro_posterization = false; // Toggle posterization
+user int   retro_postcolors    = 20;    // Higher = More colors. Controls the number of levels in each channel
+user float retro_postgamma     = 0.46;  // Higher = Less colors in shadows. Keep it low for more colors allocated to shadows, else they turn full grey or black
+
+
+//Flashlight+
+
+user color cl_flashlight_plus_color = "78 78 B4";
+user int cl_flashlight_plus_intensity = 512;
+
+user float cl_flashlight_plus_inner = 32.0;
+user float cl_flashlight_plus_outer = 40.0;
+
+user bool cl_flashlight_plus_second_beam = true;
+
+user float cl_flashlight_plus_color_2_mult = 2.0;
+
+user int cl_flashlight_plus_intensity_2 = 512;
+
+user float cl_flashlight_plus_inner_2 = 0.0;
+user float cl_flashlight_plus_outer_2 = 15.0;
+
+user int cl_flashlight_plus_location = 2;
+
+//Flashlight++
+
+user int cl_flashlight_plus_plus_sound = 0;
+user bool cl_flashlight_plus_plus_playsound = true;
+
+user int cl_flashlight_plus_plus_custpos_x = 0;
+user int cl_flashlight_plus_plus_custpos_y = 0;
+user int cl_flashlight_plus_plus_custpos_z = 0;
+
+user bool cl_flashlight_plus_plus_alertmonsters = true;
+
+user int cl_flashlight_plus_plus_sway_type = 0;
+user float cl_flashlight_plus_plus_sway_spring = 1.0;
+user float cl_flashlight_plus_plus_sway_damping = 1.0;
+user int cl_flashlight_plus_plus_sway_inertia = 1;
+
+user bool cl_flashlight_plus_plus_attenuated = false;
+user bool cl_flashlight_plus_plus_noise = false;
+user float cl_flashlight_plus_plus_noise_min = 0.9;
+
+server bool smpb_enable = true;
+server bool smpb_distmoreaggro = true;
+server float smpb_range = 3000;
+server int smpb_tics = 3;
+
+user float weather_amount = 3;
+user float weather_precip_vol = 1;
+user float weather_wind_vol = 1;
+user float weather_thunder_vol = 1;
+user bool weather_no_fog = false;
+user bool weather_no_lightning = false;
+
+// Rain and Snow specific
+user int rs_weather = 0;
+user int rs_intensity = 0;
+
+//===============================================
+//General
+server	int		zm_movetype				= 0;
+server	float	zm_friction				= 8.0;
+server 	float	zm_maxgroundspeed		= 12.4;
+server 	float	zm_maxhopspeed			= 28;
+server	float	zm_walkspeed			= 0.8;
+server	float	zm_crouchspeed			= 0.5;
+server 	float	zm_strafemodifier		= 1.0;
+server	bool	zm_wallfriction			= false;
+server	bool	zm_dropprevention		= false;
+
+//==============
+//Jumping
+server 	float 	zm_jumpheight			= 6.5;
+server	float	zm_setgravity			= 0.56;
+server 	float 	pk_bhopjumpheight		= 0.85;
+server 	bool 	zm_autojump 			= false;
+
+//Double Jump
+server 	int 	zm_doublejump 			= 0;
+server 	float 	zm_doublejumpheight 	= 1.2;
+server 	bool 	zm_wjdoublejumprenew	= false;
+
+//Ramp Jump
+server 	bool 	zm_rampjump				= false;
+server 	float 	zm_rjumpmulti			= 1.0;
+
+//Elevator Jump
+server 	bool 	zm_elevatorjump			= false;
+server 	float 	zm_ejumpmultiplier		= 1.0;
+
+//Jump Landing
+server  bool 	zm_landing				= false;
+server	float	zm_landingsens			= 6.0;
+server	float	zm_landingspeed			= 0.25;
+server	float	zm_minlanding			= 0.5;
+
+//==============
+//Dashing
+server	bool	zm_dash					= false;
+user	bool	zm_doubletap			= true;		
+user	int		zm_maxtaptime			= 10;
+server	float	zm_dashboost			= 1.5;
+server	float	zm_dashheight			= 1.0;
+
+server	bool	zm_airdash				= false;
+server	float	zm_adashboost			= 10;
+server	float	zm_adashfriction		= 1;
+
+server	bool	zm_wjump				= false;
+server	float	zm_wjumpboost			= 1.5;
+server	float	zm_multipledashes		= 0.0;
+server	float	zm_wjumpheight			= 0.75;
+
+server	bool	zm_wslide				= false;
+server	float	zm_wslidevelz			= 0.9;
+
+//==============
+//CrouchSliding
+server	int		zm_crouchslide			= 0;
+server 	float 	zm_cslidestrength		= 2.25;
+server 	int 	zm_cslideduration		= 13;
+server 	float 	zm_qslideaccel			= 6.05;
+server 	int 	zm_qslideduration		= 8;
+
+//==============
+//Ledge Grabbing
+server	bool	zm_ledgegrab			= false;
+
+//==============
+//Grappling Hook
+server	int		zm_hook					= 0;
+server 	float 	zm_hookboost			= 1.5;
+
+//==============
+//Bobbing
+
+//Sway
+user	bool	zm_sway					= false;
+user 	float	zm_swayspeed			= 2;
+user 	float	zm_swayrange			= 35;
+user	bool	zm_swaydirection		= false;
+
+//Y Offset
+user	bool	zm_offset				= false;
+user 	float	zm_offsetspeed			= 2;
+user 	int		zm_offsetrange			= 25;
+user 	bool	zm_offsetdirection		= false;
+
+//==============
+//Other
+server	int		zm_speedometer			= 0;
+
+//===============================================
+//Dusk
+server 	float	dsk_acceleration		= 1.5;
+
+//===============================================
+//Painkiller
+server 	float	pk_acceleration			= 1.0;
+
+//===============================================
+//Build Engine
+server	float	be_jumpanim				= 6.0;
+
+//===============================================
+// Quake
+server	int		q_strafetype			= 0;
+server	float	q_3airaccel				= 0.75;
+server	float	q_1airaccel				= 1.5;

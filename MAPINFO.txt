@@ -1,0 +1,6 @@
+include "mapinfo/episodes.mapinfo"
+include "mapinfo/game.mapinfo"
+include "mapinfo/IDs.mapinfo"
+include "mapinfo/mappe.mapinfo"
+include "mapinfo/porcodioaperugia.mapinfo"
+include "mapinfo/skills.mapinfo"

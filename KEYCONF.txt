@@ -1,0 +1,108 @@
+﻿
+//addkeysection "Menu Overhaul Key Binds" MENUOVERHAULKEYS
+//addmenukey "Open Controls Menu" "openmenu MOControls"
+//addmenukey "Open Gameplay Menu" "openmenu MOGameplay"
+//addmenukey "Open Video Menu" "openmenu MOVideoSettings"
+//addmenukey "Open Sound Menu" "openmenu SoundOptions"
+//addmenukey "Open Debug Menu" "openmenu MODebug"
+//addmenukey "Open Other Menu" "openmenu MOMenuOptions"
+
+//addkeysection "Playlist Key Binds" PLAYLISTKEYS
+//addmenukey "Next Song" "playlistnext"
+//addmenukey "Stop Song" "stopmus"
+//addmenukey "Playlist Status" "playliststatus"
+
+
+setslot 1 supercazzottiveri pescenfaccia pregiutto bisturi cortellaccio machete katana tonfapreti //squarciafiche
+setslot 2 scacciacani scacciacani_dual a1911 gauss2 gauss2_dual a1911_dual deserteagle uzi_mini uzi_mini_dual deserteagle_dual 
+setslot 3 winchester1300 toz34 winchesternormale spas12 benellisuper90 toz34_dual doppietta doppietta_dual
+setslot 4 mp5carabinieri mp5carabinieri_dual sparastuzzicadenti sparastuzzicadenti_dual lanciacoltelli lanciacoltelli_dual M16 m16_dual rpd rpd_dual 
+setslot 5 yeeelauncher lanciarazzi rpgcommando rpgcommando_dual cportable cportable_dual //supplizio
+setslot 6 sniperdelfuturo sniperdelfuturo_dual doppiocazzo mitraglione mitraglione_dual
+setslot 7 anticotestamento bastignatore schioppatore_maxi
+setslot 8 tennentsarma pera
+
+alias "usetopickup_push" "netevent UseToPickup_Push"
+addkeysection "$U2P_KeyBindMenu_Heading" "UseToPickup"
+addmenukey "$U2P_KeyBindMenu_EnableToggle" "toggle usetopickup_enabled"
+addmenukey "$U2P_KeyBindMenu_Push" "usetopickup_push"
+
+
+alias "+pyweaponwheel" "netevent pyweaponwheelon"
+alias "-pyweaponwheel" "netevent pyweaponwheeloff"
+
+Alias SHA_ResetToDefault "SH_ShaderEnable true; SH_VHSEnable true; SH_VHSRange 0.05; SH_VHSNoiseQuality 300.0; SH_VHSNoiseIntensity 0.001; SH_VHSOffsetIntensity 0.002; SH_VHSColorOffsetIntensity 0.2; SH_VHSLineCount 250; SH_VHSLineSpeed 3; SH_VHSLineEnable true; SH_CRTEnable false; SH_CRTHardScan 8; SH_WarpEnable true; SH_WarpMultX 32; SH_WarpMultY 24; SH_GrainIntensity 0.2; SH_Contrast 1.0; SH_Saturation 1.0;"
+
+
+//Customize Controls key
+addkeysection "$FPP_BIND" FPPBind
+addmenukey "$FPP_TGLE" FPP_Toggle
+alias FPP_Toggle "netevent flashlight_plus_toggle"
+defaultbind f FPP_Toggle
+
+
+//Default Preset
+
+alias cl_flashlight_defaultpreset "set cl_flashlight_plus_color 7878B4; set cl_flashlight_plus_location 2; set cl_flashlight_plus_intensity 512; set cl_flashlight_plus_inner 32.0; set cl_flashlight_plus_outer 40.0; set cl_flashlight_plus_second_beam true; set cl_flashlight_plus_color_2_mult 2.0; set cl_flashlight_plus_intensity_2 512; set cl_flashlight_plus_inner_2 0.0; set cl_flashlight_plus_outer_2 15.0"
+
+//Old Default Preset
+
+alias cl_flashlight_olddefaultpreset "set cl_flashlight_plus_color 7F7F7F; set cl_flashlight_plus_location 0; set cl_flashlight_plus_intensity 256; set cl_flashlight_plus_inner 25.0; set cl_flashlight_plus_outer 50.0; set cl_flashlight_plus_second_beam true; set cl_flashlight_plus_color_2_mult 1.0; set cl_flashlight_plus_intensity_2 512; set cl_flashlight_plus_inner_2 8.0; set cl_flashlight_plus_outer_2 16.0"
+
+//HL2 Preset
+
+alias cl_flashlight_hl2preset "set cl_flashlight_plus_color FFFFFF; set cl_flashlight_plus_location 3; set cl_flashlight_plus_intensity 134; set cl_flashlight_plus_inner 20; set cl_flashlight_plus_outer 25; set cl_flashlight_plus_second_beam true; set cl_flashlight_plus_color_2_mult 1.60; set cl_flashlight_plus_intensity_2 300; set cl_flashlight_plus_inner_2 7.0; set cl_flashlight_plus_outer_2 20.0"
+
+//Doom 3 BFG Preset
+
+alias cl_flashlight_d3preset "set cl_flashlight_plus_color D3D3D3; set cl_flashlight_plus_location 2; set cl_flashlight_plus_intensity 125; set cl_flashlight_plus_inner 35; set cl_flashlight_plus_outer 40; set cl_flashlight_plus_second_beam true; set cl_flashlight_plus_color_2_mult 1.0; set cl_flashlight_plus_intensity_2 250; set cl_flashlight_plus_inner_2 15; set cl_flashlight_plus_outer_2 30"
+
+//Green and Blue Magic Presets
+
+alias cl_flashlight_magicpreset "set cl_flashlight_plus_color 77FF6F; set cl_flashlight_plus_location 0; set cl_flashlight_plus_intensity 135; set cl_flashlight_plus_inner 0; set cl_flashlight_plus_outer 25; set cl_flashlight_plus_second_beam true; set cl_flashlight_plus_color_2_mult 5.0; set cl_flashlight_plus_intensity_2 300; set cl_flashlight_plus_inner_2 18; set cl_flashlight_plus_outer_2 27"
+
+alias cl_flashlight_magicbluepreset "set cl_flashlight_plus_color 5353FF; set cl_flashlight_plus_location 0; set cl_flashlight_plus_intensity 135; set cl_flashlight_plus_inner 0; set cl_flashlight_plus_outer 25; set cl_flashlight_plus_second_beam true; set cl_flashlight_plus_color_2_mult 5.0; set cl_flashlight_plus_intensity_2 300; set cl_flashlight_plus_inner_2 18; set cl_flashlight_plus_outer_2 27"
+
+//Lamp Preset
+
+alias cl_flashlight_lamppreset "set cl_flashlight_plus_color FFFF83; set cl_flashlight_plus_location 0; set cl_flashlight_plus_intensity 112; set cl_flashlight_plus_inner 85; set cl_flashlight_plus_outer 147; set cl_flashlight_plus_second_beam false; set cl_flashlight_plus_color_2_mult 0.0; set cl_flashlight_plus_intensity_2 0; set cl_flashlight_plus_inner_2 0; set cl_flashlight_plus_outer_2 0"
+
+//Mining Headlight Preset
+
+alias cl_flashlight_minerpreset "set cl_flashlight_plus_color ECDB57; set cl_flashlight_plus_location 0; set cl_flashlight_plus_intensity 118; set cl_flashlight_plus_inner 11; set cl_flashlight_plus_outer 37; set cl_flashlight_plus_second_beam true; set cl_flashlight_plus_color_2_mult 0.0; set cl_flashlight_plus_intensity_2 300; set cl_flashlight_plus_inner_2 21; set cl_flashlight_plus_outer_2 42"
+
+//Literally just fucking Fullbright
+
+alias cl_flashlight_fullbrightpreset "set cl_flashlight_plus_color FFFFFF; set cl_flashlight_plus_location 0; set cl_flashlight_plus_intensity 1024; set cl_flashlight_plus_inner 180; set cl_flashlight_plus_outer 180; set cl_flashlight_plus_second_beam true; set cl_flashlight_plus_color_2_mult 5.0; set cl_flashlight_plus_intensity_2 1024; set cl_flashlight_plus_inner_2 180; set cl_flashlight_plus_outer_2 180"
+
+//Generic Preset
+
+alias cl_flashlight_basicpreset "set cl_flashlight_plus_color E3DFFF; set cl_flashlight_plus_location 4; set cl_flashlight_plus_intensity 256; set cl_flashlight_plus_inner 5.0; set cl_flashlight_plus_outer 20.0; set cl_flashlight_plus_second_beam false; set cl_flashlight_plus_color_2_mult 0.0; set cl_flashlight_plus_intensity_2 0; set cl_flashlight_plus_inner_2 0.0; set cl_flashlight_plus_outer_2 0.0"
+
+//Cel Preset
+
+alias cl_flashlight_hardpreset "set cl_flashlight_plus_color FFFFFF; set cl_flashlight_plus_location 3; set cl_flashlight_plus_intensity 250; set cl_flashlight_plus_inner 25.0; set cl_flashlight_plus_outer 25.0; set cl_flashlight_plus_second_beam true; set cl_flashlight_plus_color_2_mult 1.50; set cl_flashlight_plus_intensity_2 350; set cl_flashlight_plus_inner_2 15.0; set cl_flashlight_plus_outer_2 15.0"
+
+//MetaDOOM Pistol Preset
+
+alias cl_flashlight_metadoompreset "set cl_flashlight_plus_color FFFFFF; set cl_flashlight_plus_location 4; set cl_flashlight_plus_intensity 256; set cl_flashlight_plus_inner 15.0; set cl_flashlight_plus_outer 20.0; set cl_flashlight_plus_second_beam false; set cl_flashlight_plus_color_2_mult 0.0; set cl_flashlight_plus_intensity_2 0; set cl_flashlight_plus_inner_2 0.0; set cl_flashlight_plus_outer_2 0.0"
+
+//NVG Preset
+
+alias cl_flashlight_op4nvgpreset "set cl_flashlight_plus_color 50C14D; set cl_flashlight_plus_location 0; set cl_flashlight_plus_intensity 748; set cl_flashlight_plus_inner 85.0; set cl_flashlight_plus_outer 147.0; set cl_flashlight_plus_second_beam true; set cl_flashlight_plus_color_2_mult 1.30; set cl_flashlight_plus_intensity_2 275; set cl_flashlight_plus_inner_2 25.0; set cl_flashlight_plus_outer_2 50.0"
+
+Alias NextWeather "netevent NextWeather"
+Alias PrevWeather "netevent PrevWeather"
+Alias NextIntensity "netevent NextIntensity"
+Alias PrevIntensity "netevent PrevIntensity"
+
+alias zmove_reset "zm_wallfriction 0; zm_movetype 0; zm_walkspeed 0.7; zm_crouchspeed 0.5; zm_maxhopspeed 28; zm_maxgroundspeed 12; zm_friction 8.0; zm_strafemodifier 1; zm_setgravity 0.56; zm_jumpheight 5.5; pk_bhopjumpheight 0.85; zm_autojump 1; zm_doublejump 0; zm_doublejumpheight 1.2; zm_rjumpmulti 0.7; zm_elevatorjump 0; zm_ejumpmultiplier 1; zm_dash 0; zm_doubletap 1; zm_maxtaptime 10; zm_dashboost 1.5; zm_dashheight 0.75; zm_airdash 0; zm_adashboost 10; zm_adashfriction 1; zm_wjump 0; zm_wjumpboost 1.5; zm_multipledashes 0; zm_wjumpheight 0.75; zm_wslide 0; zm_wslidevelz 0.9; zm_crouchslide 0; zm_cslidestrength 2.0; zm_cslideduration 13; zm_qslideaccel 6.0; zm_qslideduration 8; zm_ledgegrab 0; zm_hook 0; zm_hookboost 1.5; zm_sway 0; zm_swayspeed 2; zm_swayrange 25; zm_swaydirection 0; zm_offset 0; zm_offsetspeed 2; zm_offsetrange 25; zm_offsetdirection 0; zm_speedometer 0; dsk_acceleration 1.5; pk_acceleration 1.0; zm_landing 0; zm_landingspeed 0.25; zm_minlanding 0.5; zm_landingsens 6.0; be_jumpanim 6.0; q_strafetype 0; q_3airaccel 0.75; q_1airaccel 1.5;"
+alias Dash "NetEvent Dash"
+alias WallSlide "NetEvent WallSlide"
+alias GrapplingHook "NetEvent GrapplingHook"
+
+addkeysection "ZMove Bind" "ZMoveBind"
+addmenukey "Reset to default values" 				"zmove_reset"
+addmenukey "Dash" 									"Dash"
+addmenukey "WallSlide" 								"WallSlide"
+addmenukey "Grappling Hook" 						"GrapplingHook"
