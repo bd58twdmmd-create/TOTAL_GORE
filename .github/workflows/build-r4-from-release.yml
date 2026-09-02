@@ -1,0 +1,41 @@
+name: Build GREZZODUE2 R4 from Release
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  build-r4:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download R3 asset from this release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          TAG: ${{ github.event.release.tag_name }}
+        run: |
+          gh release download "$TAG" --repo "$REPO" --pattern 'GREZZODUE2_MOBILE_1TO1_FINAL_R3.ipk3'
+          test -f GREZZODUE2_MOBILE_1TO1_FINAL_R3.ipk3
+
+      - name: Build and validate R4
+        run: |
+          python3 tools/build_r4.py GREZZODUE2_MOBILE_1TO1_FINAL_R3.ipk3 GREZZODUE2_MOBILE_1TO1_FINAL_R4.ipk3
+          unzip -t GREZZODUE2_MOBILE_1TO1_FINAL_R4.ipk3 >/dev/null
+          sha256sum GREZZODUE2_MOBILE_1TO1_FINAL_R4.ipk3
+
+      - name: Upload R4 and validation to same release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          TAG: ${{ github.event.release.tag_name }}
+        run: |
+          gh release upload "$TAG" --repo "$REPO" \
+            GREZZODUE2_MOBILE_1TO1_FINAL_R4.ipk3 \
+            GREZZODUE2_MOBILE_1TO1_FINAL_R4_VALIDATION.txt \
+            --clobber
